@@ -1,9 +1,12 @@
 {
   "ok": true,
-  "id": "20260909T144604-0d452ca104",
-  "action": "preview",
-  "label": "preview",
-  "preview": "outputs/jobs/20260909T144604-0d452ca104/preview.png",
-  "elapsed_seconds": 3.294,
-  "completed_at": "2026-09-09T14:46:08.212809+00:00"
+  "id": "20260909T162844-271134d890",
+  "action": "run",
+  "label": "걷기부터 더가치 완성까지 한 흐름으로 8초 최종 출력",
+  "backup": "outputs/jobs/20260909T162844-271134d890/before.blend",
+  "file": "scenes/current.blend",
+  "snapshot": "outputs/jobs/20260909T162844-271134d890/after.blend",
+  "preview": "outputs/jobs/20260909T162844-271134d890/preview.png",
+  "elapsed_seconds": 113.769,
+  "completed_at": "2026-09-09T16:30:38.847889+00:00"
 }
