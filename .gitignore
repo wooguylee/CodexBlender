@@ -1,0 +1,11 @@
+# Per-PC connection state is recreated after clone; never replay commands.
+.runtime/
+blender.local.json
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+# Blender's automatic numbered backups; intentional before/after.blend are retained.
+*.blend[0-9]
+*.blend[0-9][0-9]

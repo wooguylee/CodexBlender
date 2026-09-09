@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "id": "20260909T143917-5960d9a704",
+  "action": "run",
+  "label": "파란 물체 생성",
+  "backup": "outputs/jobs/20260909T143917-5960d9a704/before.blend",
+  "file": "scenes/current.blend",
+  "snapshot": "outputs/jobs/20260909T143917-5960d9a704/after.blend",
+  "preview": "outputs/jobs/20260909T143917-5960d9a704/preview.png",
+  "elapsed_seconds": 16.67,
+  "completed_at": "2026-09-09T14:39:34.631053+00:00"
+}

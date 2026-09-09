@@ -1,0 +1,8 @@
+Info: Saved copy as "before.blend"
+W:\WorkAI\CodexBlender\outputs\jobs\20260909T143917-5960d9a704\script.py:27: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+W:\WorkAI\CodexBlender\outputs\jobs\20260909T143917-5960d9a704\script.py:101: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes = True
+Created blue demo object; camera and preview are ready.
+Info: Saved as "current.blend"
+Info: Saved copy as "after.blend"

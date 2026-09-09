@@ -1,0 +1,9 @@
+{
+  "id": "20260909T143917-5960d9a704",
+  "session": "706c35fb1226477fa26ebf1a1e7c9c6b",
+  "action": "run",
+  "label": "파란 물체 생성",
+  "created_at": "2026-09-09T14:39:17.860891+00:00",
+  "preview": true,
+  "source": "workflows/demo_scene.py"
+}

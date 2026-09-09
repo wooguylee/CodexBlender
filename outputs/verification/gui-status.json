@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "connected": true,
+  "session": "706c35fb1226477fa26ebf1a1e7c9c6b",
+  "pid": 20024,
+  "blender": "5.2.1 LTS",
+  "background": false,
+  "root": "W:\\WorkAI\\CodexBlender",
+  "started_at": "2026-09-09T14:39:08.445733+00:00",
+  "worker": {
+    "state": "ready",
+    "job": null,
+    "updated_at": "2026-09-09T14:46:22.377022+00:00"
+  }
+}

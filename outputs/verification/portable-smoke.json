@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "clone": ".runtime\\clone space \ud55c\uae00 0c79a0f1",
+  "blender": "5.2.1 LTS",
+  "checks": [
+    "start",
+    "duplicate start",
+    "unicode relocated path",
+    "run",
+    "backup",
+    "preview",
+    "error recovery",
+    "timeout without replay",
+    "busy rejection",
+    "save backup",
+    "path rejection",
+    "restart saved scene"
+  ]
+}
