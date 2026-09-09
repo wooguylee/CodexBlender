@@ -2,6 +2,8 @@
 
 **말로 요청 → Blender 작업 창에서 확인 → 수정 → 원본과 이미지 저장**을 위한 로컬 작업 환경입니다. 외부 서버·API 키·pip 설치 없이 Blender와 Python 표준 라이브러리를 사용합니다.
 
+사용자 지정 이름은 **브리찌**입니다. “브리찌로 … 해줘”라고 요청하면 이 연결 도구를 사용합니다. 명칭과 기억할 규칙은 [프로젝트 메모리](docs/memory/MEMORY.md)에 보관하고, Codex 메모리와 함께 기록합니다.
+
 ## 이 PC에서 시작
 
 프로젝트의 `Start-Blender.cmd`를 더블클릭하면 연결된 Blender 작업 창이 열립니다. 이미 이 프로젝트의 연결이 있으면 재사용합니다. 기존에 별도로 열어 둔 Blender에는 연결하지 않습니다.
@@ -55,6 +57,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts/blender.ps1 stop
 | 경로 | 내용 |
 |---|---|
 | `AGENTS.md` | 다음 Codex 작업에도 적용할 실행·보호·검증 규칙 |
+| `docs/memory/MEMORY.md` | 다른 PC에도 공유할 사용자 명칭·선호·메모리 규칙 |
 | `bridge/` | 명령 클라이언트, Blender 내부 worker, 공통 파일 도구 |
 | `scripts/blender.ps1`, `Start-Blender.cmd` | Windows 실행 진입점 |
 | `workflows/` | 보존·재실행 가능한 제작 코드 |

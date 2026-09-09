@@ -6,10 +6,17 @@
 
 ## 세션 시작
 
-1. `README.md`와 `docs/current-state.md`를 읽고 사용자의 현재 목표와 기존 결과를 확인한다.
+1. `README.md`, `docs/memory/MEMORY.md`, `docs/current-state.md`를 읽고 사용자 명칭·작업 규칙·현재 목표와 기존 결과를 확인한다.
 2. 저장소 루트를 기준으로 `scripts/blender.ps1 doctor`, `scripts/blender.ps1 status`를 실행한다. PowerShell 정책이 막으면 `powershell -NoProfile -ExecutionPolicy Bypass -File scripts/blender.ps1 <명령>`을 사용한다. 시스템 전체 실행 정책은 바꾸지 않는다.
 3. 연결이 없으면 `start`. 기본 원본은 `scenes/current.blend`. 기존 연결이 있으면 재사용하며, 다른 Blender 프로세스를 종료하거나 임의로 연결하지 않는다.
 4. 수정 전에 `scene`으로 실제 객체 이름과 현재 카메라를 확인한다. 과거 대화의 객체 이름을 추측하여 사용하지 않는다.
+
+## 사용자 명칭과 메모리 기록
+
+- **브리찌**는 이 프로젝트의 Codex–Blender 로컬 제어 브리지다. “브리찌로 … 해줘”는 해당 도구로 Blender 작업을 수행하라는 요청으로 해석한다.
+- 사용자가 메모리/기억을 요청하면 **Codex 메모리와 프로젝트의 `docs/memory/MEMORY.md` 양쪽에 기록**한다. 한쪽만 기록하고 완료로 처리하지 않는다.
+- 후속 실행에 필요한 규칙은 이 `AGENTS.md`에도 반영하거나 프로젝트 메모리의 해당 항목으로 연결한다. 다른 PC에서도 적용되도록 프로젝트 메모리는 Git 추적 대상으로 유지한다.
+- Codex 메모리 기록은 해당 환경의 허용된 메모리 갱신 방식을 따른다. 한쪽 저장이 불가능하면 가능한 쪽은 기록하고 누락된 쪽을 명확히 보고한다. 완료 시 프로젝트 파일 경로와 원격 반영 여부를 알린다.
 
 ## 제작과 중간 확인
 
