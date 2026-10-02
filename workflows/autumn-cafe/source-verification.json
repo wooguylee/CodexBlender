@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "scene": "Autumn_Cafe_v001",
+  "scene_count": 1,
+  "object_count": 2120,
+  "camera": "AC_Camera",
+  "animated_objects": 62,
+  "driver_errors": [],
+  "endpoint_transform_error": 0.0,
+  "midpoint_motion_confirmed": 85.67850017547607,
+  "packed_backgrounds": [
+    "afternoon-background-final.exr"
+  ],
+  "camera_and_lights_static": true
+}

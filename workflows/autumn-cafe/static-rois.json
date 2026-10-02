@@ -1,0 +1,11 @@
+{
+  "left_pendant": [45, 150, 130, 205],
+  "right_pendant": [1800, 155, 1875, 215],
+  "upper_limewash": [650, 80, 900, 120],
+  "oak_table": [100, 1020, 170, 1050],
+  "window_sill": [1010, 873, 1230, 890],
+  "chair_cushion": [1650, 790, 1720, 860],
+  "interior_wall": [1100, 923, 1360, 975],
+  "entire_upper_soffit": [0, 0, 1920, 145],
+  "entire_lower_interior": [0, 905, 1920, 1080]
+}

@@ -1,0 +1,163 @@
+{
+  "ok": true,
+  "width": 1920,
+  "height": 1080,
+  "frames": 480,
+  "fps": 24,
+  "duration_seconds": 20,
+  "audio": false,
+  "png_endpoints_identical": true,
+  "mp4_decoded_endpoints_identical": true,
+  "independent_endpoint_render": {
+    "mean_delta": 9.645061728395062e-07,
+    "max_delta": 1
+  },
+  "static_regions": {
+    "left_pendant": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0,
+      "observations": 2244000
+    },
+    "right_pendant": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0,
+      "observations": 2160000
+    },
+    "upper_limewash": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0,
+      "observations": 4800000
+    },
+    "oak_table": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0,
+      "observations": 1008000
+    },
+    "window_sill": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0,
+      "observations": 1795200
+    },
+    "chair_cushion": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0,
+      "observations": 2352000
+    },
+    "interior_wall": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0,
+      "observations": 6489600
+    },
+    "entire_upper_soffit": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0,
+      "observations": 133632000
+    },
+    "entire_lower_interior": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0,
+      "observations": 161280000
+    }
+  },
+  "static_roi_coordinates": {
+    "left_pendant": [
+      45,
+      150,
+      130,
+      205
+    ],
+    "right_pendant": [
+      1800,
+      155,
+      1875,
+      215
+    ],
+    "upper_limewash": [
+      650,
+      80,
+      900,
+      120
+    ],
+    "oak_table": [
+      100,
+      1020,
+      170,
+      1050
+    ],
+    "window_sill": [
+      1010,
+      873,
+      1230,
+      890
+    ],
+    "chair_cushion": [
+      1650,
+      790,
+      1720,
+      860
+    ],
+    "interior_wall": [
+      1100,
+      923,
+      1360,
+      975
+    ],
+    "entire_upper_soffit": [
+      0,
+      0,
+      1920,
+      145
+    ],
+    "entire_lower_interior": [
+      0,
+      905,
+      1920,
+      1080
+    ]
+  },
+  "adjacent_step_mean": 0.5757287659636846,
+  "adjacent_step_max": 1.854447337962963,
+  "video_bytes": 10455437,
+  "video_sha256": "659df15e0fb09f9497862cf1e533edc3f63bcdd0a04dc7cdc15cc2e328a20fcf",
+  "all_frames_verified": true,
+  "full_mp4_decode": true,
+  "mp4_static_regions": {
+    "left_pendant": {
+      "worst_frame_mean_delta": 0.009197860962566844,
+      "max_channel_delta": 2
+    },
+    "right_pendant": {
+      "worst_frame_mean_delta": 0.016888888888888887,
+      "max_channel_delta": 2
+    },
+    "upper_limewash": {
+      "worst_frame_mean_delta": 0.0,
+      "max_channel_delta": 0
+    },
+    "oak_table": {
+      "worst_frame_mean_delta": 0.05095238095238095,
+      "max_channel_delta": 2
+    },
+    "window_sill": {
+      "worst_frame_mean_delta": 0.07245989304812835,
+      "max_channel_delta": 2
+    },
+    "chair_cushion": {
+      "worst_frame_mean_delta": 0.07959183673469387,
+      "max_channel_delta": 3
+    },
+    "interior_wall": {
+      "worst_frame_mean_delta": 0.07085798816568048,
+      "max_channel_delta": 4
+    },
+    "entire_upper_soffit": {
+      "worst_frame_mean_delta": 0.00021431992337164751,
+      "max_channel_delta": 5
+    },
+    "entire_lower_interior": {
+      "worst_frame_mean_delta": 0.05129960317460317,
+      "max_channel_delta": 4
+    }
+  },
+  "encoding": "H264 fixed QP 6, yuv420p, forced endpoint I-frame"
+}
