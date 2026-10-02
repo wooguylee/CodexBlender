@@ -1,0 +1,26 @@
+{
+  "created_date": "2026-10-02",
+  "generator": "built-in image_gen",
+  "source_kind": "new AI generated cartoon images, 3D layout references only",
+  "prompts": "../../../workflows/vvoori-cafe/v003-image-prompts.md",
+  "files": {
+    "ai-oblique-interior.png": {
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGBA",
+      "bytes": 800813,
+      "sha256": "8f6a22946d8989fc7c30a24d50056e7bf7ff429a7de91aed3eb9eee24a8049d1"
+    },
+    "ai-oblique-park.png": {
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "bytes": 1995900,
+      "sha256": "5d1619e1338e6695c1d42b1fa46b6213609489dd06b515affac3a1b76aec6e97"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "ok": true,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 480,
+  "duration_seconds": 20,
+  "full_quality_movie_rendered": true,
+  "all_frames_verified": true,
+  "source_png_endpoints_identical": true,
+  "decoded_mp4_endpoints_identical": true,
+  "independent_endpoint_mean": 0.0,
+  "static_roi_bounds": {
+    "ceiling": [
+      1670,
+      24,
+      1840,
+      65
+    ],
+    "floor": [
+      1330,
+      920,
+      1480,
+      1000
+    ],
+    "wall": [
+      1110,
+      815,
+      1200,
+      875
+    ],
+    "near_post": [
+      821,
+      260,
+      835,
+      420
+    ],
+    "middle_post": [
+      1208,
+      170,
+      1220,
+      320
+    ],
+    "table": [
+      790,
+      755,
+      925,
+      790
+    ],
+    "book": [
+      610,
+      766,
+      655,
+      782
+    ],
+    "cup": [
+      718,
+      706,
+      744,
+      723
+    ],
+    "pedestal": [
+      710,
+      905,
+      735,
+      960
+    ],
+    "pendant": [
+      1760,
+      88,
+      1800,
+      135
+    ]
+  },
+  "static_roi_all_frames_max_delta": {
+    "ceiling": 0,
+    "floor": 0,
+    "wall": 0,
+    "near_post": 0,
+    "middle_post": 0,
+    "table": 0,
+    "book": 0,
+    "cup": 0,
+    "pedestal": 0,
+    "pendant": 0
+  },
+  "encoded_static_roi_max_mean_delta": {
+    "ceiling": 0.006456241032998565,
+    "floor": 0.10044444444444445,
+    "wall": 0.015246913580246914,
+    "near_post": 0.13348214285714285,
+    "middle_post": 0.145,
+    "table": 0.05855379188712522,
+    "book": 0.013888888888888888,
+    "cup": 0.25414781297134237,
+    "pedestal": 0.027636363636363636,
+    "pendant": 0.12340425531914893
+  },
+  "max_interframe_mean_delta": 1.4376798804012345,
+  "full_decode": true,
+  "camera_angle_degrees": 50,
+  "video_bytes": 9392004,
+  "video_sha256": "2c4a4bcea56461b2026ac3e0694d11f5a8c7d73480bc4885eeae5e3b339dadb6"
+}
