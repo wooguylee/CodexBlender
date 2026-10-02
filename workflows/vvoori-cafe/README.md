@@ -1,5 +1,16 @@
 # vvoori-cafe
 
+## 최신 v002 — 사용자 의도 정정 반영
+
+사용자의 의미는 **Blender 렌더 추출이 아니라 이미지 생성 도구로 공원과 카페를 새로 만든 후 활용**하는 것이다.
+v002는 built-in `image_gen`으로 만든 공원 RGB와 카페 RGBA PNG를 사용한다.
+원본 `scenes/vvoori-cafe-v002.blend`, 결과 `outputs/vvoori-cafe/v002/`.
+[v002 제작/검증 설명](v002-README.md), [실제 생성 프롬프트](v002-image-prompts.md).
+
+아래 v001은 초기 해석과 제작 이력이다. 렌더 추출 이미지 방식은 사용자가 요청한 최종 방향이 아니다.
+
+## 이전 v001 — Blender 렌더 추출 이미지
+
 2026-10-02. 사용자 요청: autumn-cafe의 공원을 배경 이미지로, 카페·통창 프레임을
 전경 이미지로 처리하고 차량과 낙엽만 Blender에서 움직이는 새 프로젝트.
 Blender 단독 제작과 졸부(DaVinci Resolve) 사용을 비교하여 적합한 방식을 선택한다.

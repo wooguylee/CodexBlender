@@ -11,22 +11,31 @@ import shutil
 import bpy
 
 root = Path(__file__).resolve().parents[2]
-out = root/'outputs/vvoori-cafe/v001'
-source_path = root/'scenes/vvoori-cafe-v001.blend'
+version = globals().get('VERSION', 'v001')
+assert version in {'v001', 'v002'}
+prefix = 'VC' if version == 'v001' else 'VC2'
+record_prefix = '' if version == 'v001' else version + '-'
+out = root/'outputs/vvoori-cafe'/version
+source_path = root/f'scenes/vvoori-cafe-{version}.blend'
 assert Path(bpy.data.filepath).resolve() == source_path.resolve()
-scene = bpy.data.scenes['Vvoori_Cafe_v001']
+scene = bpy.data.scenes['Vvoori_Cafe_'+version]
 assert len(bpy.data.scenes) == 1
 bpy.context.window.scene = scene
 bpy.context.window.view_layer = scene.view_layers['VC_MovingCarsAndLeaves']
 assert len(scene.objects) == 289
-assert scene.camera.name == 'VC_Camera'
+assert scene.camera.name == prefix+'_Camera'
 assert (scene.render.resolution_x, scene.render.resolution_y, scene.render.resolution_percentage,
         scene.render.fps, scene.frame_end) == (1920, 1080, 100, 24, 480)
-assert {c.name for c in scene.collection.children} == {'VC_Traffic', 'VC_FallingLeaves', 'VC_LightingCamera'}
+assert {c.name for c in scene.collection.children} == {prefix+'_'+suffix for suffix in ['Traffic', 'FallingLeaves', 'LightingCamera']}
 assert not any(o.name.startswith('AC_') for o in scene.objects)
 images = [n.image for n in scene.compositing_node_group.nodes if n.type == 'IMAGE']
 assert len(images) == 2 and all(im.packed_file for im in images)
-assert all(im.size[:] == (1920, 1080) for im in images)
+expected_size = (1920, 1080) if version == 'v001' else (1672, 941)
+assert all(im.size[:] == expected_size for im in images)
+if version == 'v002':
+    for im in images:
+        asset = root/'assets/vvoori-cafe/v002'/Path(im.filepath).name
+        assert hashlib.sha256(im.packed_file.data).hexdigest() == hashlib.sha256(asset.read_bytes()).hexdigest()
 animated = [o for o in scene.objects if o.animation_data and o.animation_data.drivers]
 
 def values(frame):
@@ -58,7 +67,9 @@ report = {'ok': True, 'reopened_in_new_process': True, 'scene': scene.name,
           'objects': len(scene.objects), 'animated_objects': len(animated),
           'endpoint_transform_error': endpoint, 'midpoint_motion': motion,
           'packed_images': [im.name for im in images], 'original_autumn_files_unchanged': True,
-          'full_quality_movie_rendered': False}
+          'full_quality_movie_rendered': False,
+          'generated_png_hashes_verified': version == 'v002',
+          'packed_image_sha256': {im.name: hashlib.sha256(im.packed_file.data).hexdigest() for im in images}}
 (out/'saved-source-verification.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
-(root/'workflows/vvoori-cafe/source-verification.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
+(root/'workflows/vvoori-cafe'/(record_prefix+'source-verification.json')).write_text(json.dumps(report, indent=2), encoding='utf-8')
 print(json.dumps(report, indent=2))

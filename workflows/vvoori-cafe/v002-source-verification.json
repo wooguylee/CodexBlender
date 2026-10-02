@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "reopened_in_new_process": true,
+  "scene": "Vvoori_Cafe_v002",
+  "objects": 289,
+  "animated_objects": 62,
+  "endpoint_transform_error": 0.0,
+  "midpoint_motion": 85.67850017547607,
+  "packed_images": [
+    "VC2_ai-autumn-park.png",
+    "VC2_ai-cafe-foreground.png"
+  ],
+  "original_autumn_files_unchanged": true,
+  "full_quality_movie_rendered": false,
+  "generated_png_hashes_verified": true,
+  "packed_image_sha256": {
+    "VC2_ai-autumn-park.png": "c495e15351b2d5ade17881bd7566b3833a2b3d2763f829189c76b86ceb42aff1",
+    "VC2_ai-cafe-foreground.png": "39f92be44af7590af454943b67c77eb2cb5c36a189738e1e1a278c0b7fff0e3f"
+  }
+}

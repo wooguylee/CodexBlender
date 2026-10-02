@@ -1,0 +1,26 @@
+{
+  "created_date": "2026-10-02",
+  "generator": "built-in image_gen",
+  "source_kind": "newly generated images, not Blender render extraction",
+  "prompts": "../../../workflows/vvoori-cafe/v002-image-prompts.md",
+  "files": {
+    "ai-autumn-park.png": {
+      "sha256": "c495e15351b2d5ade17881bd7566b3833a2b3d2763f829189c76b86ceb42aff1",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "bytes": 3455613
+    },
+    "ai-cafe-foreground.png": {
+      "sha256": "39f92be44af7590af454943b67c77eb2cb5c36a189738e1e1a278c0b7fff0e3f",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGBA",
+      "bytes": 1273284
+    }
+  }
+}

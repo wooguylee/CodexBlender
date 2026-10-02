@@ -9,8 +9,11 @@ import numpy as np
 from PIL import Image, ImageDraw
 
 root = Path(__file__).resolve().parents[2]
-out = root/'outputs/vvoori-cafe/v001'
-assets = root/'assets/vvoori-cafe/v001'
+version = globals().get('VERSION', 'v001')
+assert version in {'v001', 'v002'}
+prefix = '' if version == 'v001' else version + '-'
+out = root/'outputs/vvoori-cafe'/version
+assets = root/'assets/vvoori-cafe'/version
 frames = out/'review-frames'
 ffmpeg, ffprobe = shutil.which('ffmpeg'), shutil.which('ffprobe')
 assert ffmpeg and ffprobe
@@ -24,7 +27,8 @@ def read(path):
 
 first = read(files[0])
 assert np.array_equal(first, read(files[-1]))
-roi_source = json.loads((root/'workflows/autumn-cafe/static-rois.json').read_text())
+roi_path = root/'workflows/autumn-cafe/static-rois.json' if version == 'v001' else Path(__file__).with_name('v002-static-rois.json')
+roi_source = json.loads(roi_path.read_text())
 rois = {k: [int(v/2) for v in box] for k, box in roi_source.items()}
 stats = {k: {'max_channel_delta': 0, 'changed_pixels': 0} for k in rois}
 steps = []
@@ -43,9 +47,12 @@ assert all(s['max_channel_delta'] == 0 for s in stats.values()), stats
 assert max(steps) > .05, 'No visible animation detected.'
 independent = np.abs(first.astype(np.int16)-read(out/'review-independent-endpoint.png').astype(np.int16))
 assert independent.mean() < .1
-foreground = np.array(Image.open(assets/'cafe-foreground.png').convert('RGBA'))
+park_name = 'park-background.png' if version == 'v001' else 'ai-autumn-park.png'
+cafe_name = 'cafe-foreground.png' if version == 'v001' else 'ai-cafe-foreground.png'
+foreground = np.array(Image.open(assets/cafe_name).convert('RGBA'))
 alpha = foreground[:, :, 3]
-assert (alpha == 0).mean() > .3 and (alpha == 255).mean() > .2
+opaque_threshold = 255 if version == 'v001' else 250
+assert (alpha == 0).mean() > .3 and (alpha >= opaque_threshold).mean() > .2
 
 video = out/'vvoori-cafe-review-20s.mp4'
 assert not video.exists()
@@ -85,9 +92,9 @@ for y in range(0, 360, 20):
     for x in range(0, 640, 20):
         if (x//20+y//20) % 2:
             cd.rectangle((x, y, x+19, y+19), fill=(80, 80, 80, 255))
-fg = Image.open(assets/'cafe-foreground.png').convert('RGBA').resize((640, 360), Image.Resampling.LANCZOS)
+fg = Image.open(assets/cafe_name).convert('RGBA').resize((640, 360), Image.Resampling.LANCZOS)
 checker.alpha_composite(fg)
-sheet.paste(Image.open(assets/'park-background.png').convert('RGB').resize((640, 360)), (0, 35))
+sheet.paste(Image.open(assets/park_name).convert('RGB').resize((640, 360)), (0, 35))
 sheet.paste(checker.convert('RGB'), (640, 35))
 sheet.paste(Image.open(files[0]).resize((640, 360)), (0, 450))
 sheet.paste(Image.open(files[120]).resize((640, 360)), (640, 450))
@@ -95,8 +102,8 @@ for x, y, label in [(15, 10, '01 | STATIC PARK / ROAD'), (655, 10, '03 | STATIC 
                     (15, 425, 'COMPOSITE | 0.00 s'), (655, 425, 'COMPOSITE | 10.00 s')]:
     draw.text((x, y), label, fill='#f0d7ad')
 sheet.save(out/'layers-review.jpg', quality=94)
-sheet.save(Path(__file__).with_name('layers-review.jpg'), quality=90)
-Image.open(out/'poster-fullhd.png').resize((960, 540)).save(Path(__file__).with_name('preview.jpg'), quality=92)
+sheet.save(Path(__file__).with_name(prefix+'layers-review.jpg'), quality=90)
+Image.open(out/'poster-fullhd.png').resize((960, 540)).save(Path(__file__).with_name(prefix+'preview.jpg'), quality=92)
 html = '''<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>vvoori-cafe · 이미지와 3D 합성</title><style>body{margin:0;background:#211e18;color:#eee5d6;font:16px system-ui}main{max-width:1280px;margin:3vh auto;padding:24px}video,img{width:100%;border-radius:8px}p{color:#c9baa1}a{color:#f3d49c}</style>
 <main><h1>vvoori-cafe</h1><p>공원 이미지 + 차량·낙엽 3D + 투명 카페 이미지</p>
@@ -111,9 +118,10 @@ report = {'ok': True, 'width': 960, 'height': 540, 'fps': 12, 'frames': 240, 'du
           'independent_endpoint_mean': float(independent.mean()),
           'static_roi_all_frames': stats, 'encoded_static_roi_max_mean_delta': encoded_stats,
           'foreground_transparent_fraction': float((alpha == 0).mean()),
-          'foreground_opaque_fraction': float((alpha == 255).mean()),
+          'foreground_opaque_fraction': float((alpha >= opaque_threshold).mean()),
+          'version': version, 'ai_generated_static_images': version == 'v002',
           'all_frames_verified': True, 'full_decode': True,
           'video_bytes': video.stat().st_size, 'video_sha256': hashlib.sha256(video.read_bytes()).hexdigest()}
 (out/'verification.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
-Path(__file__).with_name('verification-summary.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
+Path(__file__).with_name(prefix+'verification-summary.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
 print(json.dumps(report, indent=2))

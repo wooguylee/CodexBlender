@@ -8,9 +8,11 @@ import time
 
 import bpy
 
+version = globals().get('VERSION', 'v001')
+assert version in {'v001', 'v002'}
 scene = bpy.context.scene
-assert scene.name == 'Vvoori_Cafe_v001'
-out = PROJECT_ROOT / 'outputs/vvoori-cafe/v001'
+assert scene.name == 'Vvoori_Cafe_' + version
+out = PROJECT_ROOT / 'outputs/vvoori-cafe' / version
 folder = out / 'review-frames'
 folder.mkdir(exist_ok=True)
 assert not list(folder.glob('*.png')), 'Do not overwrite or automatically resume an existing run.'
@@ -56,9 +58,9 @@ finally:
     scene.frame_set(1)
     scene.render.resolution_percentage = 100
     scene.cycles.samples = 32
-    scene.render.filepath = '//../outputs/vvoori-cafe/v001/master-frames/'
+    scene.render.filepath = f'//../outputs/vvoori-cafe/{version}/master-frames/'
 
-path = PROJECT_ROOT / 'scenes/vvoori-cafe-v001.blend'
+path = PROJECT_ROOT / f'scenes/vvoori-cafe-{version}.blend'
 assert not path.exists()
 bpy.data.libraries.write(str(path), {scene}, path_remap='RELATIVE_ALL', fake_user=True, compress=True)
 (out/'review-render.json').write_text(json.dumps({

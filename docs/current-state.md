@@ -1,4 +1,27 @@
-# 현재 제작: vvoori-cafe 이미지 배경 + 3D 움직임
+# 현재 제작: vvoori-cafe v002 — 새 AI 생성 이미지 적용
+
+2026-10-02. 사용자 정정 반영, 이미지 생성·적용·20초 검토 영상·원본 검증 완료.
+
+- 정확한 의도: **공원과 카페를 이미지 생성 도구로 새로 만들고, 그 이미지를 활용**한다.
+  v001의 Blender 렌더 추출 방식은 사용자의 의도와 달랐던 초기 해석이다.
+- built-in image_gen으로 새 공원 RGB와 투명 카페 RGBA PNG를 생성했다. 각 1672×941.
+- 생성 자산 `assets/vvoori-cafe/v002/ai-autumn-park.png`, `ai-cafe-foreground.png`.
+- Scene `Vvoori_Cafe_v002`, 카메라 `VC2_Camera`, 원본 `scenes/vvoori-cafe-v002.blend`.
+- 생성 공원 → 차량/낙엽 3D → 생성 카페 순서로 합성. 차량/낙엽 62개 움직임과 기존 CG 모델 형태 유지.
+- sRGB PNG에 추가 AgX 변환을 하지 않으며, 생성 알파는 합성 노드에서 정규화한다.
+- 두 PNG를 원본 그대로 보존하고 pack했으며 **packed 바이트 SHA-256이 생성 PNG와 동일**함을 확인했다.
+- 원본 1920×1080 / 24fps / 480프레임. 검토 영상은 **960×540 / 12fps / 240프레임 / 20초 / 무음**.
+- 영상 `outputs/vvoori-cafe/v002/vvoori-cafe-review-20s.mp4`, 2,574,204바이트.
+- Full HD 포스터 및 레이어 확인표·재생 페이지를 같은 결과 폴더에 저장했다.
+- 전체 PNG 10개 정적 ROI 변화 0, MP4 전체 디코딩/시작끝 픽셀 일치, 애니메이션 끝점 오차 0 확인.
+- 독립 원본 재개방과 실제 렌더 검증 완료. v001과 autumn-cafe 파일 해시 유지.
+- 생성 프롬프트 `workflows/vvoori-cafe/v002-image-prompts.md`, 설명 `v002-README.md`.
+- 마지막 제작 작업 `20261002T075428-8f68b62e50`, ok=true, 최종 미리보기 직접 확인.
+- 다음 단계: 사용자 피드백. 고화질 1080p24 전체 MP4는 아직 출력하지 않았다.
+
+<!-- VVOORI_CAFE_V002_END -->
+
+# 이전 제작: vvoori-cafe v001 이미지 배경 + 3D 움직임
 
 2026-10-02. 새 독립 프로젝트와 20초 검토 영상 생성·검증 완료.
 
