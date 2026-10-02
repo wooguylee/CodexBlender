@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "native_reopen_mean_difference": 0.0,
+  "static_roi_max_delta": {
+    "ceiling": 0,
+    "floor": 0,
+    "wall": 0,
+    "ceiling_beam": 0,
+    "right_wall": 0,
+    "table": 0,
+    "book": 0,
+    "cup": 0,
+    "chair_seat": 0,
+    "near_chair": 0,
+    "far_table": 0,
+    "pendant": 0
+  },
+  "byte_identical": true,
+  "former_window_post_regions_alpha_max": {
+    "former_near_post": 0,
+    "former_middle_post": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "created_date": "2026-10-02",
+  "generator": "built-in image_gen",
+  "source_kind": "AI edited panoramic interior including perimeter and furniture; v003 park reused",
+  "prompts": "../../../workflows/vvoori-cafe/v005-image-prompt.md",
+  "files": {
+    "ai-panoramic-interior.png": {
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGBA",
+      "bytes": 1103506,
+      "sha256": "7d8a261113732e83cc4cc023de509174dda2a17fd21dfc538e70b1a9fc66bb28"
+    }
+  }
+}
