@@ -18,6 +18,8 @@
 - 제작·프롬프트·실측 보고서: `workflows/vvoori-cafe/v005-README.md`, `v005-image-prompt.md`, `v005-verification-summary.json`.
 - 다음 단계: 사용자 피드백. 고정 카메라용 구성이며 창/테두리/가구 수정은 실내 이미지에서 처리한다.
 
+- 통합 제작 프롬프트: `workflows/vvoori-cafe/vvoori-cafe-one-shot-prompt.txt`. 파일 전체를 한 번의 요청으로 전달하여 이미지 생성·3D 움직임·20초 출력·검증을 진행할 수 있도록 작성했다. 기존 픽셀과 완전히 동일한 재생성을 보장하는 것은 아니다.
+
 <!-- VVOORI_CAFE_V005_END -->
 
 # 이전 제작: vvoori-cafe v004 — 테이블과 의자도 실내 생성 이미지
