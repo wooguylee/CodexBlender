@@ -1,0 +1,67 @@
+{
+  "ok": true,
+  "width": 960,
+  "height": 540,
+  "fps": 12,
+  "frames": 240,
+  "duration_seconds": 20,
+  "full_quality_movie_rendered": false,
+  "source_png_endpoints_identical": true,
+  "decoded_mp4_endpoints_identical": true,
+  "independent_endpoint_mean": 1.9290123456790124e-06,
+  "static_roi_all_frames": {
+    "left_pendant": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0
+    },
+    "right_pendant": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0
+    },
+    "upper_limewash": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0
+    },
+    "oak_table": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0
+    },
+    "window_sill": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0
+    },
+    "chair_cushion": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0
+    },
+    "interior_wall": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0
+    },
+    "entire_upper_soffit": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0
+    },
+    "entire_lower_interior": {
+      "max_channel_delta": 0,
+      "changed_pixels": 0
+    }
+  },
+  "encoded_static_roi_max_mean_delta": {
+    "left_pendant": 0.0,
+    "right_pendant": 0.0,
+    "upper_limewash": 0.0,
+    "oak_table": 0.0,
+    "window_sill": 0.0,
+    "chair_cushion": 0.0,
+    "interior_wall": 0.0,
+    "entire_upper_soffit": 0.0029224537037037036,
+    "entire_lower_interior": 9.46969696969697e-05
+  },
+  "foreground_transparent_fraction": 0.560325038580247,
+  "foreground_opaque_fraction": 0.4306004050925926,
+  "all_frames_verified": true,
+  "full_decode": true,
+  "video_bytes": 2009671,
+  "video_sha256": "5d62bfba34c0820d373f674e61c59557c407b4b4ba3d5cf2417827b1d87e4844"
+}
