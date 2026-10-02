@@ -20,6 +20,8 @@
 
 - 통합 제작 프롬프트: `workflows/vvoori-cafe/vvoori-cafe-one-shot-prompt.txt`. 파일 전체를 한 번의 요청으로 전달하여 이미지 생성·3D 움직임·20초 출력·검증을 진행할 수 있도록 작성했다. 기존 픽셀과 완전히 동일한 재생성을 보장하는 것은 아니다.
 
+- 겨울 파생 프로젝트 프롬프트: `workflows/vvoori-cafe-winter/vvoori-cafe-winter-one-shot-prompt.txt`. 50도 사선 통창·가구 포함 실내 이미지는 유지하고 눈 덮인 공원·겨울빛·Blender 자동차와 눈발로 변경했다. 현재는 프롬프트만 작성했으며 겨울 이미지·장면·영상은 아직 제작하지 않았다.
+
 <!-- VVOORI_CAFE_V005_END -->
 
 # 이전 제작: vvoori-cafe v004 — 테이블과 의자도 실내 생성 이미지
