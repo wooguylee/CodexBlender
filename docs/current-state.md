@@ -1,3 +1,27 @@
+# 현재 개발: Model Auto Routing
+
+2026-10-02. 기존 브리찌를 유지하는 독립 Python 모델 라우팅 계층을 추가했다.
+
+- 실제 기존 구조: Codex → CLI → 파일 큐 → bpy. MCP 서버/자체 LLM 호출은 없었다.
+- 새 진입점: `python -m router route|run|chat|inspect-job`.
+- `router/`: 설정·점수·모델 선택·상태·retry/escalation·로그/통계.
+- `llm/`: Responses API. `adapters/`: 기존 CLI 호출, 코드 보존, 이미지 전달.
+- `/model luna|sol|astra|auto`와 `--model` 지원. 기본 모델명/effort/문턱/한도는 JSON 설정.
+- pending/부분 변경/렌더 실패를 구분하며 동일 변경을 자동 재실행하지 않는다.
+- 실제 Blender 회귀는 `.runtime/`의 독립 사본에서 수행. 현재 제작 Scene은 보존한다.
+- 실제 유료 LLM 호출 및 계정 모델 접근권은 검증하지 않았다. API 실행에는 환경변수 키가 필요하다.
+- 기존 `bridge/`·실행 스크립트·기존 테스트·설정은 변경하지 않았다.
+- 사용자 후속 지시로 이번 구현·문서·Git 마무리 규칙을 커밋·푸시한다. 이후 모든 작업도 검증 후 커밋·푸시와 원격 반영 확인까지 마무리한다.
+- 사용법/구조/추가 파일/검증 범위: `docs/model-routing.md`.
+- 작업 계획/실행 검증 기록: `docs/model-routing-plan.md`.
+- 실제 Blender 검증 기록: `outputs/verification/router-smoke.json`, `router-preview.png`.
+- 최종 `BLENDER_E2E=1` 전체 테스트 **58개 통과, skip 없음**. 로그: `outputs/verification/model-routing-tests.log`.
+
+이 기능은 새 CLI에서 요청할 때만 적용된다. 현재 Codex 앱 대화 모델을 자동 전환하지 않는다.
+아래 제작 작업 기록과 현재 원본 `scenes/current.blend`는 그대로 이어간다.
+
+---
+
 # 현재 작업 상태
 
 기록일: 2026-09-10 (한국 시간). 실제 연결 여부는 매번 `status`로 확인한다.

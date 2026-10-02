@@ -1,6 +1,8 @@
 # CodexBlender
 
-**말로 요청 → Blender 작업 창에서 확인 → 수정 → 원본과 이미지 저장**을 위한 로컬 작업 환경입니다. 외부 서버·API 키·pip 설치 없이 Blender와 Python 표준 라이브러리를 사용합니다.
+**말로 요청 → Blender 작업 창에서 확인 → 수정 → 원본과 이미지 저장**을 위한 로컬 작업 환경입니다. 기존 브리찌는 외부 서버·API 키·pip 설치 없이 Blender와 Python 표준 라이브러리를 사용합니다.
+
+선택 기능인 **Model Auto Routing**은 자연어 요청에 Luna / Sol / Astra를 배정하고 실패 시 제한된 재시도·승급을 수행합니다. `python -m router route "Cube를 X축으로 2m 이동"`으로 키 없이 판단을 확인할 수 있습니다. 실제 실행은 `python -m router run "요청"`과 `OPENAI_API_KEY`가 필요합니다. 기존 브리찌 명령은 그대로 유지하며 현재 Codex 대화의 모델을 바꾸는 기능은 아닙니다. [사용법·설정·검증 범위](docs/model-routing.md)를 참고하세요.
 
 사용자 지정 이름은 **브리찌**입니다. “브리찌로 … 해줘”라고 요청하면 이 연결 도구를 사용합니다. 명칭과 기억할 규칙은 [프로젝트 메모리](docs/memory/MEMORY.md)에 보관하고, Codex 메모리와 함께 기록합니다.
 
@@ -23,7 +25,7 @@ Codex에서 이 폴더를 프로젝트로 열고 다음처럼 요청하세요.
 
 Windows 실행기는 Blender에 포함된 Python을 사용합니다. 별도 Python 설치가 보통 필요 없습니다. Blender가 특수 배포판이라 Python이 없으면 Python 3.11+를 설치해야 합니다.
 
-`blender.local.json`과 `.runtime/`은 Git 제외 대상이며 각 PC에서 새로 생성됩니다. `workflows/`, `scenes/`, `assets/`, `outputs/`, 문서, 도구는 기본적으로 Git에 포함됩니다. 원격 저장소는 [wooguylee/CodexBlender](https://github.com/wooguylee/CodexBlender)이며 커밋/푸시는 사용자의 요청 범위에서 수행합니다. 큰 영상이나 누적 `.blend` 파일은 크기에 따라 Git LFS 또는 별도 보관 정책을 선택하세요. 현재 예제는 일반 Git으로 보관할 수 있는 작은 파일입니다.
+`blender.local.json`과 `.runtime/`은 Git 제외 대상이며 각 PC에서 새로 생성됩니다. `workflows/`, `scenes/`, 문서, 도구를 Git으로 관리합니다. 새 `assets/`와 `outputs/` 파일은 현재 `.gitignore`에 따라 기본 제외되며, 이미 추적 중인 예제 결과는 유지됩니다. 원격 저장소는 [wooguylee/CodexBlender](https://github.com/wooguylee/CodexBlender)입니다. **모든 승인된 작업은 검증 후 관련 변경 커밋·푸시와 원격 반영 확인까지 마무리합니다.** 큰 영상이나 누적 `.blend` 파일은 크기에 따라 Git LFS 또는 별도 보관 정책을 선택하세요. 현재 예제는 일반 Git으로 보관할 수 있는 작은 파일입니다.
 
 ## 명령
 
