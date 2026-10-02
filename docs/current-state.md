@@ -1,3 +1,25 @@
+<!-- VVOORI_CAFE_WINTER_V001_BEGIN -->
+# 현재 제작: vvoori-cafe-winter v001 — 겨울 공원과 통창 카페
+
+2026-10-02. 새 이미지 생성·Full HD 전체 렌더·독립 원본 검증 완료.
+
+- 공원 RGB와 가구/창 외곽 테두리 포함 실내 RGBA를 built-in image_gen으로 각각 새로 생성했다.
+- 생성 원본 두 장은 `assets/vvoori-cafe-winter/v001/`, 각 1672×941. 원본 PNG를 그대로 보존하고 pack했다.
+- 합성은 공원 → 실제 Blender 차량 6대/눈 280개 → 실내 이미지. 정적 실내 3D나 렌더 캐시는 없다.
+- 전용 원본 `scenes/vvoori-cafe-winter-v001.blend`, Scene `Vvoori_Cafe_Winter_v001`, 카메라 `VWC1_Camera`, 객체 527개.
+- 실제 카메라 수평각 약 50도, 차도 접지 7,289개 표본 검사. 차량 순환은 화면 밖/벽 뒤, 눈 순환은 화면 위/아래 밖이다.
+- 완성 영상 `outputs/vvoori-cafe-winter/v001/vvoori-cafe-winter-20s.mp4`: **1920×1080 / 24fps / 480프레임 / 정확히 20초 / 무음**.
+- 모든 480프레임을 실제 렌더했다. 주기는 480프레임으로, frame 481=frame 1이다. 마지막 프레임을 첫 프레임으로 복제하지 않았다.
+- 모든 PNG의 14개 실내 ROI 변화 0. 불투명 실내 944,831픽셀 전체 검사에서는 480장 중 총 3개의 단일 픽셀/채널에만 최대 1/255 양자화 차이가 있었다. MP4 전체 디코딩과 사양 검사 통과.
+- 별도 Blender 프로세스에서 외부 이미지 경로를 의도적으로 끊고 packed 자산만으로 재렌더한 결과가 최종 PNG와 픽셀 동일.
+- 최초 검사의 화면 상단 한 줄 alpha 문제는 Scale 노드 Clip→Extend로 보정하고 480장 전체를 재렌더했다.
+- 기존 vvoori-cafe 원본/MP4 10개 SHA-256 유지. 기존 장면과 무관한 미커밋 변경 보존.
+- 제작·프롬프트·검증 설명: `workflows/vvoori-cafe-winter/README.md`, `v001-*-verification.json`.
+- 최종 포스터/반복 재생: `outputs/vvoori-cafe-winter/v001/poster-fullhd.png`, `play-loop.html`.
+- 다음 단계: 사용자 피드백. 수정 시 이 v001을 기준으로 새 버전에 저장한다. Windows/RTX 3090 외 환경은 미검증.
+
+<!-- VVOORI_CAFE_WINTER_V001_END -->
+
 # 현재 제작: vvoori-cafe v005 — 창 프레임도 카페 이미지, 넓은 통창
 
 2026-10-02. 사용자 요청 반영, 전체 영상과 독립 원본 검증 완료.

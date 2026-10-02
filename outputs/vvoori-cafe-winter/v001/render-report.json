@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 480,
+  "duration_seconds": 20,
+  "rendered_frame_range": [
+    1,
+    480
+  ],
+  "duplicated_endpoint": false,
+  "verification_only_frame": 481,
+  "samples": 16,
+  "seconds": 257.89,
+  "source": "scenes/vvoori-cafe-winter-v001.blend"
+}

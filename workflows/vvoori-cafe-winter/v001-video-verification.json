@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 480,
+  "duration_seconds": 20,
+  "audio_streams": 0,
+  "source_frames_unique": 480,
+  "rendered_1_481_pixel_identical": true,
+  "first_last_are_distinct": true,
+  "loop_boundary_mean_delta": 0.5415534979423868,
+  "first_step_mean_delta": 0.5381963734567902,
+  "last_step_mean_delta": 0.5442877121913581,
+  "all_frame_mean_step_min_max": [
+    0.10976353523662552,
+    1.0417335390946503
+  ],
+  "opaque_mask_pixels": 944831,
+  "opaque_mask_all_480_frames_max_delta": 1,
+  "static_roi_bounds": {
+    "ceiling": [
+      1470,
+      35,
+      1570,
+      80
+    ],
+    "ceiling_beam": [
+      1530,
+      150,
+      1580,
+      162
+    ],
+    "pendant": [
+      1770,
+      145,
+      1820,
+      175
+    ],
+    "right_wall": [
+      1800,
+      420,
+      1860,
+      450
+    ],
+    "botanical_picture": [
+      1810,
+      350,
+      1850,
+      390
+    ],
+    "floor": [
+      1690,
+      910,
+      1740,
+      970
+    ],
+    "low_wall": [
+      50,
+      940,
+      150,
+      1030
+    ],
+    "tabletop": [
+      705,
+      815,
+      765,
+      845
+    ],
+    "coffee_cup": [
+      815,
+      756,
+      845,
+      776
+    ],
+    "sage_book": [
+      1030,
+      788,
+      1090,
+      810
+    ],
+    "chair_seat": [
+      1380,
+      895,
+      1450,
+      920
+    ],
+    "near_chair": [
+      555,
+      998,
+      595,
+      1020
+    ],
+    "far_table": [
+      1620,
+      671,
+      1660,
+      680
+    ],
+    "armchair": [
+      1830,
+      713,
+      1860,
+      740
+    ]
+  },
+  "static_single_lsb_pixel_events": 3,
+  "max_changed_static_pixels_per_frame": 1,
+  "static_roi_all_480_frames_max_delta": {
+    "ceiling": 0,
+    "ceiling_beam": 0,
+    "pendant": 0,
+    "right_wall": 0,
+    "botanical_picture": 0,
+    "floor": 0,
+    "low_wall": 0,
+    "tabletop": 0,
+    "coffee_cup": 0,
+    "sage_book": 0,
+    "chair_seat": 0,
+    "near_chair": 0,
+    "far_table": 0,
+    "armchair": 0
+  },
+  "mp4_roi_max_temporal_mean_delta": {
+    "ceiling": 0.09222222222222222,
+    "ceiling_beam": 0.29,
+    "pendant": 0.10022222222222223,
+    "right_wall": 0.15166666666666667,
+    "botanical_picture": 0.09354166666666666,
+    "floor": 0.20277777777777778,
+    "low_wall": 0.21977777777777777,
+    "tabletop": 0.0033333333333333335,
+    "coffee_cup": 0.3161111111111111,
+    "sage_book": 0.023232323232323233,
+    "chair_seat": 0.15028571428571427,
+    "near_chair": 0.07272727272727272,
+    "far_table": 0.225,
+    "armchair": 0.025925925925925925
+  },
+  "mp4_roi_max_temporal_channel_delta": {
+    "ceiling": 3,
+    "ceiling_beam": 3,
+    "pendant": 2,
+    "right_wall": 3,
+    "botanical_picture": 3,
+    "floor": 3,
+    "low_wall": 3,
+    "tabletop": 1,
+    "coffee_cup": 3,
+    "sage_book": 2,
+    "chair_seat": 3,
+    "near_chair": 2,
+    "far_table": 2,
+    "armchair": 2
+  },
+  "full_decode": true,
+  "preserved_files": 10,
+  "video_bytes": 8964986,
+  "video_sha256": "d423d581543ec4a22377fd65b80da8ad49e24746c58ea8c7f8a5c96135c2169c"
+}

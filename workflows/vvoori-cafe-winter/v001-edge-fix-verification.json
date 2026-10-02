@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "cause": "Compositor Scale Clip edge sampling mixed the topmost pixel row with transparent outside canvas",
+  "fix": "Extension X and Y = Extend",
+  "opaque_mask_pixels": 944831,
+  "probe_max_deltas": {
+    "61": 0,
+    "361": 0,
+    "481": 0
+  }
+}

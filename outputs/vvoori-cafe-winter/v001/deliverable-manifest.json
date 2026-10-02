@@ -1,0 +1,22 @@
+{
+  "scenes/vvoori-cafe-winter-v001.blend": {
+    "bytes": 4336018,
+    "sha256": "0f8329032517a93fc636da592b3409acff6d485bd35a0c60e3ab96f2c32b8038"
+  },
+  "outputs/vvoori-cafe-winter/v001/vvoori-cafe-winter-20s.mp4": {
+    "bytes": 8964986,
+    "sha256": "d423d581543ec4a22377fd65b80da8ad49e24746c58ea8c7f8a5c96135c2169c"
+  },
+  "outputs/vvoori-cafe-winter/v001/poster-fullhd.png": {
+    "bytes": 3436132,
+    "sha256": "b56317c6c69aa01bb387fc44c363d0ef29df027bb019313089379ef43c7704bc"
+  },
+  "assets/vvoori-cafe-winter/v001/ai-winter-park.png": {
+    "bytes": 2443237,
+    "sha256": "bc56927457b4058d96e007651b59a5d2d705e5f74694a7b4a5902cddb6e9582b"
+  },
+  "assets/vvoori-cafe-winter/v001/ai-winter-cafe.png": {
+    "bytes": 1494865,
+    "sha256": "8965fe19470aed41e087ea8199e2bb93667148e87220e9b25859295b1dc46b87"
+  }
+}

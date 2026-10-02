@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "scene": "Vvoori_Cafe_Winter_v001",
+  "objects": 527,
+  "camera_angle_degrees": 49.9999960058137,
+  "static_image_nodes": 2,
+  "packed_images_sha256": {
+    "VWC1_Park": "bc56927457b4058d96e007651b59a5d2d705e5f74694a7b4a5902cddb6e9582b",
+    "VWC1_Cafe": "8965fe19470aed41e087ea8199e2bb93667148e87220e9b25859295b1dc46b87"
+  },
+  "no_static_3d_geometry": true,
+  "no_external_dependencies": true,
+  "color_transform": "sRGB images -> linear compositing -> Standard sRGB output",
+  "snow_count": 280,
+  "cars": 6,
+  "period_frames": 480,
+  "source_normalized_to_editable_native_blend": true
+}

@@ -1,0 +1,24 @@
+{
+  "created_date": "2026-10-02",
+  "generator": "built-in image_gen",
+  "active_static_images": 2,
+  "prompts": "../../../workflows/vvoori-cafe-winter/v001-*-prompt.txt",
+  "files": {
+    "ai-winter-park.png": {
+      "mode": "RGB",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "bc56927457b4058d96e007651b59a5d2d705e5f74694a7b4a5902cddb6e9582b"
+    },
+    "ai-winter-cafe.png": {
+      "mode": "RGBA",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "8965fe19470aed41e087ea8199e2bb93667148e87220e9b25859295b1dc46b87"
+    }
+  }
+}

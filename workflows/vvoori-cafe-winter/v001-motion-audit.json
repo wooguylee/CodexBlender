@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "animated_objects": 286,
+  "period_frames": 480,
+  "endpoint_1_481_matrix_error": 0.0,
+  "continuity_0_480_matrix_error": 0.0,
+  "render_frames": "1..480 inclusive, no copied endpoint",
+  "wheel_contacts_inside_road": 7289,
+  "minimum_road_margin_normalized": 0.0049918302297591866,
+  "car_wraps": [
+    {
+      "car": "VWC1_Traffic motion 0",
+      "wrap_frame": 452.2,
+      "both_sides_hidden": true
+    },
+    {
+      "car": "VWC1_Traffic motion 1",
+      "wrap_frame": 317.79999999999995,
+      "both_sides_hidden": true
+    },
+    {
+      "car": "VWC1_Traffic motion 2",
+      "wrap_frame": 135.4,
+      "both_sides_hidden": true
+    },
+    {
+      "car": "VWC1_Traffic motion 3",
+      "wrap_frame": 87.39999999999999,
+      "both_sides_hidden": true
+    },
+    {
+      "car": "VWC1_Traffic motion 4",
+      "wrap_frame": 245.8,
+      "both_sides_hidden": true
+    },
+    {
+      "car": "VWC1_Traffic motion 5",
+      "wrap_frame": 399.4,
+      "both_sides_hidden": true
+    }
+  ],
+  "snow_wraps_offscreen": 280,
+  "camera_animation": false,
+  "snow_near_y_range": [
+    0.4,
+    2.25
+  ],
+  "snow_far_y_range": [
+    26,
+    60
+  ],
+  "snow_avoids_vehicle_volume": true,
+  "static_image_nodes": 2,
+  "static_3d_geometry": 0
+}
