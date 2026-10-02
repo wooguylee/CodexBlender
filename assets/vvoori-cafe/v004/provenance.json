@@ -1,0 +1,17 @@
+{
+  "created_date": "2026-10-02",
+  "generator": "built-in image_gen",
+  "source_kind": "AI edited interior including tables and chairs; v003 park reused",
+  "prompts": "../../../workflows/vvoori-cafe/v004-image-prompt.md",
+  "files": {
+    "ai-furnished-interior.png": {
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGBA",
+      "bytes": 1104728,
+      "sha256": "951fc9b8119b621965e2c20902da58ddb0372cf31ff01006803c0b11e2ed7d1e"
+    }
+  }
+}

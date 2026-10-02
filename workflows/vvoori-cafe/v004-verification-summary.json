@@ -1,0 +1,121 @@
+{
+  "ok": true,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 480,
+  "duration_seconds": 20,
+  "full_quality_movie_rendered": true,
+  "furniture_is_generated_image": true,
+  "all_frames_verified": true,
+  "source_png_endpoints_identical": true,
+  "decoded_mp4_endpoints_identical": true,
+  "independent_endpoint_mean": 0.0,
+  "static_roi_bounds": {
+    "ceiling": [
+      1670,
+      24,
+      1840,
+      65
+    ],
+    "floor": [
+      1390,
+      925,
+      1500,
+      1000
+    ],
+    "wall": [
+      1250,
+      820,
+      1350,
+      860
+    ],
+    "near_post": [
+      821,
+      250,
+      835,
+      420
+    ],
+    "middle_post": [
+      1208,
+      170,
+      1220,
+      320
+    ],
+    "table": [
+      520,
+      810,
+      620,
+      830
+    ],
+    "book": [
+      610,
+      772,
+      650,
+      790
+    ],
+    "cup": [
+      751,
+      710,
+      780,
+      730
+    ],
+    "chair_seat": [
+      980,
+      865,
+      1110,
+      896
+    ],
+    "near_chair": [
+      280,
+      975,
+      350,
+      1000
+    ],
+    "far_table": [
+      1600,
+      652,
+      1680,
+      672
+    ],
+    "pendant": [
+      1760,
+      88,
+      1800,
+      135
+    ]
+  },
+  "static_roi_all_frames_max_delta": {
+    "ceiling": 0,
+    "floor": 0,
+    "wall": 0,
+    "near_post": 0,
+    "middle_post": 0,
+    "table": 0,
+    "book": 0,
+    "cup": 0,
+    "chair_seat": 0,
+    "near_chair": 0,
+    "far_table": 0,
+    "pendant": 0
+  },
+  "encoded_static_roi_max_mean_delta": {
+    "ceiling": 0.0031563845050215206,
+    "floor": 0.05131313131313131,
+    "wall": 0.08041666666666666,
+    "near_post": 0.08319327731092437,
+    "middle_post": 0.05611111111111111,
+    "table": 0.02033333333333333,
+    "book": 0.04212962962962963,
+    "cup": 0.18448275862068966,
+    "chair_seat": 0.0771712158808933,
+    "near_chair": 0.1980952380952381,
+    "far_table": 0.001875,
+    "pendant": 0.2322695035460993
+  },
+  "max_interframe_mean_delta": 1.377000546553498,
+  "full_decode": true,
+  "camera_angle_degrees": 50,
+  "video_bytes": 9621064,
+  "video_sha256": "c47fe81f489107f2ed4b4c5cb3e55ec8401410fd12563d75d98ad1082b280ee9"
+}

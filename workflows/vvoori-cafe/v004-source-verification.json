@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "scene": "Vvoori_Cafe_v004",
+  "camera": "VC4_Camera",
+  "camera_angle_degrees": 49.999997576724255,
+  "objects": 297,
+  "furniture_is_generated_image": true,
+  "no_3d_furniture_objects": true,
+  "animated_objects": 62,
+  "endpoint_transform_error": 0.0,
+  "midpoint_motion": 306.8157424926758,
+  "packed_images": 3,
+  "generated_png_hashes_verified": true,
+  "old_source_hashes_unchanged": true,
+  "full_quality_movie_rendered": true,
+  "packed_image_sha256": {
+    "VC3_Park": "5d1619e1338e6695c1d42b1fa46b6213609489dd06b515affac3a1b76aec6e97",
+    "VC4_FurnishedInterior": "951fc9b8119b621965e2c20902da58ddb0372cf31ff01006803c0b11e2ed7d1e",
+    "VC4_StaticWindow": "04ef7881ec0eac8970a46d02814cb35ce700b31a0316dd1646ecaae1e0db9c96"
+  }
+}

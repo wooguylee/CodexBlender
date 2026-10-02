@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "native_reopen_mean_difference": 0.019996463477366257,
+  "static_roi_max_delta": {
+    "ceiling": 0,
+    "floor": 0,
+    "wall": 0,
+    "near_post": 0,
+    "middle_post": 0,
+    "table": 0,
+    "book": 0,
+    "cup": 0,
+    "chair_seat": 0,
+    "near_chair": 0,
+    "far_table": 0,
+    "pendant": 0
+  },
+  "byte_identical": false
+}
