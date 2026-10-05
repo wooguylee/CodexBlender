@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "reviewed_episodes": 5,
+  "method": "Direct visual inspection of final-video beat contact sheets and selected full-resolution rendered frames. Movement data and every-frame pixel checks are separate evidence.",
+  "episodes": [
+    {
+      "id": 1,
+      "observations": [
+        "Five cast members, shy hiding pose, wind-driven pile and return visible.",
+        "Frame 385 flash is intentional; framed snapshot appears at 17-20 seconds.",
+        "Korean title/captions legible and outside character faces."
+      ]
+    },
+    {
+      "id": 2,
+      "observations": [
+        "Star detaches, sun jumps, raindrop slides across ice, star returns to sleeping cloud.",
+        "Transition repair is reflected in baked root trajectories and actual rendered output.",
+        "Final sleep caption and original audio stream present."
+      ]
+    },
+    {
+      "id": 3,
+      "observations": [
+        "Heat/rain/ice effects, plant growth and pink flower are visible.",
+        "All five principal body colors change to pollen yellow in the final gag.",
+        "Flower is staged in front of Solsol; intended overlap retained."
+      ]
+    },
+    {
+      "id": 4,
+      "observations": [
+        "Desk/microphone/WEATHER NEWS backdrop visible.",
+        "Sun/rain/snow/wind arrive in sequence.",
+        "Final giant cloud is an intentional closeup and crop, with the nap-weather caption readable."
+      ]
+    },
+    {
+      "id": 5,
+      "observations": [
+        "Teal/pink bubble rim now visible against the stage.",
+        "Snow crystal retraction, cloud approach, burst and five descending bubble hats visible.",
+        "Final hat scene also checked using the bridge camera preview."
+      ]
+    }
+  ],
+  "bridge_final_job": "20261005T205423-8a7953eee0",
+  "limits": "Frame-based visual review; no claim of subjective audio audition. Stylized procedural animation, not fluid or cloth simulation."
+}

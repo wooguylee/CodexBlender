@@ -1,0 +1,99 @@
+{
+  "ok": true,
+  "episode": "05-bubble-hats",
+  "title": "절대 터뜨리면 안 돼!",
+  "frames": 624,
+  "duration_seconds": 26.0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "codec": "H.264 / AAC",
+  "full_decode_errors": 0,
+  "all_pngs_decoded": true,
+  "alpha_min": 255,
+  "unique_downsampled_frames": 624,
+  "static_regions": {
+    "top_left": [
+      10,
+      10,
+      130,
+      100
+    ],
+    "top_right": [
+      1790,
+      10,
+      1910,
+      100
+    ],
+    "bottom_left": [
+      10,
+      945,
+      190,
+      1070
+    ],
+    "bottom_right": [
+      1730,
+      945,
+      1910,
+      1070
+    ],
+    "bottom_middle": [
+      710,
+      1000,
+      1210,
+      1070
+    ]
+  },
+  "static_stability": {
+    "top_left": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 624
+    },
+    "top_right": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 624
+    },
+    "bottom_left": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 624
+    },
+    "bottom_right": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 624
+    },
+    "bottom_middle": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 624
+    }
+  },
+  "static_exclusion": null,
+  "adjacent_frame_mean_difference": {
+    "median": 0.07580246913580246,
+    "p95": 0.3028971193415637,
+    "maximum": 0.8661111111111112,
+    "maximum_at_frame": 553
+  },
+  "audio": {
+    "decoded_samples": 2496512,
+    "channels": 2,
+    "sample_rate": 48000,
+    "peak": 0.2802029848098755,
+    "rms": 0.023570478919887748,
+    "clipping": false
+  },
+  "source": {
+    "source": "scenes/weather-short-05-v001.blend",
+    "sha256": "11b43c00a2b00a7561b13a1c5216a41db170498066e388086a04140c5064d0fe"
+  },
+  "movie_sha256": "13ed36a6b5778edd1c1edf7da53c6dd3e5b93b2ad3dcfb37c1e59396c335da23",
+  "movie_bytes": 1938699,
+  "verification_seconds": 23.0,
+  "limits": "Metrics verify files, movement and stable regions; visual beat/contact review is recorded separately. Other GPUs/OS not tested."
+}

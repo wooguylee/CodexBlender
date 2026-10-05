@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "state": "rendered",
+  "frames": 672,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "seconds": 250.96191579999868,
+  "reused_frames": 0,
+  "independent_native_source": true,
+  "engine": "BLENDER_EEVEE",
+  "samples": 16
+}

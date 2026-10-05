@@ -1,0 +1,91 @@
+{
+  "id": 2,
+  "slug": "02-star-pillow",
+  "title": "몽실의 별 쿠션을 잡아라",
+  "duration": 30,
+  "beats": [
+    2,
+    5,
+    9,
+    15,
+    19,
+    24,
+    28
+  ],
+  "sfx": [
+    [
+      4,
+      "sneeze"
+    ],
+    [
+      5,
+      "whoosh"
+    ],
+    [
+      9,
+      "boing"
+    ],
+    [
+      13,
+      "ice"
+    ],
+    [
+      16,
+      "slide"
+    ],
+    [
+      20,
+      "pop"
+    ],
+    [
+      25,
+      "ding"
+    ]
+  ],
+  "captions": [
+    [
+      0,
+      3,
+      "몽실의 별 쿠션을 잡아라"
+    ],
+    [
+      4,
+      7,
+      "에… 에취!"
+    ],
+    [
+      8,
+      12,
+      "해롱! 조금만 더 높이!"
+    ],
+    [
+      13,
+      18,
+      "얼음길은 너무 미끄러워!"
+    ],
+    [
+      19,
+      23,
+      "별 쿠션, 돌아오는 중…"
+    ],
+    [
+      25,
+      30,
+      "몽실은 아무것도 몰랐대요."
+    ]
+  ],
+  "scene": "Weather_Short_02_v001",
+  "camera": "WS2_Camera",
+  "frames": 720,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "engine": "BLENDER_EEVEE",
+  "samples": 16,
+  "objects": 194,
+  "animated_objects": 61,
+  "source": "scenes/weather-short-02-v001.blend",
+  "bake_seconds": 5.433434699953068
+}

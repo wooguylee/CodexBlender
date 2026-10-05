@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "compilation": "outputs/weather-shorts/v001/weather-fairies-five-stories.mp4",
+  "frames": 3360,
+  "duration_seconds": 140,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "movie_sha256": "316f33cdf235da92cf555fe35c43b23efdaeb2660ee2e47efc0b7fd6231730f8",
+  "movie_bytes": 13555747,
+  "decode_errors": 0,
+  "chapters": [
+    {
+      "title": "단체사진 대소동",
+      "start_seconds": 0,
+      "duration": 24
+    },
+    {
+      "title": "몽실의 별 쿠션을 잡아라",
+      "start_seconds": 24,
+      "duration": 30
+    },
+    {
+      "title": "꽃 한 송이 키우기",
+      "start_seconds": 54,
+      "duration": 32
+    },
+    {
+      "title": "오늘의 날씨는 누구?",
+      "start_seconds": 86,
+      "duration": 28
+    },
+    {
+      "title": "절대 터뜨리면 안 돼!",
+      "start_seconds": 114,
+      "duration": 26
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration": 26,
+  "peak": 0.2816770168855807,
+  "rms": 0.023781520831415666,
+  "events": [
+    {
+      "time": 3,
+      "type": "bubble",
+      "duration": 0.6
+    },
+    {
+      "time": 7,
+      "type": "whoosh",
+      "duration": 1.05
+    },
+    {
+      "time": 12,
+      "type": "tick",
+      "duration": 0.1
+    },
+    {
+      "time": 18,
+      "type": "snore",
+      "duration": 1.1
+    },
+    {
+      "time": 20,
+      "type": "pop",
+      "duration": 0.22
+    },
+    {
+      "time": 23,
+      "type": "ding",
+      "duration": 0.9
+    }
+  ],
+  "provenance": "Original mathematical synthesis: pentatonic plucks, sine tones, seeded noise. No external audio."
+}

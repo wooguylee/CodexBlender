@@ -1,0 +1,99 @@
+{
+  "ok": true,
+  "episode": "02-star-pillow",
+  "title": "몽실의 별 쿠션을 잡아라",
+  "frames": 720,
+  "duration_seconds": 30.0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "codec": "H.264 / AAC",
+  "full_decode_errors": 0,
+  "all_pngs_decoded": true,
+  "alpha_min": 255,
+  "unique_downsampled_frames": 720,
+  "static_regions": {
+    "top_left": [
+      10,
+      10,
+      130,
+      100
+    ],
+    "top_right": [
+      1790,
+      10,
+      1910,
+      100
+    ],
+    "bottom_left": [
+      10,
+      945,
+      190,
+      1070
+    ],
+    "bottom_right": [
+      1730,
+      945,
+      1910,
+      1070
+    ],
+    "bottom_middle": [
+      710,
+      1000,
+      1210,
+      1070
+    ]
+  },
+  "static_stability": {
+    "top_left": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 720
+    },
+    "top_right": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 720
+    },
+    "bottom_left": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 720
+    },
+    "bottom_right": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 720
+    },
+    "bottom_middle": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 720
+    }
+  },
+  "static_exclusion": null,
+  "adjacent_frame_mean_difference": {
+    "median": 0.19506172839506172,
+    "p95": 0.4594300411522634,
+    "maximum": 0.8143518518518519,
+    "maximum_at_frame": 120
+  },
+  "audio": {
+    "decoded_samples": 2881536,
+    "channels": 2,
+    "sample_rate": 48000,
+    "peak": 0.2901930809020996,
+    "rms": 0.024264547232800728,
+    "clipping": false
+  },
+  "source": {
+    "source": "scenes/weather-short-02-v001.blend",
+    "sha256": "75a5b48808dd75bc15b71edc460497da29638288c020349a286138b89fe92204"
+  },
+  "movie_sha256": "46f2447f6ded39ed3ccd39af85296b0d653a59b5037464dc26e2abbbf4ca3fbb",
+  "movie_bytes": 2865361,
+  "verification_seconds": 27.88,
+  "limits": "Metrics verify files, movement and stable regions; visual beat/contact review is recorded separately. Other GPUs/OS not tested."
+}

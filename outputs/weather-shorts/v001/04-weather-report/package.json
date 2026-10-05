@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "movie": "outputs/weather-shorts/v001/04-weather-report/04-weather-report.mp4",
+  "sha256": "a30fc67766feac9416ace4102671058d02358af88f127b285e79ad5acefbb61c",
+  "bytes": 3969845,
+  "captions": [
+    [
+      0,
+      3,
+      "오늘의 날씨는 누구?"
+    ],
+    [
+      3,
+      6,
+      "오늘은 맑음입니다!"
+    ],
+    [
+      6,
+      11,
+      "잠깐, 비 소식도 있어요!"
+    ],
+    [
+      12,
+      17,
+      "눈 소식이 먼저야!"
+    ],
+    [
+      18,
+      22,
+      "이번엔 바람 차례!"
+    ],
+    [
+      24,
+      28,
+      "오늘은 낮잠 자기 좋은 날"
+    ]
+  ],
+  "font": "Windows installed Malgun Gothic, rasterized by FFmpeg; font file not redistributed.",
+  "audio": "original-score.wav",
+  "photo_snapshot_frame": null
+}

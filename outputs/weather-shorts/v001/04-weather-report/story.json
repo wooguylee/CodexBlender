@@ -1,0 +1,86 @@
+{
+  "id": 4,
+  "slug": "04-weather-report",
+  "title": "오늘의 날씨는 누구?",
+  "duration": 28,
+  "beats": [
+    2,
+    8,
+    14,
+    20,
+    24,
+    26
+  ],
+  "sfx": [
+    [
+      1,
+      "ding"
+    ],
+    [
+      6,
+      "rain"
+    ],
+    [
+      12,
+      "ice"
+    ],
+    [
+      18,
+      "whoosh"
+    ],
+    [
+      22,
+      "boing"
+    ],
+    [
+      25,
+      "snore"
+    ]
+  ],
+  "captions": [
+    [
+      0,
+      3,
+      "오늘의 날씨는 누구?"
+    ],
+    [
+      3,
+      6,
+      "오늘은 맑음입니다!"
+    ],
+    [
+      6,
+      11,
+      "잠깐, 비 소식도 있어요!"
+    ],
+    [
+      12,
+      17,
+      "눈 소식이 먼저야!"
+    ],
+    [
+      18,
+      22,
+      "이번엔 바람 차례!"
+    ],
+    [
+      24,
+      28,
+      "오늘은 낮잠 자기 좋은 날"
+    ]
+  ],
+  "scene": "Weather_Short_04_v001",
+  "camera": "WS4_Camera",
+  "frames": 672,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "engine": "BLENDER_EEVEE",
+  "samples": 16,
+  "objects": 263,
+  "animated_objects": 124,
+  "source": "scenes/weather-short-04-v001.blend",
+  "bake_seconds": 11.939581400016323
+}

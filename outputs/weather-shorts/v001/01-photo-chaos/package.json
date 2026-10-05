@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "movie": "outputs/weather-shorts/v001/01-photo-chaos/01-photo-chaos.mp4",
+  "sha256": "b3620cc5363af17973c24360c0816363091a9f0d8ef9a929fec3106be6b28e7b",
+  "bytes": 2690164,
+  "captions": [
+    [
+      0,
+      3,
+      "단체사진 대소동"
+    ],
+    [
+      4,
+      7,
+      "몽실은 졸고… 또르는 숨고…"
+    ],
+    [
+      8,
+      10,
+      "하나, 둘…"
+    ],
+    [
+      11,
+      15,
+      "솔솔아! 살살 불어!"
+    ],
+    [
+      16,
+      20,
+      "찰칵!"
+    ],
+    [
+      20,
+      24,
+      "이 사진이 제일 마음에 들어!"
+    ]
+  ],
+  "font": "Windows installed Malgun Gothic, rasterized by FFmpeg; font file not redistributed.",
+  "audio": "original-score.wav",
+  "photo_snapshot_frame": 385
+}

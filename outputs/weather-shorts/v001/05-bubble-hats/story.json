@@ -1,0 +1,87 @@
+{
+  "id": 5,
+  "slug": "05-bubble-hats",
+  "title": "절대 터뜨리면 안 돼!",
+  "duration": 26,
+  "beats": [
+    2,
+    6,
+    11,
+    16,
+    19,
+    21,
+    24
+  ],
+  "sfx": [
+    [
+      3,
+      "bubble"
+    ],
+    [
+      7,
+      "whoosh"
+    ],
+    [
+      12,
+      "tick"
+    ],
+    [
+      18,
+      "snore"
+    ],
+    [
+      20,
+      "pop"
+    ],
+    [
+      23,
+      "ding"
+    ]
+  ],
+  "captions": [
+    [
+      0,
+      3,
+      "절대 터뜨리면 안 돼!"
+    ],
+    [
+      4,
+      8,
+      "솔솔아, 아주 살살!"
+    ],
+    [
+      9,
+      13,
+      "송송아, 뾰족한 곳 조심!"
+    ],
+    [
+      14,
+      17,
+      "휴… 이제 안전해."
+    ],
+    [
+      18,
+      20,
+      "몽실아, 그건 쿠션이…"
+    ],
+    [
+      21,
+      26,
+      "모자가 다섯 개 생겼네!"
+    ]
+  ],
+  "scene": "Weather_Short_05_v001",
+  "camera": "WS5_Camera",
+  "frames": 624,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "engine": "BLENDER_EEVEE",
+  "samples": 16,
+  "objects": 235,
+  "animated_objects": 71,
+  "source": "scenes/weather-short-05-v001.blend",
+  "bake_seconds": 8.42560830002185
+}

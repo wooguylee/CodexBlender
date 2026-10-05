@@ -1,0 +1,10 @@
+{
+  "same_frame_max": 0,
+  "same_frame_mean": 0.0,
+  "static_roi_max_24_frames": {
+    "top_left": 0,
+    "top_right": 0,
+    "floor_left": 0,
+    "floor_right": 0
+  }
+}

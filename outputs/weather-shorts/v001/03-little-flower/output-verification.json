@@ -1,0 +1,99 @@
+{
+  "ok": true,
+  "episode": "03-little-flower",
+  "title": "꽃 한 송이 키우기",
+  "frames": 768,
+  "duration_seconds": 32.0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "codec": "H.264 / AAC",
+  "full_decode_errors": 0,
+  "all_pngs_decoded": true,
+  "alpha_min": 255,
+  "unique_downsampled_frames": 720,
+  "static_regions": {
+    "top_left": [
+      10,
+      10,
+      130,
+      100
+    ],
+    "top_right": [
+      1790,
+      10,
+      1910,
+      100
+    ],
+    "bottom_left": [
+      10,
+      945,
+      190,
+      1070
+    ],
+    "bottom_right": [
+      1730,
+      945,
+      1910,
+      1070
+    ],
+    "bottom_middle": [
+      710,
+      1000,
+      1210,
+      1070
+    ]
+  },
+  "static_stability": {
+    "top_left": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 768
+    },
+    "top_right": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 768
+    },
+    "bottom_left": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 768
+    },
+    "bottom_right": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 768
+    },
+    "bottom_middle": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 768
+    }
+  },
+  "static_exclusion": null,
+  "adjacent_frame_mean_difference": {
+    "median": 0.06708847736625514,
+    "p95": 0.41477160493827153,
+    "maximum": 1.0627263374485596,
+    "maximum_at_frame": 650
+  },
+  "audio": {
+    "decoded_samples": 3072000,
+    "channels": 2,
+    "sample_rate": 48000,
+    "peak": 0.29901790618896484,
+    "rms": 0.022092939710066394,
+    "clipping": false
+  },
+  "source": {
+    "source": "scenes/weather-short-03-v001.blend",
+    "sha256": "f339bd587a631cf8ca2ff306e866e66ead7c02c5a71c3d1264aad64973e59382"
+  },
+  "movie_sha256": "9a02d3341cdd3cf8993448c7ceeaef9465e3bf207c5cfd5842196f49f0e12355",
+  "movie_bytes": 2624034,
+  "verification_seconds": 34.4,
+  "limits": "Metrics verify files, movement and stable regions; visual beat/contact review is recorded separately. Other GPUs/OS not tested."
+}

@@ -1,0 +1,91 @@
+{
+  "id": 1,
+  "slug": "01-photo-chaos",
+  "title": "단체사진 대소동",
+  "duration": 24,
+  "beats": [
+    1,
+    5,
+    9,
+    12,
+    16,
+    18,
+    22
+  ],
+  "sfx": [
+    [
+      3,
+      "ding"
+    ],
+    [
+      8,
+      "tick"
+    ],
+    [
+      9,
+      "tick"
+    ],
+    [
+      10,
+      "whoosh"
+    ],
+    [
+      13,
+      "boing"
+    ],
+    [
+      16,
+      "camera"
+    ],
+    [
+      21,
+      "ding"
+    ]
+  ],
+  "captions": [
+    [
+      0,
+      3,
+      "단체사진 대소동"
+    ],
+    [
+      4,
+      7,
+      "몽실은 졸고… 또르는 숨고…"
+    ],
+    [
+      8,
+      10,
+      "하나, 둘…"
+    ],
+    [
+      11,
+      15,
+      "솔솔아! 살살 불어!"
+    ],
+    [
+      16,
+      20,
+      "찰칵!"
+    ],
+    [
+      20,
+      24,
+      "이 사진이 제일 마음에 들어!"
+    ]
+  ],
+  "scene": "Weather_Short_01_v001",
+  "camera": "WS1_Camera",
+  "frames": 576,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "engine": "BLENDER_EEVEE",
+  "samples": 16,
+  "objects": 188,
+  "animated_objects": 50,
+  "source": "scenes/weather-short-01-v001.blend",
+  "bake_seconds": 3.047775399987586
+}

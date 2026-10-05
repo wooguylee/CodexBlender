@@ -1,0 +1,96 @@
+{
+  "id": 3,
+  "slug": "03-little-flower",
+  "title": "꽃 한 송이 키우기",
+  "duration": 32,
+  "beats": [
+    2,
+    7,
+    12,
+    17,
+    23,
+    27,
+    30
+  ],
+  "sfx": [
+    [
+      3,
+      "ding"
+    ],
+    [
+      7,
+      "heat"
+    ],
+    [
+      11,
+      "rain"
+    ],
+    [
+      16,
+      "ice"
+    ],
+    [
+      23,
+      "ding"
+    ],
+    [
+      27,
+      "sneeze"
+    ],
+    [
+      28,
+      "pop"
+    ]
+  ],
+  "captions": [
+    [
+      0,
+      3,
+      "꽃 한 송이 키우기"
+    ],
+    [
+      5,
+      9,
+      "햇살이 너무 뜨거워!"
+    ],
+    [
+      10,
+      14,
+      "물도 너무 많아!"
+    ],
+    [
+      15,
+      19,
+      "앗, 얼어 버렸어!"
+    ],
+    [
+      20,
+      25,
+      "이번에는 조금씩, 함께!"
+    ],
+    [
+      26,
+      29,
+      "꽃도 재채기를 한다고?"
+    ],
+    [
+      29,
+      32,
+      "오늘의 색깔은… 꽃가루 노랑!"
+    ]
+  ],
+  "scene": "Weather_Short_03_v001",
+  "camera": "WS3_Camera",
+  "frames": 768,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "engine": "BLENDER_EEVEE",
+  "samples": 16,
+  "objects": 292,
+  "animated_objects": 141,
+  "source": "scenes/weather-short-03-v001.blend",
+  "bake_seconds": 14.503875499998685
+}

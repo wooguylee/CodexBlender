@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "movie": "outputs/weather-shorts/v001/03-little-flower/03-little-flower.mp4",
+  "sha256": "9a02d3341cdd3cf8993448c7ceeaef9465e3bf207c5cfd5842196f49f0e12355",
+  "bytes": 2624034,
+  "captions": [
+    [
+      0,
+      3,
+      "꽃 한 송이 키우기"
+    ],
+    [
+      5,
+      9,
+      "햇살이 너무 뜨거워!"
+    ],
+    [
+      10,
+      14,
+      "물도 너무 많아!"
+    ],
+    [
+      15,
+      19,
+      "앗, 얼어 버렸어!"
+    ],
+    [
+      20,
+      25,
+      "이번에는 조금씩, 함께!"
+    ],
+    [
+      26,
+      29,
+      "꽃도 재채기를 한다고?"
+    ],
+    [
+      29,
+      32,
+      "오늘의 색깔은… 꽃가루 노랑!"
+    ]
+  ],
+  "font": "Windows installed Malgun Gothic, rasterized by FFmpeg; font file not redistributed.",
+  "audio": "original-score.wav",
+  "photo_snapshot_frame": null
+}

@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "changed": [
+    "WS5_BigBubble_Rim0",
+    "WS5_BigBubble_Rim1",
+    "WS5_BigBubble_Rim2",
+    "WS5_BubbleHat0_Rim0",
+    "WS5_BubbleHat0_Rim1",
+    "WS5_BubbleHat0_Rim2",
+    "WS5_BubbleHat1_Rim0",
+    "WS5_BubbleHat1_Rim1",
+    "WS5_BubbleHat1_Rim2",
+    "WS5_BubbleHat2_Rim0",
+    "WS5_BubbleHat2_Rim1",
+    "WS5_BubbleHat2_Rim2",
+    "WS5_BubbleHat3_Rim0",
+    "WS5_BubbleHat3_Rim1",
+    "WS5_BubbleHat3_Rim2",
+    "WS5_BubbleHat4_Rim0",
+    "WS5_BubbleHat4_Rim1",
+    "WS5_BubbleHat4_Rim2"
+  ],
+  "reason": "Improve bubble rim visibility in wide framing."
+}

@@ -1,0 +1,497 @@
+{
+  "ok": true,
+  "episodes": [
+    {
+      "id": 1,
+      "slug": "01-photo-chaos",
+      "title": "단체사진 대소동",
+      "duration": 24,
+      "beats": [
+        1,
+        5,
+        9,
+        12,
+        16,
+        18,
+        22
+      ],
+      "sfx": [
+        [
+          3,
+          "ding"
+        ],
+        [
+          8,
+          "tick"
+        ],
+        [
+          9,
+          "tick"
+        ],
+        [
+          10,
+          "whoosh"
+        ],
+        [
+          13,
+          "boing"
+        ],
+        [
+          16,
+          "camera"
+        ],
+        [
+          21,
+          "ding"
+        ]
+      ],
+      "captions": [
+        [
+          0,
+          3,
+          "단체사진 대소동"
+        ],
+        [
+          4,
+          7,
+          "몽실은 졸고… 또르는 숨고…"
+        ],
+        [
+          8,
+          10,
+          "하나, 둘…"
+        ],
+        [
+          11,
+          15,
+          "솔솔아! 살살 불어!"
+        ],
+        [
+          16,
+          20,
+          "찰칵!"
+        ],
+        [
+          20,
+          24,
+          "이 사진이 제일 마음에 들어!"
+        ]
+      ],
+      "scene": "Weather_Short_01_v001",
+      "camera": "WS1_Camera",
+      "frames": 576,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "engine": "BLENDER_EEVEE",
+      "samples": 16,
+      "objects": 188,
+      "animated_objects": 50,
+      "source": "scenes/weather-short-01-v001.blend",
+      "bake_seconds": 3.047775399987586
+    },
+    {
+      "id": 2,
+      "slug": "02-star-pillow",
+      "title": "몽실의 별 쿠션을 잡아라",
+      "duration": 30,
+      "beats": [
+        2,
+        5,
+        9,
+        15,
+        19,
+        24,
+        28
+      ],
+      "sfx": [
+        [
+          4,
+          "sneeze"
+        ],
+        [
+          5,
+          "whoosh"
+        ],
+        [
+          9,
+          "boing"
+        ],
+        [
+          13,
+          "ice"
+        ],
+        [
+          16,
+          "slide"
+        ],
+        [
+          20,
+          "pop"
+        ],
+        [
+          25,
+          "ding"
+        ]
+      ],
+      "captions": [
+        [
+          0,
+          3,
+          "몽실의 별 쿠션을 잡아라"
+        ],
+        [
+          4,
+          7,
+          "에… 에취!"
+        ],
+        [
+          8,
+          12,
+          "해롱! 조금만 더 높이!"
+        ],
+        [
+          13,
+          18,
+          "얼음길은 너무 미끄러워!"
+        ],
+        [
+          19,
+          23,
+          "별 쿠션, 돌아오는 중…"
+        ],
+        [
+          25,
+          30,
+          "몽실은 아무것도 몰랐대요."
+        ]
+      ],
+      "scene": "Weather_Short_02_v001",
+      "camera": "WS2_Camera",
+      "frames": 720,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "engine": "BLENDER_EEVEE",
+      "samples": 16,
+      "objects": 194,
+      "animated_objects": 61,
+      "source": "scenes/weather-short-02-v001.blend",
+      "bake_seconds": 5.433434699953068
+    },
+    {
+      "id": 3,
+      "slug": "03-little-flower",
+      "title": "꽃 한 송이 키우기",
+      "duration": 32,
+      "beats": [
+        2,
+        7,
+        12,
+        17,
+        23,
+        27,
+        30
+      ],
+      "sfx": [
+        [
+          3,
+          "ding"
+        ],
+        [
+          7,
+          "heat"
+        ],
+        [
+          11,
+          "rain"
+        ],
+        [
+          16,
+          "ice"
+        ],
+        [
+          23,
+          "ding"
+        ],
+        [
+          27,
+          "sneeze"
+        ],
+        [
+          28,
+          "pop"
+        ]
+      ],
+      "captions": [
+        [
+          0,
+          3,
+          "꽃 한 송이 키우기"
+        ],
+        [
+          5,
+          9,
+          "햇살이 너무 뜨거워!"
+        ],
+        [
+          10,
+          14,
+          "물도 너무 많아!"
+        ],
+        [
+          15,
+          19,
+          "앗, 얼어 버렸어!"
+        ],
+        [
+          20,
+          25,
+          "이번에는 조금씩, 함께!"
+        ],
+        [
+          26,
+          29,
+          "꽃도 재채기를 한다고?"
+        ],
+        [
+          29,
+          32,
+          "오늘의 색깔은… 꽃가루 노랑!"
+        ]
+      ],
+      "scene": "Weather_Short_03_v001",
+      "camera": "WS3_Camera",
+      "frames": 768,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "engine": "BLENDER_EEVEE",
+      "samples": 16,
+      "objects": 292,
+      "animated_objects": 141,
+      "source": "scenes/weather-short-03-v001.blend",
+      "bake_seconds": 14.503875499998685
+    },
+    {
+      "id": 4,
+      "slug": "04-weather-report",
+      "title": "오늘의 날씨는 누구?",
+      "duration": 28,
+      "beats": [
+        2,
+        8,
+        14,
+        20,
+        24,
+        26
+      ],
+      "sfx": [
+        [
+          1,
+          "ding"
+        ],
+        [
+          6,
+          "rain"
+        ],
+        [
+          12,
+          "ice"
+        ],
+        [
+          18,
+          "whoosh"
+        ],
+        [
+          22,
+          "boing"
+        ],
+        [
+          25,
+          "snore"
+        ]
+      ],
+      "captions": [
+        [
+          0,
+          3,
+          "오늘의 날씨는 누구?"
+        ],
+        [
+          3,
+          6,
+          "오늘은 맑음입니다!"
+        ],
+        [
+          6,
+          11,
+          "잠깐, 비 소식도 있어요!"
+        ],
+        [
+          12,
+          17,
+          "눈 소식이 먼저야!"
+        ],
+        [
+          18,
+          22,
+          "이번엔 바람 차례!"
+        ],
+        [
+          24,
+          28,
+          "오늘은 낮잠 자기 좋은 날"
+        ]
+      ],
+      "scene": "Weather_Short_04_v001",
+      "camera": "WS4_Camera",
+      "frames": 672,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "engine": "BLENDER_EEVEE",
+      "samples": 16,
+      "objects": 263,
+      "animated_objects": 124,
+      "source": "scenes/weather-short-04-v001.blend",
+      "bake_seconds": 11.939581400016323
+    },
+    {
+      "id": 5,
+      "slug": "05-bubble-hats",
+      "title": "절대 터뜨리면 안 돼!",
+      "duration": 26,
+      "beats": [
+        2,
+        6,
+        11,
+        16,
+        19,
+        21,
+        24
+      ],
+      "sfx": [
+        [
+          3,
+          "bubble"
+        ],
+        [
+          7,
+          "whoosh"
+        ],
+        [
+          12,
+          "tick"
+        ],
+        [
+          18,
+          "snore"
+        ],
+        [
+          20,
+          "pop"
+        ],
+        [
+          23,
+          "ding"
+        ]
+      ],
+      "captions": [
+        [
+          0,
+          3,
+          "절대 터뜨리면 안 돼!"
+        ],
+        [
+          4,
+          8,
+          "솔솔아, 아주 살살!"
+        ],
+        [
+          9,
+          13,
+          "송송아, 뾰족한 곳 조심!"
+        ],
+        [
+          14,
+          17,
+          "휴… 이제 안전해."
+        ],
+        [
+          18,
+          20,
+          "몽실아, 그건 쿠션이…"
+        ],
+        [
+          21,
+          26,
+          "모자가 다섯 개 생겼네!"
+        ]
+      ],
+      "scene": "Weather_Short_05_v001",
+      "camera": "WS5_Camera",
+      "frames": 624,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "engine": "BLENDER_EEVEE",
+      "samples": 16,
+      "objects": 235,
+      "animated_objects": 71,
+      "source": "scenes/weather-short-05-v001.blend",
+      "bake_seconds": 8.42560830002185
+    }
+  ],
+  "existing_source_sha256": {
+    "scenes/autumn-cafe-v001.blend": "c2a40bea30973e6f6248dbae86847d5dbed4701ce03c7980e4e9c2d0af8cb2c2",
+    "scenes/cozy-neon-rain-v001.blend": "567d5290e5b0f73460687528de24693ff24db4e401993218c518613a38238c1b",
+    "scenes/cozy-neon-rain-v002.blend": "004d3e797f8fbfd9e9ff1d1f48112dc4604758f6973654db0ece9d4548ea1925",
+    "scenes/rainy-cafe-v001.blend": "2c5c8fa9e51911be144a6d943155e4792ff649890e94a67859ff1ea239fa3c4c",
+    "scenes/rainy-cafe-v002.blend": "80013f6a26e41e75b102c044803b59fef897b5d4987338badb98e51367f13190",
+    "scenes/thegachi-house-person-v004-final.blend": "aa361a5928bce907e73e37b25d1647bab5e144fbfe4b9267dc718a5ab9e3e572",
+    "scenes/thegachi-house-person-v004-reviewed.blend": "c9f798bccc5712d4cdfad8eaabbd8968d837f175158b38ecc98ad83335e1e0a6",
+    "scenes/thegachi-house-person-v004.blend": "bcc738980b87f04f2e12c50827dd9790a9e57352c61b0de017f963f7d1048dc6",
+    "scenes/thegachi-opening-v001.blend": "35f508b1ef0804d427c15cf003316c864d551d552a0efc75ed606e56b13aaac5",
+    "scenes/thegachi-opening-v002.blend": "6c9c245adba855d49bc153067d5ef0662b5d412bd17d5d03e2ef8f11a8bb293f",
+    "scenes/thegachi-opening-v003.blend": "fa06e07ce1e1c43c15cb85677100cf41239b55c28e7901e8f8e2f20020e95464",
+    "scenes/thegachi-opening-v005.blend": "dc25516beca2820d0cf96f711ab409492be19d5b14c9f52d89498e1675425f95",
+    "scenes/thegachi-opening-v006.blend": "bf01c8489edad6356c1269587acba62e41d8145bdc56bb9f0a09c644af4073bf",
+    "scenes/thegachi-opening-v007.blend": "f90b861839604763fa3416cc185532fac6c07fc4acaf366f656b09c665fc25be",
+    "scenes/vvoori-cafe-v001.blend": "9488ad67b9ba8d97bfbb08a6ccea4fa09d49eb9ce01d9e8ad38685275204dd40",
+    "scenes/vvoori-cafe-v002.blend": "1fb2c1fe6734a09a1e13973625a8c51c92beb3c734ff5a16d60a45313e9a3cd8",
+    "scenes/vvoori-cafe-v003.blend": "f11e6ca8af5f6002ad100a780e79277933ba5aa6a087205c81b53328296cb9fb",
+    "scenes/vvoori-cafe-v004.blend": "c59ecf024a5914e591f152c7dfcf1dbbb565d2743331a2cac4d12924315bd79f",
+    "scenes/vvoori-cafe-v005.blend": "3ab0bf43466d456685d29364f1bb8335a024b64b4394d2c901144f5be260e008",
+    "scenes/vvoori-cafe-winter-v001.blend": "0f8329032517a93fc636da592b3409acff6d485bd35a0c60e3ab96f2c32b8038",
+    "scenes/weather-fairies-v001.blend": "f4a7a118cfa39283a42899ce732921af351bcfcb93b6c4bb86aa9b8863f97c87",
+    "scenes/weather-fairies-v002.blend": "f6664d4462522a2dbee0ac84f189afd7877ea584bb0825847d9e92bd951bd1a0"
+  },
+  "preserved_scenes": [
+    "Autumn_Cafe_v001",
+    "Cozy_Neon_Rain_v002",
+    "Rainy_Cafe_v001",
+    "Rainy_Cafe_v002",
+    "Scene",
+    "Thegachi_Opening_v003",
+    "Thegachi_Opening_v007",
+    "Vvoori_Cafe_v001",
+    "Vvoori_Cafe_v002",
+    "Vvoori_Cafe_v003",
+    "Vvoori_Cafe_v004",
+    "Vvoori_Cafe_v005",
+    "Vvoori_Cafe_Winter_v001",
+    "Weather_Fairies_v001",
+    "Weather_Fairies_v002"
+  ]
+}

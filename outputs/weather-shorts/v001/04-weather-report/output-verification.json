@@ -1,0 +1,99 @@
+{
+  "ok": true,
+  "episode": "04-weather-report",
+  "title": "오늘의 날씨는 누구?",
+  "frames": 672,
+  "duration_seconds": 28.0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "codec": "H.264 / AAC",
+  "full_decode_errors": 0,
+  "all_pngs_decoded": true,
+  "alpha_min": 255,
+  "unique_downsampled_frames": 672,
+  "static_regions": {
+    "top_left": [
+      10,
+      10,
+      130,
+      100
+    ],
+    "top_right": [
+      1790,
+      10,
+      1910,
+      100
+    ],
+    "bottom_left": [
+      10,
+      945,
+      190,
+      1070
+    ],
+    "bottom_right": [
+      1730,
+      945,
+      1910,
+      1070
+    ],
+    "bottom_middle": [
+      710,
+      1000,
+      1210,
+      1070
+    ]
+  },
+  "static_stability": {
+    "top_left": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 552
+    },
+    "top_right": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 552
+    },
+    "bottom_left": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 552
+    },
+    "bottom_right": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 552
+    },
+    "bottom_middle": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 552
+    }
+  },
+  "static_exclusion": "Episode 4 after 23 s intentionally becomes a cloud closeup.",
+  "adjacent_frame_mean_difference": {
+    "median": 0.24289094650205761,
+    "p95": 1.131522633744856,
+    "maximum": 1.8633641975308641,
+    "maximum_at_frame": 587
+  },
+  "audio": {
+    "decoded_samples": 2689024,
+    "channels": 2,
+    "sample_rate": 48000,
+    "peak": 0.27249959111213684,
+    "rms": 0.02350862031606194,
+    "clipping": false
+  },
+  "source": {
+    "source": "scenes/weather-short-04-v001.blend",
+    "sha256": "3681f3bf2792cfc24ff6538533b319031ee318a45d28d124a645f7c98f014062"
+  },
+  "movie_sha256": "a30fc67766feac9416ace4102671058d02358af88f127b285e79ad5acefbb61c",
+  "movie_bytes": 3969845,
+  "verification_seconds": 25.86,
+  "limits": "Metrics verify files, movement and stable regions; visual beat/contact review is recorded separately. Other GPUs/OS not tested."
+}

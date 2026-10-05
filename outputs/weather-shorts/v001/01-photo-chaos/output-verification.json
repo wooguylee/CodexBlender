@@ -1,0 +1,99 @@
+{
+  "ok": true,
+  "episode": "01-photo-chaos",
+  "title": "단체사진 대소동",
+  "frames": 576,
+  "duration_seconds": 24.0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "codec": "H.264 / AAC",
+  "full_decode_errors": 0,
+  "all_pngs_decoded": true,
+  "alpha_min": 255,
+  "unique_downsampled_frames": 576,
+  "static_regions": {
+    "top_left": [
+      10,
+      10,
+      130,
+      100
+    ],
+    "top_right": [
+      1790,
+      10,
+      1910,
+      100
+    ],
+    "bottom_left": [
+      10,
+      945,
+      190,
+      1070
+    ],
+    "bottom_right": [
+      1730,
+      945,
+      1910,
+      1070
+    ],
+    "bottom_middle": [
+      710,
+      1000,
+      1210,
+      1070
+    ]
+  },
+  "static_stability": {
+    "top_left": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 576
+    },
+    "top_right": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 576
+    },
+    "bottom_left": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 576
+    },
+    "bottom_right": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 576
+    },
+    "bottom_middle": {
+      "max_channel_delta": 0,
+      "changed_samples": 0,
+      "frames_checked": 576
+    }
+  },
+  "static_exclusion": null,
+  "adjacent_frame_mean_difference": {
+    "median": 0.1658230452674897,
+    "p95": 1.1064537037037037,
+    "maximum": 1.5985390946502058,
+    "maximum_at_frame": 505
+  },
+  "audio": {
+    "decoded_samples": 2304000,
+    "channels": 2,
+    "sample_rate": 48000,
+    "peak": 0.2841869592666626,
+    "rms": 0.02379103618665902,
+    "clipping": false
+  },
+  "source": {
+    "source": "scenes/weather-short-01-v001.blend",
+    "sha256": "8f0e0aded0ae62d9d9646044649a3d2ed83ca6ae51a2525a4a19d8cb0c57bfd7"
+  },
+  "movie_sha256": "b3620cc5363af17973c24360c0816363091a9f0d8ef9a929fec3106be6b28e7b",
+  "movie_bytes": 2690164,
+  "verification_seconds": 22.87,
+  "limits": "Metrics verify files, movement and stable regions; visual beat/contact review is recorded separately. Other GPUs/OS not tested."
+}

@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "movie": "outputs/weather-shorts/v001/05-bubble-hats/05-bubble-hats.mp4",
+  "sha256": "13ed36a6b5778edd1c1edf7da53c6dd3e5b93b2ad3dcfb37c1e59396c335da23",
+  "bytes": 1938699,
+  "captions": [
+    [
+      0,
+      3,
+      "절대 터뜨리면 안 돼!"
+    ],
+    [
+      4,
+      8,
+      "솔솔아, 아주 살살!"
+    ],
+    [
+      9,
+      13,
+      "송송아, 뾰족한 곳 조심!"
+    ],
+    [
+      14,
+      17,
+      "휴… 이제 안전해."
+    ],
+    [
+      18,
+      20,
+      "몽실아, 그건 쿠션이…"
+    ],
+    [
+      21,
+      26,
+      "모자가 다섯 개 생겼네!"
+    ]
+  ],
+  "font": "Windows installed Malgun Gothic, rasterized by FFmpeg; font file not redistributed.",
+  "audio": "original-score.wav",
+  "photo_snapshot_frame": null
+}
