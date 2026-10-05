@@ -1,0 +1,98 @@
+{
+  "ok": true,
+  "frames": 384,
+  "duration_seconds": 16,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "audio": "none",
+  "all_pngs_decoded": true,
+  "alpha_min": 255,
+  "full_mp4_decode_errors": 0,
+  "unique_downsampled_frames": 296,
+  "static_regions": {
+    "top_left": [
+      10,
+      10,
+      140,
+      130
+    ],
+    "top_right": [
+      1780,
+      10,
+      1910,
+      130
+    ],
+    "bottom_left": [
+      10,
+      930,
+      180,
+      1070
+    ],
+    "bottom_right": [
+      1740,
+      930,
+      1910,
+      1070
+    ],
+    "bottom_middle": [
+      750,
+      1000,
+      1170,
+      1070
+    ]
+  },
+  "static_max_channel_delta": {
+    "top_left": 0,
+    "top_right": 0,
+    "bottom_left": 0,
+    "bottom_right": 0,
+    "bottom_middle": 0
+  },
+  "adjacent_frame_max_mean_difference": 0.5354218106995885,
+  "neutral_source_unchanged": true,
+  "preserved_files": [
+    "scenes/autumn-cafe-v001.blend",
+    "scenes/cozy-neon-rain-v001.blend",
+    "scenes/cozy-neon-rain-v002.blend",
+    "scenes/rainy-cafe-v001.blend",
+    "scenes/rainy-cafe-v002.blend",
+    "scenes/thegachi-house-person-v004-final.blend",
+    "scenes/thegachi-house-person-v004-reviewed.blend",
+    "scenes/thegachi-house-person-v004.blend",
+    "scenes/thegachi-opening-v001.blend",
+    "scenes/thegachi-opening-v002.blend",
+    "scenes/thegachi-opening-v003.blend",
+    "scenes/thegachi-opening-v005.blend",
+    "scenes/thegachi-opening-v006.blend",
+    "scenes/thegachi-opening-v007.blend",
+    "scenes/vvoori-cafe-v001.blend",
+    "scenes/vvoori-cafe-v002.blend",
+    "scenes/vvoori-cafe-v003.blend",
+    "scenes/vvoori-cafe-v004.blend",
+    "scenes/vvoori-cafe-v005.blend",
+    "scenes/vvoori-cafe-winter-v001.blend",
+    "scenes/weather-fairies-v001.blend",
+    "scenes/weather-fairies-v002.blend",
+    "scenes/weather-short-01-v001.blend",
+    "scenes/weather-short-02-v001.blend",
+    "scenes/weather-short-03-v001.blend",
+    "scenes/weather-short-04-v001.blend",
+    "scenes/weather-short-05-v001.blend",
+    "outputs/weather-shorts/v001/weather-fairies-five-stories.mp4",
+    "outputs/weather-shorts/v001/01-photo-chaos/01-photo-chaos.mp4",
+    "outputs/weather-shorts/v001/02-star-pillow/02-star-pillow.mp4",
+    "outputs/weather-shorts/v001/03-little-flower/03-little-flower.mp4",
+    "outputs/weather-shorts/v001/04-weather-report/04-weather-report.mp4",
+    "outputs/weather-shorts/v001/05-bubble-hats/05-bubble-hats.mp4"
+  ],
+  "unchanged_file_count": 33,
+  "prior_committed_assets_checked": 72,
+  "movie_sha256": "2cd58aec0280388395a677ba10f968bef794b6ed36bcdc355cb9b6ff037d1941",
+  "native_source_sha256": "eeee8906e8dc17fe4a5e2faa509035b203e2255205b6fde98f01f22f5f594cbe",
+  "demo_source_sha256": "d680f1df1e97e628b06aa6000b0469642751fcdfc8393d749b4dd7e06097daaa",
+  "visual_review": "See final-delivery.json for the direct review of these outputs.",
+  "scope": "Windows / Blender 5.2.1 LTS / RTX 3090. Metrics do not substitute for visual checks."
+}

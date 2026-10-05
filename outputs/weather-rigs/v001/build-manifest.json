@@ -1,0 +1,991 @@
+{
+  "ok": true,
+  "source": "scenes/weather-rigs-v001.blend",
+  "scene": "Weather_Rigs_v001",
+  "camera": "WR1_Camera",
+  "characters": [
+    {
+      "name": "Mongsil",
+      "ko": "몽실",
+      "armature": "WR1_Mongsil_RIG",
+      "bones": 24,
+      "controls": [
+        "CTRL_Root",
+        "CTRL_Body",
+        "CTRL_Hand.L",
+        "CTRL_Hand.R",
+        "CTRL_Cushion",
+        "CTRL_Face",
+        "CTRL_Extras",
+        "CTRL_Foot.L",
+        "CTRL_Foot.R"
+      ],
+      "meshes": 23,
+      "shape_keys": 9,
+      "properties": {
+        "CTRL_Root": {},
+        "CTRL_Body": {
+          "squash": 0.0
+        },
+        "DEF_Body": {},
+        "DEF_UpperArm.L": {},
+        "DEF_Forearm.L": {},
+        "DEF_Hand.L": {},
+        "MCH_HandSpace.L": {},
+        "CTRL_Hand.L": {},
+        "DEF_Thigh.L": {},
+        "DEF_Shin.L": {},
+        "DEF_Foot.L": {},
+        "DEF_UpperArm.R": {},
+        "DEF_Forearm.R": {},
+        "DEF_Hand.R": {},
+        "MCH_HandSpace.R": {},
+        "CTRL_Hand.R": {},
+        "DEF_Thigh.R": {},
+        "DEF_Shin.R": {},
+        "DEF_Foot.R": {},
+        "CTRL_Cushion": {},
+        "CTRL_Face": {
+          "blink": 0.0,
+          "smile": 0.0,
+          "surprise": 0.0,
+          "awake": 0.0
+        },
+        "CTRL_Extras": {
+          "breath": 0.0,
+          "hug": 1.0
+        },
+        "CTRL_Foot.L": {},
+        "CTRL_Foot.R": {}
+      },
+      "skinned_meshes": 23,
+      "bindings": {
+        "WR1_Mongsil_CloudBody": [
+          "DEF_Body"
+        ],
+        "WR1_Mongsil_SleepingEye": [
+          "DEF_Body"
+        ],
+        "WR1_Mongsil_Blush": [
+          "DEF_Body"
+        ],
+        "WR1_Mongsil_SleepingEye.001": [
+          "DEF_Body"
+        ],
+        "WR1_Mongsil_Blush.001": [
+          "DEF_Body"
+        ],
+        "WR1_Mongsil_TinyMouth": [
+          "DEF_Body"
+        ],
+        "WR1_Mongsil_DanglingLeg": [
+          "DEF_Shin.L",
+          "DEF_Thigh.L"
+        ],
+        "WR1_Mongsil_LilacSlipper": [
+          "DEF_Foot.L"
+        ],
+        "WR1_Mongsil_SlipperSeam": [
+          "DEF_Foot.L"
+        ],
+        "WR1_Mongsil_DanglingLeg.001": [
+          "DEF_Shin.R",
+          "DEF_Thigh.R"
+        ],
+        "WR1_Mongsil_LilacSlipper.001": [
+          "DEF_Foot.R"
+        ],
+        "WR1_Mongsil_SlipperSeam.001": [
+          "DEF_Foot.R"
+        ],
+        "WR1_Mongsil_HuggedStar": [
+          "CTRL_Cushion"
+        ],
+        "WR1_Mongsil_LeftHug": [
+          "DEF_Forearm.L",
+          "DEF_UpperArm.L"
+        ],
+        "WR1_Mongsil_RightHug": [
+          "DEF_Forearm.R",
+          "DEF_UpperArm.R"
+        ],
+        "WR1_Mongsil_LeftMitten": [
+          "DEF_Hand.L"
+        ],
+        "WR1_Mongsil_RightMitten": [
+          "DEF_Hand.R"
+        ],
+        "WR1_Mongsil_SleepTuftBase": [
+          "DEF_Body"
+        ],
+        "WR1_Mongsil_SleepTuftTip": [
+          "DEF_Body"
+        ],
+        "WR1_Mongsil_Pompom": [
+          "DEF_Body"
+        ],
+        "WR1_Mongsil_AwakeEye_SleepingEye": [
+          "DEF_Body"
+        ],
+        "WR1_Mongsil_AwakeEye_SleepingEye.001": [
+          "DEF_Body"
+        ],
+        "WR1_Mongsil_SurprisedMouth": [
+          "DEF_Body"
+        ]
+      }
+    },
+    {
+      "name": "Haerong",
+      "ko": "해롱",
+      "armature": "WR1_Haerong_RIG",
+      "bones": 35,
+      "controls": [
+        "CTRL_Root",
+        "CTRL_Body",
+        "CTRL_Hand.L",
+        "CTRL_Hand.R",
+        "CTRL_Face",
+        "CTRL_Extras",
+        "CTRL_Foot.L",
+        "CTRL_Foot.R"
+      ],
+      "meshes": 34,
+      "shape_keys": 11,
+      "properties": {
+        "CTRL_Root": {},
+        "CTRL_Body": {
+          "squash": 0.0
+        },
+        "DEF_Body": {},
+        "DEF_UpperArm.L": {},
+        "DEF_Forearm.L": {},
+        "DEF_Hand.L": {},
+        "MCH_HandSpace.L": {},
+        "CTRL_Hand.L": {},
+        "DEF_Thigh.L": {},
+        "DEF_Shin.L": {},
+        "DEF_Foot.L": {},
+        "DEF_UpperArm.R": {},
+        "DEF_Forearm.R": {},
+        "DEF_Hand.R": {},
+        "MCH_HandSpace.R": {},
+        "CTRL_Hand.R": {},
+        "DEF_Thigh.R": {},
+        "DEF_Shin.R": {},
+        "DEF_Foot.R": {},
+        "DEF_Ray_00": {},
+        "DEF_Ray_01": {},
+        "DEF_Ray_02": {},
+        "DEF_Ray_03": {},
+        "DEF_Ray_04": {},
+        "DEF_Ray_05": {},
+        "DEF_Ray_06": {},
+        "DEF_Ray_07": {},
+        "DEF_Ray_08": {},
+        "DEF_Ray_09": {},
+        "DEF_Ray_10": {},
+        "DEF_Ray_11": {},
+        "CTRL_Face": {
+          "blink": 0.0,
+          "smile": 0.0,
+          "surprise": 0.0,
+          "awake": 0.0
+        },
+        "CTRL_Extras": {
+          "ray_sway": 0.0,
+          "ray_phase": 0.0,
+          "ray_spread": 0.0
+        },
+        "CTRL_Foot.L": {},
+        "CTRL_Foot.R": {}
+      },
+      "skinned_meshes": 34,
+      "bindings": {
+        "WR1_Haerong_Ray_00": [
+          "DEF_Ray_00"
+        ],
+        "WR1_Haerong_Ray_01": [
+          "DEF_Ray_01"
+        ],
+        "WR1_Haerong_Ray_02": [
+          "DEF_Ray_02"
+        ],
+        "WR1_Haerong_Ray_03": [
+          "DEF_Ray_03"
+        ],
+        "WR1_Haerong_Ray_04": [
+          "DEF_Ray_04"
+        ],
+        "WR1_Haerong_Ray_05": [
+          "DEF_Ray_05"
+        ],
+        "WR1_Haerong_Ray_06": [
+          "DEF_Ray_06"
+        ],
+        "WR1_Haerong_Ray_07": [
+          "DEF_Ray_07"
+        ],
+        "WR1_Haerong_Ray_08": [
+          "DEF_Ray_08"
+        ],
+        "WR1_Haerong_Ray_09": [
+          "DEF_Ray_09"
+        ],
+        "WR1_Haerong_Ray_10": [
+          "DEF_Ray_10"
+        ],
+        "WR1_Haerong_Ray_11": [
+          "DEF_Ray_11"
+        ],
+        "WR1_Haerong_SunBody": [
+          "DEF_Body"
+        ],
+        "WR1_Haerong_BrightEye": [
+          "DEF_Body"
+        ],
+        "WR1_Haerong_EyeGlint": [
+          "DEF_Body"
+        ],
+        "WR1_Haerong_Brow": [
+          "DEF_Body"
+        ],
+        "WR1_Haerong_Blush": [
+          "DEF_Body"
+        ],
+        "WR1_Haerong_BrightEye.001": [
+          "DEF_Body"
+        ],
+        "WR1_Haerong_EyeGlint.001": [
+          "DEF_Body"
+        ],
+        "WR1_Haerong_Brow.001": [
+          "DEF_Body"
+        ],
+        "WR1_Haerong_Blush.001": [
+          "DEF_Body"
+        ],
+        "WR1_Haerong_Tongue": [
+          "DEF_Body"
+        ],
+        "WR1_Haerong_Leg": [
+          "DEF_Shin.L",
+          "DEF_Thigh.L"
+        ],
+        "WR1_Haerong_LittleShoe": [
+          "DEF_Foot.L"
+        ],
+        "WR1_Haerong_Leg.001": [
+          "DEF_Shin.R",
+          "DEF_Thigh.R"
+        ],
+        "WR1_Haerong_LittleShoe.001": [
+          "DEF_Foot.R"
+        ],
+        "WR1_Haerong_RestingArm": [
+          "DEF_Forearm.L",
+          "DEF_UpperArm.L"
+        ],
+        "WR1_Haerong_RestingHand": [
+          "DEF_Hand.L"
+        ],
+        "WR1_Haerong_WavingArm": [
+          "DEF_Forearm.R",
+          "DEF_UpperArm.R"
+        ],
+        "WR1_Haerong_WavingPalm": [
+          "DEF_Hand.R"
+        ],
+        "WR1_Haerong_WavingThumb": [
+          "DEF_Hand.R"
+        ],
+        "WR1_Haerong_PalmCrease": [
+          "DEF_Hand.R"
+        ],
+        "WR1_Haerong_OpenSmile": [
+          "DEF_Body"
+        ],
+        "WR1_Haerong_SurprisedMouth": [
+          "DEF_Body"
+        ]
+      }
+    },
+    {
+      "name": "Ttorr",
+      "ko": "또르",
+      "armature": "WR1_Ttorr_RIG",
+      "bones": 23,
+      "controls": [
+        "CTRL_Root",
+        "CTRL_Body",
+        "CTRL_Hand.L",
+        "CTRL_Hand.R",
+        "CTRL_Face",
+        "CTRL_Extras",
+        "CTRL_Foot.L",
+        "CTRL_Foot.R"
+      ],
+      "meshes": 23,
+      "shape_keys": 12,
+      "properties": {
+        "CTRL_Root": {},
+        "CTRL_Body": {
+          "squash": 0.0
+        },
+        "DEF_Body": {},
+        "DEF_UpperArm.L": {},
+        "DEF_Forearm.L": {},
+        "DEF_Hand.L": {},
+        "MCH_HandSpace.L": {},
+        "CTRL_Hand.L": {},
+        "DEF_Thigh.L": {},
+        "DEF_Shin.L": {},
+        "DEF_Foot.L": {},
+        "DEF_UpperArm.R": {},
+        "DEF_Forearm.R": {},
+        "DEF_Hand.R": {},
+        "MCH_HandSpace.R": {},
+        "CTRL_Hand.R": {},
+        "DEF_Thigh.R": {},
+        "DEF_Shin.R": {},
+        "DEF_Foot.R": {},
+        "CTRL_Face": {
+          "blink": 0.0,
+          "smile": 0.0,
+          "surprise": 0.0,
+          "awake": 0.0
+        },
+        "CTRL_Extras": {
+          "tip_sway": 0.0
+        },
+        "CTRL_Foot.L": {},
+        "CTRL_Foot.R": {}
+      },
+      "skinned_meshes": 23,
+      "bindings": {
+        "WR1_Ttorr_DropBody": [
+          "DEF_Body"
+        ],
+        "WR1_Ttorr_ShyEye": [
+          "DEF_Body"
+        ],
+        "WR1_Ttorr_EyeGlint": [
+          "DEF_Body"
+        ],
+        "WR1_Ttorr_Blush": [
+          "DEF_Body"
+        ],
+        "WR1_Ttorr_WorriedBrow": [
+          "DEF_Body"
+        ],
+        "WR1_Ttorr_ShyEye.001": [
+          "DEF_Body"
+        ],
+        "WR1_Ttorr_EyeGlint.001": [
+          "DEF_Body"
+        ],
+        "WR1_Ttorr_Blush.001": [
+          "DEF_Body"
+        ],
+        "WR1_Ttorr_WorriedBrow.001": [
+          "DEF_Body"
+        ],
+        "WR1_Ttorr_SmallSmile": [
+          "DEF_Body"
+        ],
+        "WR1_Ttorr_SoftPaintHighlight": [
+          "DEF_Body"
+        ],
+        "WR1_Ttorr_SecondHighlight": [
+          "DEF_Body"
+        ],
+        "WR1_Ttorr_Leg": [
+          "DEF_Shin.L",
+          "DEF_Thigh.L"
+        ],
+        "WR1_Ttorr_RainBoot": [
+          "DEF_Foot.L"
+        ],
+        "WR1_Ttorr_BootCuff": [
+          "DEF_Foot.L"
+        ],
+        "WR1_Ttorr_Leg.001": [
+          "DEF_Shin.R",
+          "DEF_Thigh.R"
+        ],
+        "WR1_Ttorr_RainBoot.001": [
+          "DEF_Foot.R"
+        ],
+        "WR1_Ttorr_BootCuff.001": [
+          "DEF_Foot.R"
+        ],
+        "WR1_Ttorr_LeftArm": [
+          "DEF_Forearm.L",
+          "DEF_UpperArm.L"
+        ],
+        "WR1_Ttorr_RightArm": [
+          "DEF_Forearm.R",
+          "DEF_UpperArm.R"
+        ],
+        "WR1_Ttorr_LeftClaspedHand": [
+          "DEF_Hand.L"
+        ],
+        "WR1_Ttorr_RightClaspedHand": [
+          "DEF_Hand.R"
+        ],
+        "WR1_Ttorr_SurprisedMouth": [
+          "DEF_Body"
+        ]
+      }
+    },
+    {
+      "name": "Songsong",
+      "ko": "송송",
+      "armature": "WR1_Songsong_RIG",
+      "bones": 29,
+      "controls": [
+        "CTRL_Root",
+        "CTRL_Body",
+        "CTRL_Hand.L",
+        "CTRL_Hand.R",
+        "CTRL_Face",
+        "CTRL_Extras",
+        "CTRL_Foot.L",
+        "CTRL_Foot.R"
+      ],
+      "meshes": 46,
+      "shape_keys": 10,
+      "properties": {
+        "CTRL_Root": {},
+        "CTRL_Body": {
+          "squash": 0.0
+        },
+        "DEF_Body": {},
+        "DEF_UpperArm.L": {},
+        "DEF_Forearm.L": {},
+        "DEF_Hand.L": {},
+        "MCH_HandSpace.L": {},
+        "CTRL_Hand.L": {},
+        "DEF_Thigh.L": {},
+        "DEF_Shin.L": {},
+        "DEF_Foot.L": {},
+        "DEF_UpperArm.R": {},
+        "DEF_Forearm.R": {},
+        "DEF_Hand.R": {},
+        "MCH_HandSpace.R": {},
+        "CTRL_Hand.R": {},
+        "DEF_Thigh.R": {},
+        "DEF_Shin.R": {},
+        "DEF_Foot.R": {},
+        "DEF_Crystal_00": {},
+        "DEF_Crystal_01": {},
+        "DEF_Crystal_02": {},
+        "DEF_Crystal_03": {},
+        "DEF_Crystal_04": {},
+        "DEF_Crystal_05": {},
+        "CTRL_Face": {
+          "blink": 0.0,
+          "smile": 0.0,
+          "surprise": 0.0,
+          "awake": 0.0
+        },
+        "CTRL_Extras": {
+          "crystal_fold": 0.0
+        },
+        "CTRL_Foot.L": {},
+        "CTRL_Foot.R": {}
+      },
+      "skinned_meshes": 46,
+      "bindings": {
+        "WR1_Songsong_CrystalSpoke_00": [
+          "DEF_Crystal_00"
+        ],
+        "WR1_Songsong_CrystalTip_00": [
+          "DEF_Crystal_00"
+        ],
+        "WR1_Songsong_CrystalFork_00_-1": [
+          "DEF_Crystal_00"
+        ],
+        "WR1_Songsong_CrystalFork_00_1": [
+          "DEF_Crystal_00"
+        ],
+        "WR1_Songsong_CrystalSpoke_01": [
+          "DEF_Crystal_01"
+        ],
+        "WR1_Songsong_CrystalTip_01": [
+          "DEF_Crystal_01"
+        ],
+        "WR1_Songsong_CrystalFork_01_-1": [
+          "DEF_Crystal_01"
+        ],
+        "WR1_Songsong_CrystalFork_01_1": [
+          "DEF_Crystal_01"
+        ],
+        "WR1_Songsong_CrystalSpoke_02": [
+          "DEF_Crystal_02"
+        ],
+        "WR1_Songsong_CrystalTip_02": [
+          "DEF_Crystal_02"
+        ],
+        "WR1_Songsong_CrystalFork_02_-1": [
+          "DEF_Crystal_02"
+        ],
+        "WR1_Songsong_CrystalFork_02_1": [
+          "DEF_Crystal_02"
+        ],
+        "WR1_Songsong_CrystalSpoke_03": [
+          "DEF_Crystal_03"
+        ],
+        "WR1_Songsong_CrystalTip_03": [
+          "DEF_Crystal_03"
+        ],
+        "WR1_Songsong_CrystalFork_03_-1": [
+          "DEF_Crystal_03"
+        ],
+        "WR1_Songsong_CrystalFork_03_1": [
+          "DEF_Crystal_03"
+        ],
+        "WR1_Songsong_CrystalSpoke_04": [
+          "DEF_Crystal_04"
+        ],
+        "WR1_Songsong_CrystalTip_04": [
+          "DEF_Crystal_04"
+        ],
+        "WR1_Songsong_CrystalFork_04_-1": [
+          "DEF_Crystal_04"
+        ],
+        "WR1_Songsong_CrystalFork_04_1": [
+          "DEF_Crystal_04"
+        ],
+        "WR1_Songsong_CrystalSpoke_05": [
+          "DEF_Crystal_05"
+        ],
+        "WR1_Songsong_CrystalTip_05": [
+          "DEF_Crystal_05"
+        ],
+        "WR1_Songsong_CrystalFork_05_-1": [
+          "DEF_Crystal_05"
+        ],
+        "WR1_Songsong_CrystalFork_05_1": [
+          "DEF_Crystal_05"
+        ],
+        "WR1_Songsong_SoftHexagon": [
+          "DEF_Body"
+        ],
+        "WR1_Songsong_WinkingEye": [
+          "DEF_Body"
+        ],
+        "WR1_Songsong_OpenEye": [
+          "DEF_Body"
+        ],
+        "WR1_Songsong_EyeGlint": [
+          "DEF_Body"
+        ],
+        "WR1_Songsong_Blush": [
+          "DEF_Body"
+        ],
+        "WR1_Songsong_Blush.001": [
+          "DEF_Body"
+        ],
+        "WR1_Songsong_PlayfulSmile": [
+          "DEF_Body"
+        ],
+        "WR1_Songsong_Tongue": [
+          "DEF_Body"
+        ],
+        "WR1_Songsong_Leg": [
+          "DEF_Shin.L",
+          "DEF_Thigh.L"
+        ],
+        "WR1_Songsong_LilacBoot": [
+          "DEF_Foot.L"
+        ],
+        "WR1_Songsong_BootFur": [
+          "DEF_Foot.L"
+        ],
+        "WR1_Songsong_Leg.001": [
+          "DEF_Shin.R",
+          "DEF_Thigh.R"
+        ],
+        "WR1_Songsong_LilacBoot.001": [
+          "DEF_Foot.R"
+        ],
+        "WR1_Songsong_BootFur.001": [
+          "DEF_Foot.R"
+        ],
+        "WR1_Songsong_LeftArm": [
+          "DEF_Forearm.L",
+          "DEF_UpperArm.L"
+        ],
+        "WR1_Songsong_LeftMitten": [
+          "DEF_Hand.L"
+        ],
+        "WR1_Songsong_LeftThumb": [
+          "DEF_Hand.L"
+        ],
+        "WR1_Songsong_RightArm": [
+          "DEF_Forearm.R",
+          "DEF_UpperArm.R"
+        ],
+        "WR1_Songsong_RightMitten": [
+          "DEF_Hand.R"
+        ],
+        "WR1_Songsong_RightThumb": [
+          "DEF_Hand.R"
+        ],
+        "WR1_Songsong_AwakeEye_WinkingEye": [
+          "DEF_Body"
+        ],
+        "WR1_Songsong_SurprisedMouth": [
+          "DEF_Body"
+        ]
+      }
+    },
+    {
+      "name": "Solsol",
+      "ko": "솔솔",
+      "armature": "WR1_Solsol_RIG",
+      "bones": 31,
+      "controls": [
+        "CTRL_Root",
+        "CTRL_Body",
+        "CTRL_Hand.L",
+        "CTRL_Hand.R",
+        "CTRL_Face",
+        "CTRL_Extras",
+        "CTRL_Foot.L",
+        "CTRL_Foot.R"
+      ],
+      "meshes": 23,
+      "shape_keys": 11,
+      "properties": {
+        "CTRL_Root": {},
+        "CTRL_Body": {
+          "squash": 0.0
+        },
+        "DEF_Body": {},
+        "DEF_Bend": {},
+        "DEF_Crest": {},
+        "DEF_UpperArm.L": {},
+        "DEF_Forearm.L": {},
+        "DEF_Hand.L": {},
+        "MCH_HandSpace.L": {},
+        "CTRL_Hand.L": {},
+        "DEF_UpperArm.R": {},
+        "DEF_Forearm.R": {},
+        "DEF_Hand.R": {},
+        "MCH_HandSpace.R": {},
+        "CTRL_Hand.R": {},
+        "DEF_ScarfUpper0": {},
+        "DEF_ScarfUpper1": {},
+        "DEF_ScarfUpper2": {},
+        "DEF_ScarfLower0": {},
+        "DEF_ScarfLower1": {},
+        "DEF_ScarfLower2": {},
+        "DEF_Thigh.L": {},
+        "DEF_Shin.L": {},
+        "DEF_Foot.L": {},
+        "DEF_Thigh.R": {},
+        "DEF_Shin.R": {},
+        "DEF_Foot.R": {},
+        "CTRL_Face": {
+          "blink": 0.0,
+          "smile": 0.0,
+          "surprise": 0.0,
+          "awake": 0.0
+        },
+        "CTRL_Extras": {
+          "body_bend": 0.0,
+          "crest_curl": 0.0,
+          "scarf_wave": 0.0,
+          "scarf_phase": 0.0
+        },
+        "CTRL_Foot.L": {},
+        "CTRL_Foot.R": {}
+      },
+      "skinned_meshes": 23,
+      "bindings": {
+        "WR1_Solsol_BreezeBody": [
+          "DEF_Body",
+          "DEF_Bend",
+          "DEF_Crest"
+        ],
+        "WR1_Solsol_HappyEye": [
+          "DEF_Bend"
+        ],
+        "WR1_Solsol_Blush": [
+          "DEF_Body",
+          "DEF_Bend"
+        ],
+        "WR1_Solsol_HappyEye.001": [
+          "DEF_Bend"
+        ],
+        "WR1_Solsol_Blush.001": [
+          "DEF_Body",
+          "DEF_Bend"
+        ],
+        "WR1_Solsol_PursedMouth": [
+          "DEF_Body",
+          "DEF_Bend"
+        ],
+        "WR1_Solsol_SoftLip": [
+          "DEF_Body",
+          "DEF_Bend"
+        ],
+        "WR1_Solsol_ScarfWrap": [
+          "DEF_Body",
+          "DEF_Bend"
+        ],
+        "WR1_Solsol_ScarfKnot": [
+          "DEF_Body",
+          "DEF_Bend"
+        ],
+        "WR1_Solsol_UpperScarfTail": [
+          "DEF_ScarfUpper0",
+          "DEF_ScarfUpper1",
+          "DEF_ScarfUpper2"
+        ],
+        "WR1_Solsol_LowerScarfTail": [
+          "DEF_ScarfLower0",
+          "DEF_ScarfLower1",
+          "DEF_ScarfLower2"
+        ],
+        "WR1_Solsol_ScarfStitch": [
+          "DEF_ScarfUpper2",
+          "DEF_ScarfUpper0",
+          "DEF_ScarfUpper1"
+        ],
+        "WR1_Solsol_LeftArm": [
+          "DEF_Forearm.L",
+          "DEF_UpperArm.L"
+        ],
+        "WR1_Solsol_LeftHand": [
+          "DEF_Hand.L"
+        ],
+        "WR1_Solsol_RightArm": [
+          "DEF_Forearm.R",
+          "DEF_UpperArm.R"
+        ],
+        "WR1_Solsol_RightHand": [
+          "DEF_Hand.R"
+        ],
+        "WR1_Solsol_LeftLeg": [
+          "DEF_Shin.L",
+          "DEF_Thigh.L"
+        ],
+        "WR1_Solsol_LeftShoe": [
+          "DEF_Foot.L"
+        ],
+        "WR1_Solsol_LiftedLeg": [
+          "DEF_Shin.R",
+          "DEF_Thigh.R"
+        ],
+        "WR1_Solsol_LiftedShoe": [
+          "DEF_Foot.R"
+        ],
+        "WR1_Solsol_AwakeEye_HappyEye": [
+          "DEF_Bend",
+          "DEF_Body"
+        ],
+        "WR1_Solsol_AwakeEye_HappyEye.001": [
+          "DEF_Bend",
+          "DEF_Body"
+        ],
+        "WR1_Solsol_SurprisedMouth": [
+          "DEF_Body",
+          "DEF_Bend"
+        ]
+      }
+    }
+  ],
+  "objects": 164,
+  "bones": 142,
+  "preserved_files": {
+    "scenes/autumn-cafe-v001.blend": "c2a40bea30973e6f6248dbae86847d5dbed4701ce03c7980e4e9c2d0af8cb2c2",
+    "scenes/cozy-neon-rain-v001.blend": "567d5290e5b0f73460687528de24693ff24db4e401993218c518613a38238c1b",
+    "scenes/cozy-neon-rain-v002.blend": "004d3e797f8fbfd9e9ff1d1f48112dc4604758f6973654db0ece9d4548ea1925",
+    "scenes/rainy-cafe-v001.blend": "2c5c8fa9e51911be144a6d943155e4792ff649890e94a67859ff1ea239fa3c4c",
+    "scenes/rainy-cafe-v002.blend": "80013f6a26e41e75b102c044803b59fef897b5d4987338badb98e51367f13190",
+    "scenes/thegachi-house-person-v004-final.blend": "aa361a5928bce907e73e37b25d1647bab5e144fbfe4b9267dc718a5ab9e3e572",
+    "scenes/thegachi-house-person-v004-reviewed.blend": "c9f798bccc5712d4cdfad8eaabbd8968d837f175158b38ecc98ad83335e1e0a6",
+    "scenes/thegachi-house-person-v004.blend": "bcc738980b87f04f2e12c50827dd9790a9e57352c61b0de017f963f7d1048dc6",
+    "scenes/thegachi-opening-v001.blend": "35f508b1ef0804d427c15cf003316c864d551d552a0efc75ed606e56b13aaac5",
+    "scenes/thegachi-opening-v002.blend": "6c9c245adba855d49bc153067d5ef0662b5d412bd17d5d03e2ef8f11a8bb293f",
+    "scenes/thegachi-opening-v003.blend": "fa06e07ce1e1c43c15cb85677100cf41239b55c28e7901e8f8e2f20020e95464",
+    "scenes/thegachi-opening-v005.blend": "dc25516beca2820d0cf96f711ab409492be19d5b14c9f52d89498e1675425f95",
+    "scenes/thegachi-opening-v006.blend": "bf01c8489edad6356c1269587acba62e41d8145bdc56bb9f0a09c644af4073bf",
+    "scenes/thegachi-opening-v007.blend": "f90b861839604763fa3416cc185532fac6c07fc4acaf366f656b09c665fc25be",
+    "scenes/vvoori-cafe-v001.blend": "9488ad67b9ba8d97bfbb08a6ccea4fa09d49eb9ce01d9e8ad38685275204dd40",
+    "scenes/vvoori-cafe-v002.blend": "1fb2c1fe6734a09a1e13973625a8c51c92beb3c734ff5a16d60a45313e9a3cd8",
+    "scenes/vvoori-cafe-v003.blend": "f11e6ca8af5f6002ad100a780e79277933ba5aa6a087205c81b53328296cb9fb",
+    "scenes/vvoori-cafe-v004.blend": "c59ecf024a5914e591f152c7dfcf1dbbb565d2743331a2cac4d12924315bd79f",
+    "scenes/vvoori-cafe-v005.blend": "3ab0bf43466d456685d29364f1bb8335a024b64b4394d2c901144f5be260e008",
+    "scenes/vvoori-cafe-winter-v001.blend": "0f8329032517a93fc636da592b3409acff6d485bd35a0c60e3ab96f2c32b8038",
+    "scenes/weather-fairies-v001.blend": "f4a7a118cfa39283a42899ce732921af351bcfcb93b6c4bb86aa9b8863f97c87",
+    "scenes/weather-fairies-v002.blend": "f6664d4462522a2dbee0ac84f189afd7877ea584bb0825847d9e92bd951bd1a0",
+    "scenes/weather-short-01-v001.blend": "8f0e0aded0ae62d9d9646044649a3d2ed83ca6ae51a2525a4a19d8cb0c57bfd7",
+    "scenes/weather-short-02-v001.blend": "75a5b48808dd75bc15b71edc460497da29638288c020349a286138b89fe92204",
+    "scenes/weather-short-03-v001.blend": "f339bd587a631cf8ca2ff306e866e66ead7c02c5a71c3d1264aad64973e59382",
+    "scenes/weather-short-04-v001.blend": "3681f3bf2792cfc24ff6538533b319031ee318a45d28d124a645f7c98f014062",
+    "scenes/weather-short-05-v001.blend": "11b43c00a2b00a7561b13a1c5216a41db170498066e388086a04140c5064d0fe",
+    "outputs/weather-shorts/v001/weather-fairies-five-stories.mp4": "316f33cdf235da92cf555fe35c43b23efdaeb2660ee2e47efc0b7fd6231730f8",
+    "outputs/weather-shorts/v001/01-photo-chaos/01-photo-chaos.mp4": "b3620cc5363af17973c24360c0816363091a9f0d8ef9a929fec3106be6b28e7b",
+    "outputs/weather-shorts/v001/02-star-pillow/02-star-pillow.mp4": "46f2447f6ded39ed3ccd39af85296b0d653a59b5037464dc26e2abbbf4ca3fbb",
+    "outputs/weather-shorts/v001/03-little-flower/03-little-flower.mp4": "9a02d3341cdd3cf8993448c7ceeaef9465e3bf207c5cfd5842196f49f0e12355",
+    "outputs/weather-shorts/v001/04-weather-report/04-weather-report.mp4": "a30fc67766feac9416ace4102671058d02358af88f127b285e79ad5acefbb61c",
+    "outputs/weather-shorts/v001/05-bubble-hats/05-bubble-hats.mp4": "13ed36a6b5778edd1c1edf7da53c6dd3e5b93b2ad3dcfb37c1e59396c335da23"
+  },
+  "original_mesh_labels": {
+    "Mongsil": [
+      "CloudBody",
+      "SleepingEye",
+      "Blush",
+      "SleepingEye.001",
+      "Blush.001",
+      "TinyMouth",
+      "DanglingLeg",
+      "LilacSlipper",
+      "SlipperSeam",
+      "DanglingLeg.001",
+      "LilacSlipper.001",
+      "SlipperSeam.001",
+      "HuggedStar",
+      "LeftHug",
+      "RightHug",
+      "LeftMitten",
+      "RightMitten",
+      "SleepTuftBase",
+      "SleepTuftTip",
+      "Pompom"
+    ],
+    "Haerong": [
+      "Ray_00",
+      "Ray_01",
+      "Ray_02",
+      "Ray_03",
+      "Ray_04",
+      "Ray_05",
+      "Ray_06",
+      "Ray_07",
+      "Ray_08",
+      "Ray_09",
+      "Ray_10",
+      "Ray_11",
+      "SunBody",
+      "BrightEye",
+      "EyeGlint",
+      "Brow",
+      "Blush",
+      "BrightEye.001",
+      "EyeGlint.001",
+      "Brow.001",
+      "Blush.001",
+      "Tongue",
+      "Leg",
+      "LittleShoe",
+      "Leg.001",
+      "LittleShoe.001",
+      "RestingArm",
+      "RestingHand",
+      "WavingArm",
+      "WavingPalm",
+      "WavingThumb",
+      "PalmCrease",
+      "OpenSmile"
+    ],
+    "Ttorr": [
+      "DropBody",
+      "ShyEye",
+      "EyeGlint",
+      "Blush",
+      "WorriedBrow",
+      "ShyEye.001",
+      "EyeGlint.001",
+      "Blush.001",
+      "WorriedBrow.001",
+      "SmallSmile",
+      "SoftPaintHighlight",
+      "SecondHighlight",
+      "Leg",
+      "RainBoot",
+      "BootCuff",
+      "Leg.001",
+      "RainBoot.001",
+      "BootCuff.001",
+      "LeftArm",
+      "RightArm",
+      "LeftClaspedHand",
+      "RightClaspedHand"
+    ],
+    "Songsong": [
+      "CrystalSpoke_00",
+      "CrystalTip_00",
+      "CrystalFork_00_-1",
+      "CrystalFork_00_1",
+      "CrystalSpoke_01",
+      "CrystalTip_01",
+      "CrystalFork_01_-1",
+      "CrystalFork_01_1",
+      "CrystalSpoke_02",
+      "CrystalTip_02",
+      "CrystalFork_02_-1",
+      "CrystalFork_02_1",
+      "CrystalSpoke_03",
+      "CrystalTip_03",
+      "CrystalFork_03_-1",
+      "CrystalFork_03_1",
+      "CrystalSpoke_04",
+      "CrystalTip_04",
+      "CrystalFork_04_-1",
+      "CrystalFork_04_1",
+      "CrystalSpoke_05",
+      "CrystalTip_05",
+      "CrystalFork_05_-1",
+      "CrystalFork_05_1",
+      "SoftHexagon",
+      "WinkingEye",
+      "OpenEye",
+      "EyeGlint",
+      "Blush",
+      "Blush.001",
+      "PlayfulSmile",
+      "Tongue",
+      "Leg",
+      "LilacBoot",
+      "BootFur",
+      "Leg.001",
+      "LilacBoot.001",
+      "BootFur.001",
+      "LeftArm",
+      "LeftMitten",
+      "LeftThumb",
+      "RightArm",
+      "RightMitten",
+      "RightThumb"
+    ],
+    "Solsol": [
+      "BreezeBody",
+      "HappyEye",
+      "Blush",
+      "HappyEye.001",
+      "Blush.001",
+      "PursedMouth",
+      "SoftLip",
+      "ScarfWrap",
+      "ScarfKnot",
+      "UpperScarfTail",
+      "LowerScarfTail",
+      "ScarfStitch",
+      "LeftArm",
+      "LeftHand",
+      "RightArm",
+      "RightHand",
+      "LeftLeg",
+      "LeftShoe",
+      "LiftedLeg",
+      "LiftedShoe"
+    ]
+  },
+  "external_dependencies": [],
+  "recovery": "Geometry and rigs completed in initial job; removed unsupported Bone.select and saved the existing scene. File hashes cross-checked against preexisting tracked assets in final validation."
+}

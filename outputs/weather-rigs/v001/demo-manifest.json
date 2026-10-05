@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "source": "scenes/weather-rig-demo-v001.blend",
+  "scene": "Weather_Rig_Demo_v001",
+  "neutral_source_sha256": "eeee8906e8dc17fe4a5e2faa509035b203e2255205b6fde98f01f22f5f594cbe",
+  "frames": 384,
+  "fps": 24,
+  "duration": 16,
+  "audio": "none",
+  "animation_curves": 282,
+  "rigs": {
+    "Mongsil": "WR1_Mongsil_RIG.001",
+    "Haerong": "WR1_Haerong_RIG.001",
+    "Ttorr": "WR1_Ttorr_RIG.001",
+    "Songsong": "WR1_Songsong_RIG.001",
+    "Solsol": "WR1_Solsol_RIG.001"
+  },
+  "chapters": [
+    [
+      0,
+      2,
+      "기본 자세"
+    ],
+    [
+      2,
+      5,
+      "손발 IK"
+    ],
+    [
+      5,
+      8,
+      "눈·입 표정"
+    ],
+    [
+      8,
+      12,
+      "몸과 날씨 특징"
+    ],
+    [
+      12,
+      16,
+      "쿠션·스카프·바람"
+    ]
+  ]
+}

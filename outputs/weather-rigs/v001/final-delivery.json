@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "scene": "Weather_Rigs_v001",
+  "frame": 1,
+  "mode": "POSE",
+  "selected_rigs": 5,
+  "active_control": "WR1_Mongsil_RIG / CTRL_Body",
+  "visual_review": [
+    "Neutral and combined expression/special renders directly inspected.",
+    "Delivered MP4 contact frames directly inspected for hands, face, body and special controls."
+  ],
+  "preservation": 33,
+  "movie": "outputs/weather-rigs/v001/weather-rig-demo-16s.mp4",
+  "source": "scenes/weather-rigs-v001.blend",
+  "demo_source": "scenes/weather-rig-demo-v001.blend"
+}

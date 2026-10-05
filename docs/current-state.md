@@ -1,3 +1,23 @@
+<!-- WEATHER_RIGS_V001_BEGIN -->
+# 현재 제작: 오늘의 날씨 요정들 — 다섯 캐릭터 맞춤 리깅
+
+2026-10-06 (한국 시간). 사용자 요청: 기존 영상의 오디오 제작 방법 설명과 추천 리깅 실제 적용.
+
+- 중립 원본 `scenes/weather-rigs-v001.blend`, Scene `Weather_Rigs_v001`. 총 5개 Armature / 142개 뼈 / 149개 스키닝 메시 / 124개 유효 driver. 별도 설치나 외부 이미지·폰트·모델 의존성 없음.
+- 공통: 손발 두 관절 IK, 몸 이동/회전과 눌림·늘림, 눈 뜨기/깜빡임/미소/놀란 입. 색상과 모양이 다른 조작 컨트롤을 표시하고 내부 변형/보조 뼈는 Bone Collections에서 숨겨 두었다.
+- 몽실: 숨쉬기·안기·별 쿠션. 해롱: 햇살 흔들기·펼치기. 또르: 물방울 꼭지 휘기. 송송: 눈 결정 접기. 솔솔: 몸/소용돌이 휘기·스카프 흔들기.
+- 시연 원본 `scenes/weather-rig-demo-v001.blend`, Scene `Weather_Rig_Demo_v001`. 새 컨트롤의 실제 키프레임 282개 curve를 재개방해 384프레임 전체 렌더.
+- 최종 `outputs/weather-rigs/v001/weather-rig-demo-16s.mp4`: 1920×1080 / 24fps / 16초 / 무음 / 한국어 조작 설명. 기본 자세→손발 IK→표정→몸/특수 동작→쿠션/스카프 순서다.
+- 독립 원본의 모든 메시 가중치와 연결, 20개 손발 IK, 표정/특수 조절의 실제 변형 검사를 통과했다. 기본 자세 점 차이 최대 약 0.0000022, IK 끝 관절 목표 오차 최대 약 0.000032 Blender 단위.
+- 모든 PNG와 MP4 전체 디코딩 통과. 고정 배경 5곳은 전체 프레임에서 채널 차이 0. 기본/복합 자세와 완성 영상 추출 6개 시점을 직접 시각 검사했다. 해롱 햇살 펼침 범위는 −0.10–0.12로 줄여 과도한 늘림을 방지했다.
+- 이전 별도 원본/영상 33개 SHA-256 동일, 과거 커밋의 날씨 요정 관련 자산 72개 Git blob 일치. 기존 다섯 코미디 영상은 보존하며, 새 리그로 자동 변환하지 않았다.
+- 기존 오디오는 `workflows/weather-shorts/06_package_movies.py`에서 Python/NumPy로 직접 합성한 음악과 효과음이다. 5음계 멜로디/저음/잡음 타악기와 사건 시각별 효과음을 48kHz 스테레오 WAV로 만든 후 AAC 160kbps로 영상에 합성했다. 성우/실제 악기 녹음이나 외부 AI 음악 서비스 사용 없음.
+- 사용법·값별 의미·재현·검증 기록: `workflows/weather-rigs/README.md`. `outputs/weather-rigs/v001/rig-verification.json`, `output-verification.json`, `final-delivery.json`에 실제 검사 결과를 기록했다.
+- 현재 브리찌 화면: `Weather_Rigs_v001`, frame 1, 다섯 Armature의 Pose Mode, 몽실 `CTRL_Body` 선택. 최종 작업 `20261005T212745-fca02a82f8`, `ok=true`와 카메라 미리보기 확인.
+- Windows / Blender 5.2.1 LTS / RTX 3090에서 검증. 후속 애니메이션은 중립 원본을 복사하여 새 버전으로 작업한다. 이번 관련 파일과 이 추가 기록만 커밋/푸시하며 무관한 기존 미커밋 변경은 유지한다.
+
+<!-- WEATHER_RIGS_V001_END -->
+
 <!-- WEATHER_SHORTS_V001_BEGIN -->
 # 현재 제작: 오늘의 날씨 요정들 — 코미디 단편 5편
 
