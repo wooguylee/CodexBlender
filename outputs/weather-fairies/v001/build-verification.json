@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "scene": "Weather_Fairies_v001",
+  "camera": "WF1_Camera",
+  "objects": 94,
+  "characters": [
+    "몽실",
+    "해롱",
+    "또르"
+  ],
+  "old_scenes_unchanged": [
+    "Autumn_Cafe_v001",
+    "Cozy_Neon_Rain_v002",
+    "Rainy_Cafe_v001",
+    "Rainy_Cafe_v002",
+    "Scene",
+    "Thegachi_Opening_v003",
+    "Thegachi_Opening_v007",
+    "Vvoori_Cafe_v001",
+    "Vvoori_Cafe_v002",
+    "Vvoori_Cafe_v003",
+    "Vvoori_Cafe_v004",
+    "Vvoori_Cafe_v005",
+    "Vvoori_Cafe_Winter_v001"
+  ],
+  "existing_source_sha256": {
+    "scenes/autumn-cafe-v001.blend": "c2a40bea30973e6f6248dbae86847d5dbed4701ce03c7980e4e9c2d0af8cb2c2",
+    "scenes/cozy-neon-rain-v001.blend": "567d5290e5b0f73460687528de24693ff24db4e401993218c518613a38238c1b",
+    "scenes/cozy-neon-rain-v002.blend": "004d3e797f8fbfd9e9ff1d1f48112dc4604758f6973654db0ece9d4548ea1925",
+    "scenes/rainy-cafe-v001.blend": "2c5c8fa9e51911be144a6d943155e4792ff649890e94a67859ff1ea239fa3c4c",
+    "scenes/rainy-cafe-v002.blend": "80013f6a26e41e75b102c044803b59fef897b5d4987338badb98e51367f13190",
+    "scenes/thegachi-house-person-v004-final.blend": "aa361a5928bce907e73e37b25d1647bab5e144fbfe4b9267dc718a5ab9e3e572",
+    "scenes/thegachi-house-person-v004-reviewed.blend": "c9f798bccc5712d4cdfad8eaabbd8968d837f175158b38ecc98ad83335e1e0a6",
+    "scenes/thegachi-house-person-v004.blend": "bcc738980b87f04f2e12c50827dd9790a9e57352c61b0de017f963f7d1048dc6",
+    "scenes/thegachi-opening-v001.blend": "35f508b1ef0804d427c15cf003316c864d551d552a0efc75ed606e56b13aaac5",
+    "scenes/thegachi-opening-v002.blend": "6c9c245adba855d49bc153067d5ef0662b5d412bd17d5d03e2ef8f11a8bb293f",
+    "scenes/thegachi-opening-v003.blend": "fa06e07ce1e1c43c15cb85677100cf41239b55c28e7901e8f8e2f20020e95464",
+    "scenes/thegachi-opening-v005.blend": "dc25516beca2820d0cf96f711ab409492be19d5b14c9f52d89498e1675425f95",
+    "scenes/thegachi-opening-v006.blend": "bf01c8489edad6356c1269587acba62e41d8145bdc56bb9f0a09c644af4073bf",
+    "scenes/thegachi-opening-v007.blend": "f90b861839604763fa3416cc185532fac6c07fc4acaf366f656b09c665fc25be",
+    "scenes/vvoori-cafe-v001.blend": "9488ad67b9ba8d97bfbb08a6ccea4fa09d49eb9ce01d9e8ad38685275204dd40",
+    "scenes/vvoori-cafe-v002.blend": "1fb2c1fe6734a09a1e13973625a8c51c92beb3c734ff5a16d60a45313e9a3cd8",
+    "scenes/vvoori-cafe-v003.blend": "f11e6ca8af5f6002ad100a780e79277933ba5aa6a087205c81b53328296cb9fb",
+    "scenes/vvoori-cafe-v004.blend": "c59ecf024a5914e591f152c7dfcf1dbbb565d2743331a2cac4d12924315bd79f",
+    "scenes/vvoori-cafe-v005.blend": "3ab0bf43466d456685d29364f1bb8335a024b64b4394d2c901144f5be260e008",
+    "scenes/vvoori-cafe-winter-v001.blend": "0f8329032517a93fc636da592b3409acff6d485bd35a0c60e3ab96f2c32b8038"
+  },
+  "gpu": [
+    "NVIDIA GeForce RTX 3090"
+  ],
+  "external_assets": [],
+  "stage": "first_model_and_lighting_preview"
+}

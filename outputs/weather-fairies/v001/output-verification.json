@@ -1,0 +1,99 @@
+{
+  "ok": true,
+  "files": {
+    "weather-fairies-group.png": {
+      "resolution": [
+        2160,
+        1440
+      ],
+      "bytes": 3209475,
+      "sha256": "7bedc89eebd3c6850b363bda623cc472dcc4a9bbea3c9e78202d5a6be4a1a63a"
+    },
+    "weather-fairies-clean.png": {
+      "resolution": [
+        2160,
+        1440
+      ],
+      "bytes": 3161359,
+      "sha256": "28a6b6c8d1e884d9e2d3a6cd8602fbe95cd3c8101223035eadbd434399e8891e"
+    },
+    "mongsil.png": {
+      "resolution": [
+        1080,
+        1080
+      ],
+      "bytes": 1152964,
+      "sha256": "6eff770eaf54c29cad2cacfbbd976b5b09b3fbcb88b83d7a8d115f9d873a2bdb"
+    },
+    "haerong.png": {
+      "resolution": [
+        1080,
+        1080
+      ],
+      "bytes": 1236038,
+      "sha256": "69bc87f39baa1e7c95ed1e02309eaeadfed9ee3ef0009908891a26e68fec20b8"
+    },
+    "ttorr.png": {
+      "resolution": [
+        1080,
+        1080
+      ],
+      "bytes": 1171574,
+      "sha256": "18c02dfc5f738e9727b79240527db54d05d96f9fc9b0753fc02d72fb5f3eacf0"
+    }
+  },
+  "standalone_reopen_pixel_exact": false,
+  "standalone_reopen_max_channel_error": 1,
+  "standalone_reopen_mean_channel_error": 4.9618484224965705e-05,
+  "old_source_files_preserved": {
+    "scenes/autumn-cafe-v001.blend": true,
+    "scenes/cozy-neon-rain-v001.blend": true,
+    "scenes/cozy-neon-rain-v002.blend": true,
+    "scenes/rainy-cafe-v001.blend": true,
+    "scenes/rainy-cafe-v002.blend": true,
+    "scenes/thegachi-house-person-v004-final.blend": true,
+    "scenes/thegachi-house-person-v004-reviewed.blend": true,
+    "scenes/thegachi-house-person-v004.blend": true,
+    "scenes/thegachi-opening-v001.blend": true,
+    "scenes/thegachi-opening-v002.blend": true,
+    "scenes/thegachi-opening-v003.blend": true,
+    "scenes/thegachi-opening-v005.blend": true,
+    "scenes/thegachi-opening-v006.blend": true,
+    "scenes/thegachi-opening-v007.blend": true,
+    "scenes/vvoori-cafe-v001.blend": true,
+    "scenes/vvoori-cafe-v002.blend": true,
+    "scenes/vvoori-cafe-v003.blend": true,
+    "scenes/vvoori-cafe-v004.blend": true,
+    "scenes/vvoori-cafe-v005.blend": true,
+    "scenes/vvoori-cafe-winter-v001.blend": true
+  },
+  "old_scenes_preserved": [
+    "Autumn_Cafe_v001",
+    "Cozy_Neon_Rain_v002",
+    "Rainy_Cafe_v001",
+    "Rainy_Cafe_v002",
+    "Scene",
+    "Thegachi_Opening_v003",
+    "Thegachi_Opening_v007",
+    "Vvoori_Cafe_v001",
+    "Vvoori_Cafe_v002",
+    "Vvoori_Cafe_v003",
+    "Vvoori_Cafe_v004",
+    "Vvoori_Cafe_v005",
+    "Vvoori_Cafe_Winter_v001"
+  ],
+  "bridge_jobs": {
+    "20261005T192350-a505e9da2e": {
+      "ok": true,
+      "elapsed_seconds": 12.637
+    },
+    "20261005T192611-7801a0835c": {
+      "ok": true,
+      "elapsed_seconds": 46.341
+    }
+  },
+  "source_bytes": 1233950,
+  "source_sha256": "f4a7a118cfa39283a42899ce732921af351bcfcb93b6c4bb86aa9b8863f97c87",
+  "visual_review": "Group and all three portraits directly inspected; smile, silhouettes, facial visibility and framing checked.",
+  "scope": "Three editable 3D characters, five still images; no skeletal rig or animation."
+}

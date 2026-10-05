@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "scene": "Weather_Fairies_v001",
+  "objects": 103,
+  "group": "weather-fairies-group.png",
+  "clean": "weather-fairies-clean.png",
+  "portraits": [
+    "mongsil.png",
+    "haerong.png",
+    "ttorr.png"
+  ],
+  "resolution_group": [
+    2160,
+    1440
+  ],
+  "resolution_portraits": [
+    1080,
+    1080
+  ],
+  "samples": 96,
+  "source": "scenes/weather-fairies-v001.blend",
+  "source_export_method": "Single Scene dependency closure; independent reopen required",
+  "external_assets": [],
+  "animation": false,
+  "rigged": false
+}

@@ -1,3 +1,25 @@
+<!-- WEATHER_FAIRIES_V001_BEGIN -->
+# 현재 제작: 오늘의 날씨 요정들 v001 — 몽실·해롱·또르
+
+2026-10-06 (한국 시간). 첫 3D 캐릭터 시안·단체/개별 이미지 제작과 검증 완료.
+
+- 사용자 요청: 추천 주제 ‘오늘의 날씨 요정들’을 추천안으로 먼저 제작.
+- 몽실: 졸린 구름, 별 쿠션, 보라 슬리퍼. 해롱: 손인사하는 햇살. 또르: 두 손을 모은 수줍은 빗방울.
+- 전용 Scene `Weather_Fairies_v001`, 카메라 `WF1_Camera`, 객체 103개. 캐릭터별 컬렉션/Root Empty 분리.
+- 편집 가능한 전용 원본: `scenes/weather-fairies-v001.blend` (1,233,950바이트).
+- 단체 `outputs/weather-fairies/v001/weather-fairies-group.png`, 글자 없는 단체 `weather-fairies-clean.png`: 각각 2160×1440.
+- 개별 `mongsil.png`, `haerong.png`, `ttorr.png`: 각각 1080×1080.
+- Blender 메시·곡선·재질·기본 내장 글꼴만 사용. 외부 이미지/모델/폰트 의존성 없음.
+- 실제 단체와 개별 3장을 직접 시각 검사. 독립 Blender 재개방/재렌더 성공, 원본과 최대 채널 차이 1/255.
+- 5장 PNG 무결성·해상도·불투명 알파 확인. 기존 Scene 13개의 객체/변환/카메라 보존, 별도 원본 20개 SHA-256 유지.
+- 최종 브리찌 작업 `20261005T192611-7801a0835c`, `ok=true` 및 카메라 미리보기 확인.
+- 코드·재현·검증: `workflows/weather-fairies/README.md`; 결과 폴더의 `output-verification.json`.
+- 정지 캐릭터 시안이다. 뼈대 리깅/애니메이션과 네 번째 눈송이 캐릭터는 아직 제작하지 않았다.
+- 다음 단계: 사용자 피드백에 따라 표정·비율·색 수정 또는 움직임 제작. 기존 결과는 보존하고 새 버전으로 진행한다.
+- 기존 미커밋 장면/변경은 유지하며, 이번 Git 반영은 전용 원본·결과·코드와 이 기록의 추가분으로 한정한다.
+
+<!-- WEATHER_FAIRIES_V001_END -->
+
 <!-- VVOORI_CAFE_WINTER_V001_BEGIN -->
 # 현재 제작: vvoori-cafe-winter v001 — 겨울 공원과 통창 카페
 
