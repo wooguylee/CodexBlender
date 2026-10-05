@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "scene": "Weather_Fairies_v002",
+  "camera": "WF2_Camera",
+  "objects": 179,
+  "characters": [
+    "Mongsil",
+    "Haerong",
+    "Ttorr",
+    "Songsong",
+    "Solsol"
+  ],
+  "new_characters_ko": [
+    "송송",
+    "솔솔"
+  ],
+  "source": "scenes/weather-fairies-v002.blend",
+  "samples": 96,
+  "files": {
+    "weather-fairies-five.png": [
+      3200,
+      1600
+    ],
+    "weather-fairies-five-clean.png": [
+      3200,
+      1600
+    ],
+    "snow-and-wind.png": [
+      2160,
+      1440
+    ],
+    "songsong.png": [
+      1080,
+      1080
+    ],
+    "solsol.png": [
+      1080,
+      1080
+    ]
+  },
+  "external_dependencies": [],
+  "animation": false,
+  "rigged": false
+}

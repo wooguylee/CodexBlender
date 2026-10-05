@@ -1,0 +1,107 @@
+{
+  "ok": true,
+  "files": {
+    "weather-fairies-five.png": {
+      "resolution": [
+        3200,
+        1600
+      ],
+      "bytes": 5202167,
+      "sha256": "bae1dafcda04b348f2cb0cf630aa51383e497ab4088cef9f9f6a677428e3ba3e"
+    },
+    "weather-fairies-five-clean.png": {
+      "resolution": [
+        3200,
+        1600
+      ],
+      "bytes": 5136825,
+      "sha256": "169ceda93c28da81275bbeeff558779c640675e79f201cf29562381ce122d8b0"
+    },
+    "snow-and-wind.png": {
+      "resolution": [
+        2160,
+        1440
+      ],
+      "bytes": 3031767,
+      "sha256": "a4132ee4e835125de3b018aa79145c44d112616cc58dfcae040946d47c1f3137"
+    },
+    "songsong.png": {
+      "resolution": [
+        1080,
+        1080
+      ],
+      "bytes": 1158704,
+      "sha256": "ac9265f6a1bea47d96928dbad71529114b0a4b57c918b2044deeac8c5a4b7b96"
+    },
+    "solsol.png": {
+      "resolution": [
+        1080,
+        1080
+      ],
+      "bytes": 1161034,
+      "sha256": "2025a51f8d9280b707bd220af26e57b3156bea2bc5ae47dd3f8bf400869664f6"
+    }
+  },
+  "reopen_pixel_exact": false,
+  "max_channel_error": 1,
+  "mean_channel_error": 4.921875e-05,
+  "preserved_files": {
+    "scenes/autumn-cafe-v001.blend": true,
+    "scenes/cozy-neon-rain-v001.blend": true,
+    "scenes/cozy-neon-rain-v002.blend": true,
+    "scenes/rainy-cafe-v001.blend": true,
+    "scenes/rainy-cafe-v002.blend": true,
+    "scenes/thegachi-house-person-v004-final.blend": true,
+    "scenes/thegachi-house-person-v004-reviewed.blend": true,
+    "scenes/thegachi-house-person-v004.blend": true,
+    "scenes/thegachi-opening-v001.blend": true,
+    "scenes/thegachi-opening-v002.blend": true,
+    "scenes/thegachi-opening-v003.blend": true,
+    "scenes/thegachi-opening-v005.blend": true,
+    "scenes/thegachi-opening-v006.blend": true,
+    "scenes/thegachi-opening-v007.blend": true,
+    "scenes/vvoori-cafe-v001.blend": true,
+    "scenes/vvoori-cafe-v002.blend": true,
+    "scenes/vvoori-cafe-v003.blend": true,
+    "scenes/vvoori-cafe-v004.blend": true,
+    "scenes/vvoori-cafe-v005.blend": true,
+    "scenes/vvoori-cafe-winter-v001.blend": true,
+    "scenes/weather-fairies-v001.blend": true,
+    "outputs/weather-fairies/v001/haerong.png": true,
+    "outputs/weather-fairies/v001/mongsil.png": true,
+    "outputs/weather-fairies/v001/standalone-reopen.png": true,
+    "outputs/weather-fairies/v001/ttorr.png": true,
+    "outputs/weather-fairies/v001/weather-fairies-clean.png": true,
+    "outputs/weather-fairies/v001/weather-fairies-group.png": true
+  },
+  "preserved_scenes": [
+    "Autumn_Cafe_v001",
+    "Cozy_Neon_Rain_v002",
+    "Rainy_Cafe_v001",
+    "Rainy_Cafe_v002",
+    "Scene",
+    "Thegachi_Opening_v003",
+    "Thegachi_Opening_v007",
+    "Vvoori_Cafe_v001",
+    "Vvoori_Cafe_v002",
+    "Vvoori_Cafe_v003",
+    "Vvoori_Cafe_v004",
+    "Vvoori_Cafe_v005",
+    "Vvoori_Cafe_Winter_v001",
+    "Weather_Fairies_v001"
+  ],
+  "bridge_jobs": {
+    "20261005T194945-37db49d32d": {
+      "ok": true,
+      "elapsed_seconds": 12.831
+    },
+    "20261005T195131-9eac873606": {
+      "ok": true,
+      "elapsed_seconds": 82.671
+    }
+  },
+  "source_bytes": 2829952,
+  "source_sha256": "f6664d4462522a2dbee0ac84f189afd7877ea584bb0825847d9e92bd951bd1a0",
+  "visual_review": "Five-character group, snow-and-wind duo and both new portraits inspected.",
+  "scope": "Five editable 3D characters; two newly created. Still images; no skeletal rig or animation."
+}

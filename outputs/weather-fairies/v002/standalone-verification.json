@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "independently_reopened": true,
+  "rendered": true,
+  "scene": "Weather_Fairies_v002",
+  "scene_count": 1,
+  "objects": 179,
+  "character_count": 5,
+  "projected_bounds": {
+    "Mongsil": [
+      0.0676804706454277,
+      0.27580526471138,
+      0.24247685074806213,
+      0.6889669299125671
+    ],
+    "Haerong": [
+      0.25063520669937134,
+      0.3572704493999481,
+      0.46112149953842163,
+      0.7394043803215027
+    ],
+    "Ttorr": [
+      0.40234875679016113,
+      0.2956005930900574,
+      0.5847139954566956,
+      0.644085168838501
+    ],
+    "Songsong": [
+      0.5554359555244446,
+      0.32638275623321533,
+      0.7674557566642761,
+      0.682356059551239
+    ],
+    "Solsol": [
+      0.7238126397132874,
+      0.2706299424171448,
+      0.96358323097229,
+      0.6993613839149475
+    ]
+  },
+  "external_dependencies": [],
+  "snow_spokes": 6,
+  "snow_forks": 12,
+  "wind_body_and_spiral_fused": true,
+  "blender": "5.2.1 LTS",
+  "native_source_saved": true,
+  "animation": false,
+  "rigged": false
+}
