@@ -1,3 +1,21 @@
+<!-- STORYBOOK_CAST_V001_BEGIN -->
+# 현재 제작: 이야기 친구들 — 네 주제의 개별 리깅 모델 20종
+
+2026-10-06 (한국 시간). 사용자 요청: 날씨 요정을 제외한 숲속 우체국·디저트·우주 정비소·바다 구조대 각각 5종과 리깅, 개별 저장, Unity 활용 및 걷기/앉기/달리기.
+
+- 전달 폴더 `exports/storybook-cast/v001/`. 주제별 5개 `.blend`와 FBX, 총 20개 독립 원본. 개별 모델은 하나의 Armature/스킨 메시, 3개 얼굴 ShapeKey, 손발 IK와 귀/꼬리/촉수 등의 추가 뼈를 포함한다.
+- 캐릭터당 Idle·Walk·Run·SitDown·SitIdle·StandUp·Wave·Celebrate 8개 동작, 총 160개 Unity 클립. Blender는 8개 편집 Action + AllMotions, Unity는 Generic 베이크. 복어/해마의 이동은 헤엄이고 실제 전진은 게임 코드와 연결하는 제자리 동작이다.
+- `StorybookCast-Unity6-URP-v001.unitypackage`: 20개 Prefab/Animator, URP 재질, 주제별 4개 Showcase Scene, 런타임 표정/모션 컴포넌트. 주제별 `Forest/Dessert/Space/Sea-Models-v001.zip` 4개에는 원본/FBX/Unity 패키지/미리보기/동작 영상/사용법을 각각 묶었다.
+- 미리보기 `previews/all-20-characters.png`, 개별 PNG 20개, `*-motions.mp4` 4개(1280×720/24fps/15.333초/무음). 모델과 Idle/Walk/Run/SitIdle를 직접 시각 검사했다.
+- native 20/20 독립 재개방·가중치·driver·Action·순환·접지·착석 검증. Unity 6000.3.25f1 / URP 17.3.0에서 160개 클립과 실제 Play의 상태 전환/스킨 변형/SitDown→SitIdle/수동 얼굴 제어 통과. 각 MP4 전체 디코딩과 고정 배경 ROI 전체 프레임 변화 0 확인.
+- 패키지 내부 실제 파일 및 `.meta` 바이트 동일, ZIP CRC/바이트 동일, 전달 파일 SHA-256 목록 저장. 기존 날씨 원본과 개별 배포 모델 19개의 SHA-256 유지. 최대 전달 파일 13.7 MB.
+- 해마 휴식 높이 및 마카롱/슈크림의 허벅지 연결부를 보완하고 해당 모델·모션·영상 재검증. 독립 리뷰의 남은 Critical/Important 항목 없음.
+- 마지막 브리찌 작업 `20261006T091131-edbf060846`, `ok=true`, 미리보기 검사. 현재 `SC_Dessert_v001` 기본 자세. Unity는 기존 `Assets/RainbowIsland/Scenes/RainbowIsland.unity`로 복귀했으며 dirty=false, Play 종료, 열린 Scene 1개 확인.
+- 재현/한계/검증 상세: `workflows/storybook-cast/README.md`. 증거: `outputs/storybook-cast/v001/`. Unity 기록은 `W:/WorkUnity/doc/verification/storybook-cast-v001/`. Windows/RTX3090/Unity6 URP 외 환경과 LOD/모바일/Humanoid/실시간 Unity IK는 별도 범위다.
+- 이번 전용 소스·모델·검증 파일과 이 상태 추가분만 커밋/푸시하며 기존 AGENTS, 다른 장면/workflow, current.blend와 최신 미리보기 상태의 미커밋 변경은 포함하지 않는다. 원격 반영 결과는 최종 응답에서 확인한다.
+
+<!-- STORYBOOK_CAST_V001_END -->
+
 <!-- WEATHER_UNITY_V001_BEGIN -->
 # 현재 제작: 오늘의 날씨 요정들 — 개별 리깅 모델과 Unity 패키지
 

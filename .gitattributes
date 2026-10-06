@@ -7,3 +7,5 @@
 *.png binary
 *.jpg binary
 *.mp4 binary
+# Preserve verified package payloads and their SHA-256 across Windows checkouts.
+exports/storybook-cast/** -text

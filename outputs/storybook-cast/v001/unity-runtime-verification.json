@@ -1,0 +1,406 @@
+{
+    "ok": true,
+    "unity": "6000.3.25f1",
+    "characters": [
+        {
+            "key": "PipiRabbit",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.24375972151756288,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "DodoBear",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.21291084587574006,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "ToriSquirrel",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.40673601627349856,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "BibiOwl",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.25250157713890078,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "MoriHedgehog",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.16203320026397706,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "PuruPudding",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.15686869621276856,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "MomoMochi",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.15686869621276856,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "PanBread",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.15686869621276856,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "RoniMacaron",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.1683683693408966,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "ShushuPuff",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.1683683693408966,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "PokoAlien",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.17661933600902558,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "BoltRobot",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.24611879885196687,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "LunaRabbit",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.22912077605724336,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "TwinkleStar",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.16049471497535706,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "PingoPenguin",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.18990811705589295,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "OctoOctopus",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.1576208919286728,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "TutuTurtle",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.22088703513145448,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "BobaPuffer",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.3378632366657257,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "KikiHermit",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.21048955619335175,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        },
+        {
+            "key": "HaniSeahorse",
+            "states": [
+                "Idle",
+                "Walk",
+                "Run",
+                "SitDown",
+                "SitIdle",
+                "StandUp",
+                "Wave",
+                "Celebrate"
+            ],
+            "sitTransition": true,
+            "walkMovement": 0.3378632068634033,
+            "faceWeights": [
+                40.0,
+                45.0,
+                25.0
+            ]
+        }
+    ]
+}

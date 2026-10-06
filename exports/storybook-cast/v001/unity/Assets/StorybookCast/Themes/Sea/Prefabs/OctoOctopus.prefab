@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4649595397228486645
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+      propertyPath: m_Name
+      value: OctoOctopus
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1b4064c74bc2d364db0063c9d885dca4, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6395367725775864217, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4010269441406531734}
+  m_SourcePrefab: {fileID: 100100000, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+--- !u!1 &5496581433068970660 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3d0c48bb4a87e424d85e92ba24271467, type: 3}
+  m_PrefabInstance: {fileID: 4649595397228486645}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4010269441406531734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5496581433068970660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87533d33d06ca84ab8a1c541b0993e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StorybookCast.StorybookCharacter
+  characterKey: OctoOctopus
+  koreanName: "\uC625\uD1A0"
+  role: "\uAC81 \uB9CE\uC9C0\uB9CC \uC6A9\uAC10\uD55C \uBB38\uC5B4"
+  motion: 0
+  manualFace: 0
+  blink: 0
+  smile: 0
+  surprise: 0

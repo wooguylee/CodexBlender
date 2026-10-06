@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "videos": [
+    {
+      "theme": "Forest",
+      "path": "exports/storybook-cast/v001/previews/Forest-motions.mp4",
+      "sha256": "8106c770f83fe725fb84b63202bf2d663be7376d128b34cdf47e66ce808271f2",
+      "frames": 368,
+      "fps": 24,
+      "duration": 15.333333,
+      "static_roi_max_delta": 0,
+      "walk_frame_mae": 8.03878298611111,
+      "full_decode": true
+    },
+    {
+      "theme": "Dessert",
+      "path": "exports/storybook-cast/v001/previews/Dessert-motions.mp4",
+      "sha256": "53df7263223a8b9f9a6238c41b99430daeb626b11ff4058eab6ebd84e2d606ed",
+      "frames": 368,
+      "fps": 24,
+      "duration": 15.333333,
+      "static_roi_max_delta": 0,
+      "walk_frame_mae": 4.865756944444445,
+      "full_decode": true
+    },
+    {
+      "theme": "Space",
+      "path": "exports/storybook-cast/v001/previews/Space-motions.mp4",
+      "sha256": "d56700c36355ab19807984f4302582b0ca19cca5fbfd451a4f2514b410ed2d8f",
+      "frames": 368,
+      "fps": 24,
+      "duration": 15.333333,
+      "static_roi_max_delta": 0,
+      "walk_frame_mae": 8.236338541666667,
+      "full_decode": true
+    },
+    {
+      "theme": "Sea",
+      "path": "exports/storybook-cast/v001/previews/Sea-motions.mp4",
+      "sha256": "62e142064b4c2d726709363aa7d8e2ff42fdf38dea6649310d996c936dfe1a98",
+      "frames": 368,
+      "fps": 24,
+      "duration": 15.333333,
+      "static_roi_max_delta": 0,
+      "walk_frame_mae": 6.3623532986111115,
+      "full_decode": true
+    }
+  ]
+}

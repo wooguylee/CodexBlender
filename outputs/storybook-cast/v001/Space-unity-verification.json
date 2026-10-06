@@ -1,0 +1,422 @@
+{
+    "ok": true,
+    "unity": "6000.3.25f1",
+    "theme": "Space",
+    "characters": [
+        {
+            "key": "PokoAlien",
+            "vertices": 20170,
+            "bones": 26,
+            "shapes": 3,
+            "materials": 11,
+            "seatedDrop": 0.35999178886413576,
+            "blinkRange": 100.0,
+            "clips": [
+                {
+                    "name": "Idle",
+                    "seconds": 2.0,
+                    "loopError": 5.230286319601873e-7,
+                    "maxMovement": 0.08353817462921143,
+                    "minY": -9.834766387939454e-7,
+                    "maxY": 2.965487003326416,
+                    "curves": 273
+                },
+                {
+                    "name": "Celebrate",
+                    "seconds": 2.0000009536743166,
+                    "loopError": 0.0000013167095858079848,
+                    "maxMovement": 0.9498021602630615,
+                    "minY": -0.0000011920928955078126,
+                    "maxY": 2.9891762733459474,
+                    "curves": 273
+                },
+                {
+                    "name": "Run",
+                    "seconds": 2.0,
+                    "loopError": 1.1102230246251566e-16,
+                    "maxMovement": 0.6198562979698181,
+                    "minY": 0.035301029682159427,
+                    "maxY": 3.023148536682129,
+                    "curves": 273
+                },
+                {
+                    "name": "SitDown",
+                    "seconds": 1.5000004768371583,
+                    "loopError": 0.5041190981864929,
+                    "maxMovement": 0.5041190981864929,
+                    "minY": -0.00015878677368164063,
+                    "maxY": 2.9449994564056398,
+                    "curves": 273
+                },
+                {
+                    "name": "SitIdle",
+                    "seconds": 2.000000476837158,
+                    "loopError": 4.777675712830387e-7,
+                    "maxMovement": 0.08353710174560547,
+                    "minY": 0.0,
+                    "maxY": 2.6054940223693849,
+                    "curves": 273
+                },
+                {
+                    "name": "StandUp",
+                    "seconds": 1.5,
+                    "loopError": 0.5041190981864929,
+                    "maxMovement": 0.5041190981864929,
+                    "minY": -0.00015869736671447754,
+                    "maxY": 2.9449994564056398,
+                    "curves": 273
+                },
+                {
+                    "name": "Walk",
+                    "seconds": 2.000000238418579,
+                    "loopError": 8.678567269271298e-7,
+                    "maxMovement": 0.3795090913772583,
+                    "minY": 0.0029439032077789308,
+                    "maxY": 2.990337610244751,
+                    "curves": 273
+                },
+                {
+                    "name": "Wave",
+                    "seconds": 2.0,
+                    "loopError": 7.99680208274367e-7,
+                    "maxMovement": 1.0851171016693116,
+                    "minY": -0.0000011622905731201172,
+                    "maxY": 2.9496517181396486,
+                    "curves": 273
+                }
+            ]
+        },
+        {
+            "key": "BoltRobot",
+            "vertices": 15870,
+            "bones": 23,
+            "shapes": 3,
+            "materials": 12,
+            "seatedDrop": 0.35999178886413576,
+            "blinkRange": 100.0,
+            "clips": [
+                {
+                    "name": "Idle",
+                    "seconds": 2.0,
+                    "loopError": 5.462856051963172e-7,
+                    "maxMovement": 0.07452917098999024,
+                    "minY": -9.834766387939454e-7,
+                    "maxY": 2.84244966506958,
+                    "curves": 243
+                },
+                {
+                    "name": "Celebrate",
+                    "seconds": 2.0000009536743166,
+                    "loopError": 0.000001455134793104662,
+                    "maxMovement": 0.9498021602630615,
+                    "minY": -0.0000011920928955078126,
+                    "maxY": 2.8638062477111818,
+                    "curves": 243
+                },
+                {
+                    "name": "Run",
+                    "seconds": 2.0,
+                    "loopError": 5.551115123125783e-17,
+                    "maxMovement": 0.6198562979698181,
+                    "minY": 0.035301029682159427,
+                    "maxY": 2.8966927528381349,
+                    "curves": 243
+                },
+                {
+                    "name": "SitDown",
+                    "seconds": 1.5000004768371583,
+                    "loopError": 0.5041190981864929,
+                    "maxMovement": 0.5041190981864929,
+                    "minY": -0.00015878677368164063,
+                    "maxY": 2.8249988555908205,
+                    "curves": 243
+                },
+                {
+                    "name": "SitIdle",
+                    "seconds": 2.000000476837158,
+                    "loopError": 3.424026147058612e-7,
+                    "maxMovement": 0.07452821731567383,
+                    "minY": 0.0,
+                    "maxY": 2.482456684112549,
+                    "curves": 243
+                },
+                {
+                    "name": "StandUp",
+                    "seconds": 1.5,
+                    "loopError": 0.5041190981864929,
+                    "maxMovement": 0.5041190981864929,
+                    "minY": -0.00015869736671447754,
+                    "maxY": 2.8249988555908205,
+                    "curves": 243
+                },
+                {
+                    "name": "Walk",
+                    "seconds": 2.000000238418579,
+                    "loopError": 8.642673492431641e-7,
+                    "maxMovement": 0.3795090913772583,
+                    "minY": 0.0029439032077789308,
+                    "maxY": 2.8667397499084474,
+                    "curves": 243
+                },
+                {
+                    "name": "Wave",
+                    "seconds": 2.0,
+                    "loopError": 7.99680208274367e-7,
+                    "maxMovement": 1.0851171016693116,
+                    "minY": -0.0000011622905731201172,
+                    "maxY": 2.8249988555908205,
+                    "curves": 243
+                }
+            ]
+        },
+        {
+            "key": "LunaRabbit",
+            "vertices": 18640,
+            "bones": 24,
+            "shapes": 3,
+            "materials": 10,
+            "seatedDrop": 0.35999059677124026,
+            "blinkRange": 100.0,
+            "clips": [
+                {
+                    "name": "Idle",
+                    "seconds": 2.0,
+                    "loopError": 5.462856051963172e-7,
+                    "maxMovement": 0.07944297790527344,
+                    "minY": -9.834766387939454e-7,
+                    "maxY": 3.0344419479370119,
+                    "curves": 253
+                },
+                {
+                    "name": "Celebrate",
+                    "seconds": 2.0000009536743166,
+                    "loopError": 0.0000013180580253902008,
+                    "maxMovement": 0.9498021602630615,
+                    "minY": -0.0000011920928955078126,
+                    "maxY": 3.055742025375366,
+                    "curves": 253
+                },
+                {
+                    "name": "Run",
+                    "seconds": 2.0,
+                    "loopError": 5.551115123125783e-17,
+                    "maxMovement": 0.6198562979698181,
+                    "minY": 0.035301029682159427,
+                    "maxY": 3.092512607574463,
+                    "curves": 253
+                },
+                {
+                    "name": "SitDown",
+                    "seconds": 1.5000004768371583,
+                    "loopError": 0.5041190981864929,
+                    "maxMovement": 0.5041190981864929,
+                    "minY": -0.00015878677368164063,
+                    "maxY": 3.0162014961242677,
+                    "curves": 253
+                },
+                {
+                    "name": "SitIdle",
+                    "seconds": 2.000000476837158,
+                    "loopError": 4.805480102731963e-7,
+                    "maxMovement": 0.07944214344024658,
+                    "minY": 0.0,
+                    "maxY": 2.6744494438171388,
+                    "curves": 253
+                },
+                {
+                    "name": "StandUp",
+                    "seconds": 1.5,
+                    "loopError": 0.5041190981864929,
+                    "maxMovement": 0.5041190981864929,
+                    "minY": -0.00015869736671447754,
+                    "maxY": 3.0162017345428469,
+                    "curves": 253
+                },
+                {
+                    "name": "Walk",
+                    "seconds": 2.000000238418579,
+                    "loopError": 8.107108442345634e-7,
+                    "maxMovement": 0.3795090913772583,
+                    "minY": 0.0029439032077789308,
+                    "maxY": 3.0597658157348635,
+                    "curves": 253
+                },
+                {
+                    "name": "Wave",
+                    "seconds": 2.0,
+                    "loopError": 7.99680208274367e-7,
+                    "maxMovement": 1.0851171016693116,
+                    "minY": -0.0000011622905731201172,
+                    "maxY": 3.0188474655151369,
+                    "curves": 253
+                }
+            ]
+        },
+        {
+            "key": "TwinkleStar",
+            "vertices": 16470,
+            "bones": 23,
+            "shapes": 3,
+            "materials": 12,
+            "seatedDrop": 0.35999107360839846,
+            "blinkRange": 100.0,
+            "clips": [
+                {
+                    "name": "Idle",
+                    "seconds": 2.0,
+                    "loopError": 5.364418029785156e-7,
+                    "maxMovement": 0.08190011978149414,
+                    "minY": -9.834766387939454e-7,
+                    "maxY": 2.8329617977142336,
+                    "curves": 243
+                },
+                {
+                    "name": "Celebrate",
+                    "seconds": 2.0000009536743166,
+                    "loopError": 0.0000013167095858079848,
+                    "maxMovement": 0.949933648109436,
+                    "minY": -0.0000011920928955078126,
+                    "maxY": 2.8608498573303224,
+                    "curves": 243
+                },
+                {
+                    "name": "Run",
+                    "seconds": 2.0,
+                    "loopError": 5.351853600134414e-17,
+                    "maxMovement": 0.6198562979698181,
+                    "minY": 0.035301029682159427,
+                    "maxY": 2.8956425189971926,
+                    "curves": 243
+                },
+                {
+                    "name": "SitDown",
+                    "seconds": 1.5000004768371583,
+                    "loopError": 0.5041190981864929,
+                    "maxMovement": 0.5041190981864929,
+                    "minY": -0.00015878677368164063,
+                    "maxY": 2.807856321334839,
+                    "curves": 243
+                },
+                {
+                    "name": "SitIdle",
+                    "seconds": 2.000000476837158,
+                    "loopError": 3.424026147058612e-7,
+                    "maxMovement": 0.08189916610717774,
+                    "minY": 0.0,
+                    "maxY": 2.472968816757202,
+                    "curves": 243
+                },
+                {
+                    "name": "StandUp",
+                    "seconds": 1.5,
+                    "loopError": 0.5041190981864929,
+                    "maxMovement": 0.5041190981864929,
+                    "minY": -0.00015869736671447754,
+                    "maxY": 2.807856321334839,
+                    "curves": 243
+                },
+                {
+                    "name": "Walk",
+                    "seconds": 2.000000238418579,
+                    "loopError": 8.107108442345634e-7,
+                    "maxMovement": 0.3795090913772583,
+                    "minY": 0.0029439032077789308,
+                    "maxY": 2.860109329223633,
+                    "curves": 243
+                },
+                {
+                    "name": "Wave",
+                    "seconds": 2.0,
+                    "loopError": 7.99680208274367e-7,
+                    "maxMovement": 1.0878877639770508,
+                    "minY": -0.0000011622905731201172,
+                    "maxY": 2.8089218139648439,
+                    "curves": 243
+                }
+            ]
+        },
+        {
+            "key": "PingoPenguin",
+            "vertices": 18732,
+            "bones": 23,
+            "shapes": 3,
+            "materials": 12,
+            "seatedDrop": 0.35999131202697756,
+            "blinkRange": 100.0,
+            "clips": [
+                {
+                    "name": "Idle",
+                    "seconds": 2.0,
+                    "loopError": 5.840038852511498e-7,
+                    "maxMovement": 0.0802619457244873,
+                    "minY": -9.834766387939454e-7,
+                    "maxY": 2.664217233657837,
+                    "curves": 243
+                },
+                {
+                    "name": "Celebrate",
+                    "seconds": 2.0000009536743166,
+                    "loopError": 0.0000013167095858079848,
+                    "maxMovement": 0.9498021602630615,
+                    "minY": -0.0000011920928955078126,
+                    "maxY": 2.683861255645752,
+                    "curves": 243
+                },
+                {
+                    "name": "Run",
+                    "seconds": 2.0,
+                    "loopError": 5.551115123125783e-17,
+                    "maxMovement": 0.6208000779151917,
+                    "minY": 0.035301029682159427,
+                    "maxY": 2.721651792526245,
+                    "curves": 243
+                },
+                {
+                    "name": "SitDown",
+                    "seconds": 1.5000004768371583,
+                    "loopError": 0.5041190981864929,
+                    "maxMovement": 0.5041190981864929,
+                    "minY": -0.00015878677368164063,
+                    "maxY": 2.6576290130615236,
+                    "curves": 243
+                },
+                {
+                    "name": "SitIdle",
+                    "seconds": 2.000000476837158,
+                    "loopError": 2.4027400513659816e-7,
+                    "maxMovement": 0.0802609920501709,
+                    "minY": 0.0,
+                    "maxY": 2.3042244911193849,
+                    "curves": 243
+                },
+                {
+                    "name": "StandUp",
+                    "seconds": 1.5,
+                    "loopError": 0.5041190981864929,
+                    "maxMovement": 0.5041190981864929,
+                    "minY": -0.00015869736671447754,
+                    "maxY": 2.6576290130615236,
+                    "curves": 243
+                },
+                {
+                    "name": "Walk",
+                    "seconds": 2.000000238418579,
+                    "loopError": 8.596304041930125e-7,
+                    "maxMovement": 0.3795090913772583,
+                    "minY": 0.0029439032077789308,
+                    "maxY": 2.6924874782562258,
+                    "curves": 243
+                },
+                {
+                    "name": "Wave",
+                    "seconds": 2.0,
+                    "loopError": 7.99680208274367e-7,
+                    "maxMovement": 1.0851171016693116,
+                    "minY": -0.0000011622905731201172,
+                    "maxY": 2.657667875289917,
+                    "curves": 243
+                }
+            ]
+        }
+    ]
+}

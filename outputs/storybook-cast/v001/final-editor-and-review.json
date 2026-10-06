@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "source_compile_errors": 0,
+  "active_scene": "Assets/RainbowIsland/Scenes/RainbowIsland.unity",
+  "dirty": false,
+  "playing": false,
+  "scene_count": 1,
+  "console_warning": "Deleting invalid font reference (one; attribution not established)",
+  "review": {
+    "initial_important": "RoniMacaron and ShushuPuff thigh attachment gaps",
+    "fix": "Only these two hips raised to z=.98; regenerated native, FBX, clips and all Dessert preview frames",
+    "remaining_critical": 0,
+    "remaining_important": 0,
+    "visual_rechecked": [
+      "Idle",
+      "Walk",
+      "Run",
+      "SitIdle"
+    ]
+  }
+}

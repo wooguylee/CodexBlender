@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "packages": [
+    {
+      "name": "Forest-Unity6-URP-v001.unitypackage",
+      "bytes": 3222891,
+      "sha256": "e3497ba9c251604c362ed5f551f2fe6f3e4e914619ddd7e5da6f64d0b5e04a63",
+      "assets_verified": 72,
+      "fbx": 5
+    },
+    {
+      "name": "Dessert-Unity6-URP-v001.unitypackage",
+      "bytes": 1933017,
+      "sha256": "857720c796297d111d31251740344df8dca68860aa7b84941d0ae502cab1f249",
+      "assets_verified": 77,
+      "fbx": 5
+    },
+    {
+      "name": "Space-Unity6-URP-v001.unitypackage",
+      "bytes": 3538585,
+      "sha256": "23aa887e5c35935636fb28ea4ba9bcbc8319b1c4bc65b0776057d07fa8a01deb",
+      "assets_verified": 82,
+      "fbx": 5
+    },
+    {
+      "name": "Sea-Unity6-URP-v001.unitypackage",
+      "bytes": 3039160,
+      "sha256": "5bdf1347b8c8e0dbbb6b304d2d31479afb7c34235f9450befa50c143d74f548b",
+      "assets_verified": 77,
+      "fbx": 5
+    },
+    {
+      "name": "StorybookCast-Unity6-URP-v001.unitypackage",
+      "bytes": 11728053,
+      "sha256": "96cc446adb946e55b79a08f1f07f72a10d3c4d6416c27d003b16f38fe74e3359",
+      "assets_verified": 293,
+      "fbx": 20
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "staged_paths": 717,
+  "export_git_blobs_byte_identical": 675,
+  "sha256_files_verified": 674,
+  "actual_file_counts": {
+    ".fbx": 20,
+    ".blend": 20,
+    ".prefab": 20,
+    ".controller": 20,
+    ".unity": 4
+  },
+  "preserved_unity_serializer_whitespace_files": 581,
+  "authored_whitespace_errors": 0
+}
