@@ -6,20 +6,31 @@ from geometry import Builder,rgb
 from rigging import build_rig
 from catalog import THEMES
 
-root=PROJECT_ROOT;out=root/'outputs/storybook-cast/v001';out.mkdir(parents=True,exist_ok=True)
+version=globals().get('VERSION','v001');attach_shoulders=globals().get('ATTACH_SHOULDERS',False)
+root=PROJECT_ROOT;out=root/'outputs/storybook-cast'/version;out.mkdir(parents=True,exist_ok=True)
 assert not (out/'model-manifest.json').exists(),'Version already exists; choose a new version.'
 preserved={p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in list((root/'scenes').glob('weather*.blend'))+list((root/'exports/weather-fairies/v001').rglob('*.fbx'))+list((root/'exports/weather-fairies/v001/blender').glob('*.blend'))}
+if version!='v001':
+    previous=root/'exports/storybook-cast/v001';old_hashes=json.loads((previous/'SHA256SUMS.json').read_text(encoding='utf-8'))
+    preserved.update({(previous/path).relative_to(root).as_posix():digest for path,digest in old_hashes.items()})
+    preserved[(previous/'SHA256SUMS.json').relative_to(root).as_posix()]=hashlib.sha256((previous/'SHA256SUMS.json').read_bytes()).hexdigest()
 if bpy.context.object and bpy.context.object.mode!='OBJECT':bpy.ops.object.mode_set(mode='OBJECT')
 records=[];start=time.monotonic()
 for theme,spec in THEMES.items():
-    stage=bpy.data.scenes.new('SC_'+theme+'_v001');stage.render.engine='BLENDER_EEVEE';stage.render.resolution_x=1920;stage.render.resolution_y=1080;stage.render.resolution_percentage=100
+    stage=bpy.data.scenes.new('SC_'+theme+'_'+version);stage.render.engine='BLENDER_EEVEE';stage.render.resolution_x=1920;stage.render.resolution_y=1080;stage.render.resolution_percentage=100
     stage.render.fps=24;stage.render.image_settings.file_format='PNG';stage.eevee.taa_render_samples=32
     stage.view_settings.view_transform='AgX';stage.world=bpy.data.worlds.new('SC_'+theme+'_World');stage.world.use_nodes=True
     stage.world.node_tree.nodes['Background'].inputs['Color'].default_value=(.65,.65,.65,1);stage.world.node_tree.nodes['Background'].inputs['Strength'].default_value=.5
     for index,(key,ko,role) in enumerate(spec['characters']):
-        scene=bpy.data.scenes.new('SC_'+key+'_v001');scene.render.fps=24;scene.unit_settings.system='METRIC';scene.unit_settings.scale_length=1
-        bpy.context.window.scene=scene;collection=bpy.data.collections.new('SC_'+key);scene.collection.children.link(collection)
-        b=Builder(key,scene);importlib.import_module(spec['module']).build(b,key);mesh=b.combine(collection);rig=build_rig(b,collection,mesh)
+        scene=bpy.data.scenes.new('SC_'+key+'_'+version);scene.render.fps=24;scene.unit_settings.system='METRIC';scene.unit_settings.scale_length=1
+        bpy.context.window.scene=scene;collection=bpy.data.collections.new('SC_'+key+('_'+version if version!='v001' else ''));scene.collection.children.link(collection)
+        b=Builder(key,scene);importlib.import_module(spec['module']).build(b,key)
+        if attach_shoulders:
+            from shoulder_attachment import fit_shoulders,store_attachment_metadata
+            fit_shoulders(b,key)
+        mesh=b.combine(collection)
+        if attach_shoulders:store_attachment_metadata(b,mesh)
+        rig=build_rig(b,collection,mesh)
         rig['character_ko']=ko;rig['role_ko']=role;rig['theme']=theme;scene['character']=key;scene['theme']=theme
         empty=bpy.data.objects.new('SC_Display_'+key,None);empty.instance_type='COLLECTION';empty.instance_collection=collection;stage.collection.objects.link(empty);empty.location=((index-2)*3.15,0,0)
         bpy.context.view_layer.update();bbox=[v.co for v in mesh.data.vertices];mi=[min(v[i] for v in bbox) for i in range(3)];ma=[max(v[i] for v in bbox) for i in range(3)]
@@ -38,6 +49,6 @@ for theme,spec in THEMES.items():
     floorBuilder.box('Floor',(0,0,-.09),(200,200,.15),'Floor',bone='DEF_Body',bevel=0)
     floor=floorBuilder.combine(stage.collection);floor.name='SC_'+theme+'_Floor'
     stage.render.filepath=str(out/(theme+'-models.png'));bpy.ops.render.render(write_still=True)
-report={'ok':True,'characters':records,'preserved_sources':preserved,'seconds':time.monotonic()-start}
+report={'ok':True,'version':version,'characters':records,'preserved_sources':preserved,'seconds':time.monotonic()-start}
 (out/'model-manifest.json').write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding='utf-8')
-bpy.context.window.scene=bpy.data.scenes['SC_Forest_v001'];print(json.dumps({'ok':True,'models':len(records)}))
+bpy.context.window.scene=bpy.data.scenes['SC_Forest_'+version];print(json.dumps({'ok':True,'models':len(records)}))

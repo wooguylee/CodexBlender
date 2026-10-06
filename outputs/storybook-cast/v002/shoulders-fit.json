@@ -1,0 +1,1547 @@
+{
+  "ok": true,
+  "root_caps_tested": 40,
+  "min_inset": 0.04099917411804199,
+  "characters": [
+    {
+      "key": "PipiRabbit",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "Rounded_uniform",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.17612381279468536,
+            0.014999900944530964,
+            1.25
+          ],
+          "rest_inset_min": 0.12482337653636932
+        },
+        {
+          "side": "R",
+          "body_part": "Rounded_uniform",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.17612381279468536,
+            0.014999900944530964,
+            1.25
+          ],
+          "rest_inset_min": 0.12482346594333649
+        }
+      ]
+    },
+    {
+      "key": "DodoBear",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "Rounded_uniform",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.20243024826049805,
+            0.014999987557530403,
+            1.25
+          ],
+          "rest_inset_min": 0.13238748908042908
+        },
+        {
+          "side": "R",
+          "body_part": "Rounded_uniform",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.2024303376674652,
+            0.014999987557530403,
+            1.25
+          ],
+          "rest_inset_min": 0.13238751888275146
+        }
+      ]
+    },
+    {
+      "key": "ToriSquirrel",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "Rounded_uniform",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.16379651427268982,
+            0.014999949373304844,
+            1.25
+          ],
+          "rest_inset_min": 0.11073841899633408
+        },
+        {
+          "side": "R",
+          "body_part": "Rounded_uniform",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.16379661858081818,
+            0.014999949373304844,
+            1.25
+          ],
+          "rest_inset_min": 0.11073846369981766
+        }
+      ]
+    },
+    {
+      "key": "BibiOwl",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "Rounded_uniform",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.1656506508588791,
+            0.014999957755208015,
+            1.25
+          ],
+          "rest_inset_min": 0.09808564931154251
+        },
+        {
+          "side": "R",
+          "body_part": "Rounded_uniform",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.16565075516700745,
+            0.014999957755208015,
+            1.25
+          ],
+          "rest_inset_min": 0.09808554500341415
+        }
+      ]
+    },
+    {
+      "key": "MoriHedgehog",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "Rounded_uniform",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.17889508605003357,
+            0.014999979175627232,
+            1.25
+          ],
+          "rest_inset_min": 0.11827956140041351
+        },
+        {
+          "side": "R",
+          "body_part": "Rounded_uniform",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.17889508605003357,
+            0.014999979175627232,
+            1.25
+          ],
+          "rest_inset_min": 0.1182795837521553
+        }
+      ]
+    },
+    {
+      "key": "PuruPudding",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "Custard",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Head",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.23798398673534393,
+            -3.840505247154624e-09,
+            1.25
+          ],
+          "rest_inset_min": 0.30082041025161743
+        },
+        {
+          "side": "R",
+          "body_part": "Custard",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Head",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.23798398673534393,
+            -3.840505247154624e-09,
+            1.25
+          ],
+          "rest_inset_min": 0.30082041025161743
+        }
+      ]
+    },
+    {
+      "key": "MomoMochi",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "StrawberryMochi",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Head",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.2750476896762848,
+            -1.2082023159720734e-09,
+            1.25
+          ],
+          "rest_inset_min": 0.3093634247779846
+        },
+        {
+          "side": "R",
+          "body_part": "StrawberryMochi",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Head",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.2750476896762848,
+            -1.2082023159720734e-09,
+            1.25
+          ],
+          "rest_inset_min": 0.30936315655708313
+        }
+      ]
+    },
+    {
+      "key": "PanBread",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "GoldenCrust",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Head",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.27399998903274536,
+            6.51925802230835e-09,
+            1.25
+          ],
+          "rest_inset_min": 0.2805235683917999
+        },
+        {
+          "side": "R",
+          "body_part": "GoldenCrust",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Head",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.27399998903274536,
+            6.51925802230835e-09,
+            1.25
+          ],
+          "rest_inset_min": 0.2805235683917999
+        }
+      ]
+    },
+    {
+      "key": "RoniMacaron",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "MacaronLower",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Head",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.26181715726852417,
+            6.712234768002645e-09,
+            1.25
+          ],
+          "rest_inset_min": 0.06993557512760162
+        },
+        {
+          "side": "R",
+          "body_part": "MacaronLower",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Head",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.261817067861557,
+            6.712234768002645e-09,
+            1.25
+          ],
+          "rest_inset_min": 0.06993557512760162
+        }
+      ]
+    },
+    {
+      "key": "ShushuPuff",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "PuffHeart",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Head",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.24813604354858398,
+            -5.638277400521474e-09,
+            1.25
+          ],
+          "rest_inset_min": 0.2777194380760193
+        },
+        {
+          "side": "R",
+          "body_part": "PuffHeart",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Head",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.24813604354858398,
+            -5.638277400521474e-09,
+            1.25
+          ],
+          "rest_inset_min": 0.27771928906440735
+        }
+      ]
+    },
+    {
+      "key": "PokoAlien",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "SuitTorso",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.1544189453125,
+            -6.078925696151316e-10,
+            1.25
+          ],
+          "rest_inset_min": 0.053380243480205536
+        },
+        {
+          "side": "R",
+          "body_part": "SuitTorso",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.15441903471946716,
+            -6.078925696151316e-10,
+            1.25
+          ],
+          "rest_inset_min": 0.05338023975491524
+        }
+      ]
+    },
+    {
+      "key": "BoltRobot",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "SuitTorso",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.1647895872592926,
+            -4.03573130469681e-09,
+            1.25
+          ],
+          "rest_inset_min": 0.04099917411804199
+        },
+        {
+          "side": "R",
+          "body_part": "SuitTorso",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.1647895872592926,
+            -4.03573130469681e-09,
+            1.25
+          ],
+          "rest_inset_min": 0.04099917411804199
+        }
+      ]
+    },
+    {
+      "key": "LunaRabbit",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "SuitTorso",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.1544189453125,
+            -6.078925696151316e-10,
+            1.25
+          ],
+          "rest_inset_min": 0.053380243480205536
+        },
+        {
+          "side": "R",
+          "body_part": "SuitTorso",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.15441903471946716,
+            -6.078925696151316e-10,
+            1.25
+          ],
+          "rest_inset_min": 0.05338023975491524
+        }
+      ]
+    },
+    {
+      "key": "TwinkleStar",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "SuitTorso",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.1544189453125,
+            -6.078925696151316e-10,
+            1.25
+          ],
+          "rest_inset_min": 0.053380243480205536
+        },
+        {
+          "side": "R",
+          "body_part": "SuitTorso",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.15441903471946716,
+            -6.078925696151316e-10,
+            1.25
+          ],
+          "rest_inset_min": 0.05338023975491524
+        }
+      ]
+    },
+    {
+      "key": "PingoPenguin",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "SuitTorso",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.1544189453125,
+            -6.078925696151316e-10,
+            1.25
+          ],
+          "rest_inset_min": 0.053380243480205536
+        },
+        {
+          "side": "R",
+          "body_part": "SuitTorso",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.15441903471946716,
+            -6.078925696151316e-10,
+            1.25
+          ],
+          "rest_inset_min": 0.05338023975491524
+        }
+      ]
+    },
+    {
+      "key": "OctoOctopus",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "OctopusBody",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.16532401740550995,
+            1.4608023235496148e-08,
+            1.25
+          ],
+          "rest_inset_min": 0.06382577121257782
+        },
+        {
+          "side": "R",
+          "body_part": "OctopusBody",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.1653241217136383,
+            1.4608023235496148e-08,
+            1.25
+          ],
+          "rest_inset_min": 0.06382577121257782
+        }
+      ]
+    },
+    {
+      "key": "TutuTurtle",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "TurtleBody",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.15361937880516052,
+            -0.065000019967556,
+            1.25
+          ],
+          "rest_inset_min": 0.08380812406539917
+        },
+        {
+          "side": "R",
+          "body_part": "TurtleBody",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.15361948311328888,
+            -0.065000019967556,
+            1.25
+          ],
+          "rest_inset_min": 0.08380811661481857
+        }
+      ]
+    },
+    {
+      "key": "BobaPuffer",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "PufferRoundBody",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Head",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.23329201340675354,
+            -3.2707422548128307e-08,
+            1.25
+          ],
+          "rest_inset_min": 0.18556323647499084
+        },
+        {
+          "side": "R",
+          "body_part": "PufferRoundBody",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Head",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.2332921028137207,
+            -3.2707422548128307e-08,
+            1.25
+          ],
+          "rest_inset_min": 0.18556320667266846
+        }
+      ]
+    },
+    {
+      "key": "KikiHermit",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "HermitBody",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.13995246589183807,
+            -0.1300000250339508,
+            1.25
+          ],
+          "rest_inset_min": 0.050885021686553955
+        },
+        {
+          "side": "R",
+          "body_part": "HermitBody",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.1399523764848709,
+            -0.1300000250339508,
+            1.25
+          ],
+          "rest_inset_min": 0.050885021686553955
+        }
+      ]
+    },
+    {
+      "key": "HaniSeahorse",
+      "shoulders": [
+        {
+          "side": "L",
+          "body_part": "SeahorseChest",
+          "arm_part": "ArmL",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            -0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            -0.14111681282520294,
+            0.03500000387430191,
+            1.25
+          ],
+          "rest_inset_min": 0.16278457641601562
+        },
+        {
+          "side": "R",
+          "body_part": "SeahorseChest",
+          "arm_part": "ArmR",
+          "body_bone": "DEF_Body",
+          "root_local_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            176
+          ],
+          "old_joint": [
+            0.5699999928474426,
+            0.0,
+            1.25
+          ],
+          "joint": [
+            0.1411169022321701,
+            0.03500000387430191,
+            1.25
+          ],
+          "rest_inset_min": 0.16278475522994995
+        }
+      ]
+    }
+  ]
+}

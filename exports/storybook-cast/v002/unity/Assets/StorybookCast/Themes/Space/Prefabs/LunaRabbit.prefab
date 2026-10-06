@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3346321103579673364
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+      propertyPath: m_Name
+      value: LunaRabbit
+      objectReference: {fileID: 0}
+    - target: {fileID: 5594148893043701784, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 74b1d6ea882bb7c44ba02269c3716176, type: 2}
+    - target: {fileID: 5866666021909216657, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1924468963866030931}
+  m_SourcePrefab: {fileID: 100100000, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+--- !u!1 &2500039309366611525 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dc9ae67e765d75c41a1abb6d93e579ee, type: 3}
+  m_PrefabInstance: {fileID: 3346321103579673364}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1924468963866030931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2500039309366611525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87533d33d06ca84ab8a1c541b0993e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StorybookCast.StorybookCharacter
+  characterKey: LunaRabbit
+  koreanName: "\uB8E8\uB098"
+  role: "\uBCC4 \uBAA8\uC73C\uB294 \uB2EC\uD1A0\uB07C"
+  motion: 0
+  manualFace: 0
+  blink: 0
+  smile: 0
+  surprise: 0

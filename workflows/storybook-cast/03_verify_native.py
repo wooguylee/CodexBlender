@@ -26,7 +26,8 @@ if str(WORKFLOW) not in sys.path:
 from catalog import CLIPS, THEMES, SWIMMERS, clip_ranges
 
 
-OUTPUT = ROOT / "outputs/storybook-cast/v001"
+VERSION = sys.argv[sys.argv.index("--version") + 1] if "--version" in sys.argv else "v001"
+OUTPUT = ROOT / "outputs/storybook-cast" / VERSION
 MANIFEST_PATH = OUTPUT / "export-manifest.json"
 REPORT_PATH = OUTPUT / "native-verification.json"
 FLOOR_TOLERANCE = .002
@@ -460,7 +461,10 @@ def verify_character(record, manifest):
         bpy.context.view_layer.update()
         result["drivers"] = check_drivers(mesh, rig)
         result["valid_simple_drivers"] = len(result["drivers"])
-        idle = check_actions(scene, rig, mesh, key, result)
+        action_prefix=record.get('native_action_prefix',key)
+        idle = check_actions(scene, rig, mesh, action_prefix, result)
+        if mesh.get('shoulder_attachment'):
+            result['shoulder_attachment']=check_shoulder_attachment(scene,rig,mesh,action_prefix)
         result["awake_blink"] = verify_awake_blink(scene, rig, mesh, idle)
         require(not result["errors"], "Character failed animation measurements; see errors")
         xyz = normalize_native(scene, rig, mesh, idle, path, key)
@@ -478,6 +482,34 @@ def verify_character(record, manifest):
         result["errors"].append(type(error).__name__ + ": " + str(error))
         result["traceback"] = traceback.format_exc()
     return result
+
+
+def check_shoulder_attachment(scene,rig,mesh,action_prefix):
+    """Check actual skinned cap vertices against torso geometry in all 368 frames."""
+    from mathutils.bvhtree import BVHTree
+    from shoulder_attachment import signed_distance
+    specs=json.loads(mesh['shoulder_attachment']);prepared=[]
+    for spec in specs:
+        start=spec['body_start'];count=spec['body_count'];end=start+count
+        verts=[v.co.copy() for v in mesh.data.vertices[start:end]]
+        faces=[tuple(i-start for i in polygon.vertices) for polygon in mesh.data.polygons if all(start<=i<end for i in polygon.vertices)]
+        require(bool(faces),'Torso faces missing');bvh=BVHTree.FromPolygons(verts,faces,all_triangles=False)
+        root_ids=spec['root_vertices'];baseline=np.array([mesh.data.vertices[i].co for i in root_ids])
+        group=mesh.vertex_groups[spec['body_bone']].index
+        require(all(len(mesh.data.vertices[i].groups)==1 and mesh.data.vertices[i].groups[0].group==group and abs(mesh.data.vertices[i].groups[0].weight-1)<1e-6 for i in root_ids),'Shoulder cap not pinned to torso')
+        prepared.append((spec,bvh,baseline))
+    minimum=float('inf');max_drift=0.;frames=clip_ranges()[-1]['last']
+    use_action(scene,rig,bpy.data.actions[action_prefix+'_AllMotions'],1)
+    for frame in range(1,frames+1):
+        scene.frame_set(frame);bpy.context.view_layer.update();xyz=vertices_world(mesh)
+        for spec,bvh,baseline in prepared:
+            bone=spec['body_bone'];inverse=(rig.matrix_world@rig.pose.bones[bone].matrix@rig.data.bones[bone].matrix_local.inverted()).inverted()
+            inverse=np.array(inverse);points=xyz[spec['root_vertices']]@inverse[:3,:3].T+inverse[:3,3]
+            drift=float(np.linalg.norm(points-baseline,axis=1).max());max_drift=max(max_drift,drift)
+            inset=-max(signed_distance(bvh,p) for p in points);minimum=min(minimum,inset)
+            require(inset>.025,'%s %s frame %s: exposed shoulder cap %.6f'%(action_prefix,spec['side'],frame,inset))
+            require(drift<.0001,'%s shoulder detached from torso skin'%action_prefix)
+    return {'ok':True,'frames':frames,'shoulder_caps':2,'root_vertices_per_cap':len(specs[0]['root_vertices']),'min_inset':minimum,'max_torso_local_drift':max_drift}
 
 
 def main():

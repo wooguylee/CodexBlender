@@ -5,7 +5,7 @@ from PIL import Image,ImageDraw,ImageFont
 import numpy as np
 from catalog import THEMES,clip_ranges
 
-ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'outputs/storybook-cast/v001';DEST=ROOT/'exports/storybook-cast/v001'
+ROOT=Path(__file__).resolve().parents[2];VERSION='v001';OUT=ROOT/'outputs/storybook-cast'/VERSION;DEST=ROOT/'exports/storybook-cast'/VERSION
 LABELS={'Idle':'대기','Walk':'걷기 / 느린 헤엄','Run':'달리기 / 빠른 헤엄','SitDown':'앉기','SitIdle':'앉아서 쉬기','StandUp':'일어나기','Wave':'인사','Celebrate':'기뻐하기'}
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 def write(path,data):path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
@@ -142,11 +142,14 @@ Blender의 IK 제약과 표정 driver는 **원본 파일에 유지**되어 있�
 
 제작 소스와 검증 기록: 저장소 `workflows/storybook-cast/`, `outputs/storybook-cast/v001/`. 이 사용법의 경로는 이 전달 폴더를 기준으로 합니다.
 '''
+    text=text.replace('v001',VERSION)
+    if VERSION!='v001':
+        text=text.replace('2026-10-06 제작.', '2026-10-06 어깨 연결 보완판. 어깨 위치를 각 몸통 안으로 옮기고 팔 안쪽 가중치를 몸통에 고정했습니다. 모든 동작 프레임에서 실제 스킨 연결을 검사했습니다. 이전 v001 파일은 별도 보존합니다. 같은 Unity 자산 경로와 GUID를 사용하므로 이 패키지를 다시 가져오면 기존 모델을 갱신합니다.')
     (DEST/'README.md').write_text(text,encoding='utf-8')
 def package_checks():
     results=[]
     for name in list(THEMES)+['StorybookCast']:
-        path=DEST/(name+'-Unity6-URP-v001.unitypackage');assert path.is_file();checked=0;asset_paths=[]
+        path=DEST/(name+'-Unity6-URP-'+VERSION+'.unitypackage');assert path.is_file();checked=0;asset_paths=[]
         with tarfile.open(path,'r:gz') as tar:
             members={m.name:m for m in tar.getmembers()}
             for name2,member in members.items():
@@ -162,10 +165,10 @@ def package_checks():
 def zips(records):
     results=[]
     for theme in THEMES:
-        files=[DEST/'README.md',DEST/(theme+'-Unity6-URP-v001.unitypackage'),DEST/'previews'/'all-20-characters.png',DEST/'previews'/(theme+'-motions.mp4'),DEST/'previews'/(theme+'-Unity.png')]
+        files=[DEST/'README.md',DEST/(theme+'-Unity6-URP-'+VERSION+'.unitypackage'),DEST/'previews'/'all-20-characters.png',DEST/'previews'/(theme+'-motions.mp4'),DEST/'previews'/(theme+'-Unity.png')]
         for c in records:
             if c['theme']==theme:files.extend([ROOT/c['native'],ROOT/c['fbx'],DEST/'previews'/(c['key']+'.png')])
-        target=DEST/(theme+'-Models-v001.zip')
+        target=DEST/(theme+'-Models-'+VERSION+'.zip')
         with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as archive:
             for path in files:archive.write(path,path.relative_to(DEST).as_posix())
         with zipfile.ZipFile(target) as archive:
@@ -175,6 +178,10 @@ def zips(records):
     write(OUT/'zip-verification.json',{'ok':True,'packages':results})
 def final_checks(records,report):
     native=json.loads((OUT/'native-verification.json').read_text(encoding='utf-8'));assert native['ok'] and len(native['characters'])==20
+    if VERSION!='v001':
+        assert all(c['shoulder_attachment']['ok'] and c['shoulder_attachment']['frames']==368 for c in native['characters'])
+        for c in records:
+            shoulder=json.loads((OUT/'unity-shoulders'/(c['key']+'-shoulder-unity.json')).read_text(encoding='utf-8'));assert shoulder['ok'] and shoulder['frames']==368 and shoulder['caps']==2
     live=json.loads((OUT/'unity-runtime-verification.json').read_text(encoding='utf-8'));assert live['ok'] and len(live['characters'])==20
     for theme in THEMES:
         check=json.loads((OUT/(theme+'-unity-verification.json')).read_text(encoding='utf-8'));assert check['ok'] and len(check['characters'])==5
@@ -188,7 +195,9 @@ def final_checks(records,report):
     hashes={p.relative_to(DEST).as_posix():sha(p) for p in files};write(DEST/'SHA256SUMS.json',hashes)
     write(OUT/'delivery-verification.json',{'ok':True,'characters':20,'native':20,'fbx':20,'prefabs':20,'controllers':20,'clips':160,'scene_files':4,'files':len(files),'preserved_sources':len(preserved),'largest_file_bytes':max(p.stat().st_size for p in files),'hash_manifest_sha256':sha(DEST/'SHA256SUMS.json')})
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--unity-project',type=Path,required=True);parser.add_argument('--prepare',action='store_true');args=parser.parse_args()
+    global VERSION,OUT,DEST
+    parser=argparse.ArgumentParser();parser.add_argument('--unity-project',type=Path,required=True);parser.add_argument('--prepare',action='store_true');parser.add_argument('--version',default='v001',choices=['v001','v002']);args=parser.parse_args()
+    VERSION=args.version;OUT=ROOT/'outputs/storybook-cast'/VERSION;DEST=ROOT/'exports/storybook-cast'/VERSION
     copy_unity(args.unity_project);report,records=previews();readme(records)
     if args.prepare:movies(records)
     else:package_checks();zips(records);final_checks(records,report)

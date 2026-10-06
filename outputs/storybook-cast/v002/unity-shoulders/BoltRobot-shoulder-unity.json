@@ -1,0 +1,9 @@
+{
+    "ok": true,
+    "key": "BoltRobot",
+    "frames": 368,
+    "caps": 2,
+    "points": 34,
+    "maxMappingError": 3.725290298461914e-7,
+    "maxTorsoLocalDrift": 3.5832567846227905e-7
+}

@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "characters": 20,
+  "native": 20,
+  "fbx": 20,
+  "prefabs": 20,
+  "controllers": 20,
+  "clips": 160,
+  "scene_files": 4,
+  "files": 677,
+  "preserved_sources": 694,
+  "largest_file_bytes": 14611145,
+  "hash_manifest_sha256": "c7e0ba5fe80bafc18d2a5319fd2d34b996b9cdb273ceaa88b28697f8194c1422"
+}

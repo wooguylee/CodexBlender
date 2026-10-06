@@ -1,3 +1,19 @@
+<!-- STORYBOOK_CAST_V002_BEGIN -->
+# 현재 보완: 이야기 친구들 20종의 어깨 연결 v002
+
+2026-10-06. 사용자 지적한 팔·몸통 분리 문제를 20종 모두 보완했다.
+
+- 최신 전달본 `exports/storybook-cast/v002/`: 개별 .blend/FBX 20개, Unity Prefab/Animator 20개, 8동작 ×20종, 패키지 5개, 주제 ZIP 4개, 갱신한 동작 영상 4개.
+- 몸통에 맞춘 어깨 피벗과 연속 팔, 안쪽 단면의 몸통 가중치 고정 및 상완/전완 가중치 혼합. tube 바깥 면 방향과 복어 앉기 지느러미 높이도 보완했다. 기존 v001은 변경하지 않았다.
+- Native와 실제 Unity 반입 모델에서 20종 ×368프레임 ×양쪽 17정점 연결 검사 통과. 최소 몸통 포함 깊이 0.0409989, Unity 최대 단면 이동 오차 6.04e-7. 기존 표정·루프·접지·착석 검사 및 실제 Play 160상태 통과.
+- 정면·45도·90도의 6개 대표 자세를 직접 검사. 전후 비교 `previews/shoulders-before-after.png`, 전체 `previews/all-20-characters.png`. 영상 4개 전체 디코딩/프레임수 확인, 고정 배경 ROI 변화 0.
+- Unity 패키지/ZIP 내부 바이트·CRC 일치, 전달 파일 677개의 SHA-256 기록. v001 675개와 날씨 원본 19개의 SHA-256 보존. 기존 Unity GUID 유지.
+- 마지막 브리찌 작업 `20261006T100134-31cf64d922` ok=true, GUI `SC_Sea_v002` 기본 자세. Unity RainbowIsland로 복귀, dirty=false, Play 종료.
+- 원인·구현·검증·한계: `workflows/storybook-cast/SHOULDER_FIX.md`. 증거 `outputs/storybook-cast/v002/`. WorkUnity 기록 `W:/WorkUnity/doc/verification/storybook-cast-v002/`.
+- 이번 소스·새 배포본·선택한 검증 증거·이 상태 추가분만 커밋/푸시하며 무관한 기존 변경을 포함하지 않는다. 원격 반영 결과는 최종 응답에서 확인한다.
+
+<!-- STORYBOOK_CAST_V002_END -->
+
 <!-- STORYBOOK_CAST_V001_BEGIN -->
 # 현재 제작: 이야기 친구들 — 네 주제의 개별 리깅 모델 20종
 

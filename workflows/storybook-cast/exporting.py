@@ -4,8 +4,8 @@ from mathutils import Matrix
 from catalog import THEMES,clip_ranges,SWIMMERS
 from motions import create_actions,mesh_bounds
 
-def export_theme(root,theme):
-    out=root/'outputs/storybook-cast/v001';delivery=root/'exports/storybook-cast/v001'
+def export_theme(root,theme,version='v001'):
+    out=root/'outputs/storybook-cast'/version;delivery=root/'exports/storybook-cast'/version
     source=json.loads((out/'model-manifest.json').read_text(encoding='utf-8'))
     report_path=out/'export-manifest.json'
     report=json.loads(report_path.read_text(encoding='utf-8')) if report_path.exists() else {'characters':[],'preserved_sources':source['preserved_sources'],'clips':clip_ranges()}
@@ -21,7 +21,8 @@ def export_theme(root,theme):
             shift=Matrix.Translation((0,0,-floor));mesh.data.transform(shift,shape_keys=True);rig.data.transform(shift)
             rig.data.update_tag();rig.update_tag(refresh={'OBJECT','DATA','TIME'});rig['ground_aligned']=True;rig['pivot_shift']=-floor
         triangulate(mesh.data);scene.frame_set(1);bpy.context.view_layer.update()
-        all_motion,actions,motion_report=create_actions(scene,rig,mesh,key)
+        action_prefix=key+('_'+version if version!='v001' else '')
+        all_motion,actions,motion_report=create_actions(scene,rig,mesh,key,action_prefix=action_prefix)
         for driver in mesh.data.shape_keys.animation_data.drivers:assert driver.driver.is_valid and driver.driver.is_simple_expression
         for v in mesh.data.vertices:assert abs(sum(g.weight for g in v.groups)-1)<1e-5
         native=delivery/theme/'blender'/(key+'.blend');fbx=delivery/'unity/Assets/StorybookCast/Themes'/theme/'Models'/(key+'.fbx')
@@ -29,7 +30,7 @@ def export_theme(root,theme):
         assert not native.exists() and not fbx.exists(),key+' was already saved without a checkpoint; inspect before recovery.'
         rig.animation_data.action=actions['Idle'];rig.animation_data.action_slot=actions['Idle'].slots[0];scene.frame_start=1;scene.frame_end=49;scene.frame_set(1)
         bpy.context.view_layer.update();bpy.ops.object.select_all(action='DESELECT');rig.select_set(True);bpy.context.view_layer.objects.active=rig
-        scene['native_actions']=json.dumps({name:action.name for name,action in actions.items()});scene['front']='-Y in Blender, -Z in Unity';scene['fps']=24
+        scene['native_actions']=json.dumps({name:action.name for name,action in actions.items()});scene['front']='-Y in Blender, -Z in Unity';scene['fps']=24;scene['action_prefix']=action_prefix
         bpy.data.libraries.write(str(native),{scene,all_motion,*actions.values()},path_remap='RELATIVE',fake_user=True,compress=True)
         rig.animation_data.action=all_motion;rig.animation_data.action_slot=all_motion.slots[0];scene.frame_end=motion_report['frames'];scene.frame_set(1)
         rig.data.update_tag();rig.update_tag(refresh={'OBJECT','DATA','TIME'});bpy.context.view_layer.update()
@@ -48,13 +49,19 @@ def export_theme(root,theme):
           'native_sha256':hashlib.sha256(native.read_bytes()).hexdigest(),'fbx_sha256':hashlib.sha256(fbx.read_bytes()).hexdigest(),
           'fbx_bytes':fbx.stat().st_size,'native_bytes':native.stat().st_size,'shapes':3,'native_actions':len(actions)+1,
           'pivot_shift_z':rig['pivot_shift'],'rest_bounds':{'min':lo.tolist(),'max':hi.tolist()},'motion_style':'swimming' if key in SWIMMERS else 'walking',
-          'motion':motion_report}
+          'native_action_prefix':action_prefix,'motion':motion_report}
+        if mesh.get('shoulder_attachment'):
+            data['shoulders']=[{'side':s['side'],'body_bone':s['body_bone'],'root_points':[coordinate for index in s['root_vertices'] for coordinate in mesh.data.vertices[index].co]} for s in json.loads(mesh['shoulder_attachment'])]
         report['characters'].append(data);report['ok']=len(report['characters'])==20
         report_path.write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding='utf-8')
         print(json.dumps({'exported':key,'seconds':time.monotonic()-started,'native_bytes':native.stat().st_size,'fbx_bytes':fbx.stat().st_size}),flush=True)
+    # Resuming a single character must not change showcase/video label order.
+    order={c['key']:i for i,c in enumerate(source['characters'])}
+    report['characters'].sort(key=lambda c:order[c['key']])
+    report_path.write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding='utf-8')
     catalog={'themes':[{'key':k,'ko':v['ko'],'color':v['color']} for k,v in THEMES.items()],
-       'characters':[{k:c[k] for k in ('key','ko','role','theme','bones','vertices','shapes','materials','motion_style')} for c in report['characters']], 'clips':clip_ranges()}
+       'characters':[{**{k:c[k] for k in ('key','ko','role','theme','bones','vertices','shapes','materials','motion_style')},'shoulders':c.get('shoulders',[])} for c in report['characters']], 'clips':clip_ranges()}
     catalog_path=delivery/'unity/Assets/StorybookCast/catalog.json';catalog_path.parent.mkdir(parents=True,exist_ok=True)
     catalog_path.write_text(json.dumps(catalog,indent=2,ensure_ascii=False),encoding='utf-8')
-    scene=bpy.data.scenes['SC_'+theme+'_v001'];bpy.context.window.scene=scene;scene.frame_set(1);scene.render.filepath=str(out/(theme+'-rigged.png'));bpy.ops.render.render(write_still=True)
+    scene=bpy.data.scenes['SC_'+theme+'_'+version];bpy.context.window.scene=scene;scene.frame_set(1);scene.render.filepath=str(out/(theme+'-rigged.png'));bpy.ops.render.render(write_still=True)
     print(json.dumps({'ok':True,'theme':theme,'total_exported':len(report['characters'])}),flush=True)

@@ -37,6 +37,9 @@ def set_pose(rig,key,kind,u):
     world_delta(body,body_delta)
     for i,side in enumerate(('L','R')):
         sign=-1 if side=='L' else 1;leg_phase=phase+i*math.pi;foot=Vector((0,-.34*seat,0));hand=Vector((-sign*.18*seat,-.28*seat,-.29*seat))
+        # Low puffer fins otherwise push the seated body back up through the
+        # floor correction after the shoulder pivot has been moved inward.
+        if key=='BobaPuffer':hand.z=-.10*seat
         if kind in ('Walk','Run'):
             fast=kind=='Run';foot.y=(.245 if fast else .17)*math.cos(leg_phase)
             foot.z=(.17 if fast else .095)*max(0,math.sin(leg_phase)+(.20 if fast else 0))
@@ -62,8 +65,9 @@ def set_pose(rig,key,kind,u):
     face['surprise']=.9*math.sin(math.pi*u)**4 if kind=='Celebrate' else 0.
     return controls
 
-def create_actions(scene,rig,mesh,key):
-    rig.animation_data_create();action=bpy.data.actions.new(key+'_AllMotions');rig.animation_data.action=action
+def create_actions(scene,rig,mesh,key,action_prefix=None):
+    prefix=action_prefix or key
+    rig.animation_data_create();action=bpy.data.actions.new(prefix+'_AllMotions');rig.animation_data.action=action
     rig['extra_names']=json.dumps([e['name'] for e in json.loads(rig['extra_bones'])])
     extrema=[];ground_max=0.;ranges=clip_ranges();last=ranges[-1]['last']
     scene.frame_start=1;scene.frame_end=last
@@ -84,7 +88,7 @@ def create_actions(scene,rig,mesh,key):
         for p in f.keyframe_points:p.interpolation='LINEAR'
     action.use_fake_user=True;actions={}
     for clip in ranges:
-        cut=action.copy();cut.name=key+'_'+clip['name'];cut.use_fake_user=True
+        cut=action.copy();cut.name=prefix+'_'+clip['name'];cut.use_fake_user=True
         for f in curves(cut):
             rows=[(p.co.x-clip['first']+1,p.co.y) for p in f.keyframe_points if clip['first']<=p.co.x<=clip['last']]
             f.keyframe_points.clear();f.keyframe_points.add(len(rows))

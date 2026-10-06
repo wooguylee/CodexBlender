@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "characters": 20,
+  "frames_per_character": 368,
+  "shoulders": 40,
+  "vertices_per_cap": 17,
+  "native_min_inset": 0.04099893569946289,
+  "native_max_drift": 3.046620789420184e-07,
+  "unity_max_drift": 6.039107915967179e-07,
+  "unchanged_unity_guids": 321,
+  "verified_delivery_files": 677,
+  "visual_review": {
+    "poses": [
+      "Idle",
+      "Walk",
+      "Run",
+      "SitIdle",
+      "Wave",
+      "Celebrate"
+    ],
+    "angles": [
+      0,
+      45,
+      90
+    ],
+    "themes": 4,
+    "findings": []
+  },
+  "reviewer_findings_remaining": 0,
+  "console": {
+    "compile_errors": 0,
+    "historical_catalog_timestamp_warnings": 5,
+    "resolution": "Explicit synchronous catalog ImportAsset then re-exported all five packages; no new warnings"
+  }
+}

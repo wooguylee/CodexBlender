@@ -1,0 +1,468 @@
+{
+  "ok": false,
+  "root_caps_tested": 40,
+  "exposed_roots": 36,
+  "joint_centers_outside": 30,
+  "characters": [
+    {
+      "key": "PipiRabbit",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "Rounded_uniform",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.1209811270236969,
+          "root_samples_min": 0.03276519849896431,
+          "root_samples_max": 0.21509642899036407,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "Rounded_uniform",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.12098093330860138,
+          "root_samples_min": 0.0327649749815464,
+          "root_samples_max": 0.21509626507759094,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "DodoBear",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "Rounded_uniform",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.05998712405562401,
+          "root_samples_min": -0.04835330322384834,
+          "root_samples_max": 0.1773522049188614,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "Rounded_uniform",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.05998684838414192,
+          "root_samples_min": -0.04835345968604088,
+          "root_samples_max": 0.17735199630260468,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "ToriSquirrel",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "Rounded_uniform",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.14961308240890503,
+          "root_samples_min": 0.06337738037109375,
+          "root_samples_max": 0.2415502667427063,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "Rounded_uniform",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.1496129184961319,
+          "root_samples_min": 0.06337719410657883,
+          "root_samples_max": 0.24155013263225555,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "BibiOwl",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "Rounded_uniform",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.1430477797985077,
+          "root_samples_min": 0.14614176750183105,
+          "root_samples_max": 0.31363576650619507,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "Rounded_uniform",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.14304761588573456,
+          "root_samples_min": 0.1613982766866684,
+          "root_samples_max": 0.3136357069015503,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "MoriHedgehog",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "Rounded_uniform",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.1133197546005249,
+          "root_samples_min": 0.022935140877962112,
+          "root_samples_max": 0.21031397581100464,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "Rounded_uniform",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.11331956833600998,
+          "root_samples_min": 0.022934943437576294,
+          "root_samples_max": 0.2103137969970703,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "PuruPudding",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "Custard",
+          "body_bone": "DEF_Head",
+          "joint_signed_distance": 0.024672623723745346,
+          "root_samples_min": -0.0616719014942646,
+          "root_samples_max": 0.10481151193380356,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "Custard",
+          "body_bone": "DEF_Head",
+          "joint_signed_distance": 0.024672623723745346,
+          "root_samples_min": -0.0616719014942646,
+          "root_samples_max": 0.10481151193380356,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "MomoMochi",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "StrawberryMochi",
+          "body_bone": "DEF_Head",
+          "joint_signed_distance": -0.11023695021867752,
+          "root_samples_min": -0.14963650703430176,
+          "root_samples_max": -0.041519202291965485,
+          "root_fully_inside": true
+        },
+        {
+          "side": "R",
+          "body": "StrawberryMochi",
+          "body_bone": "DEF_Head",
+          "joint_signed_distance": -0.1102367416024208,
+          "root_samples_min": -0.14963634312152863,
+          "root_samples_max": -0.04151894524693489,
+          "root_fully_inside": true
+        }
+      ]
+    },
+    {
+      "key": "PanBread",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "GoldenCrust",
+          "body_bone": "DEF_Head",
+          "joint_signed_distance": -0.11500000953674316,
+          "root_samples_min": -0.1916816532611847,
+          "root_samples_max": -0.03831833600997925,
+          "root_fully_inside": true
+        },
+        {
+          "side": "R",
+          "body": "GoldenCrust",
+          "body_bone": "DEF_Head",
+          "joint_signed_distance": -0.11500000953674316,
+          "root_samples_min": -0.1916816532611847,
+          "root_samples_max": -0.03831833600997925,
+          "root_fully_inside": true
+        }
+      ]
+    },
+    {
+      "key": "RoniMacaron",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "MacaronLower",
+          "body_bone": "DEF_Head",
+          "joint_signed_distance": -0.06000161170959473,
+          "root_samples_min": -0.15350386500358582,
+          "root_samples_max": 0.04373640567064285,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "MacaronLower",
+          "body_bone": "DEF_Head",
+          "joint_signed_distance": -0.06000140309333801,
+          "root_samples_min": -0.1535036712884903,
+          "root_samples_max": 0.043736532330513,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "ShushuPuff",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "PuffHeart",
+          "body_bone": "DEF_Head",
+          "joint_signed_distance": -0.04891268163919449,
+          "root_samples_min": -0.08720912784337997,
+          "root_samples_max": 0.022981340065598488,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "PuffHeart",
+          "body_bone": "DEF_Head",
+          "joint_signed_distance": -0.048912376165390015,
+          "root_samples_min": -0.08720895648002625,
+          "root_samples_max": 0.02298160269856453,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "PokoAlien",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "SuitTorso",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.16421829164028168,
+          "root_samples_min": 0.0661788359284401,
+          "root_samples_max": 0.2728032171726227,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "SuitTorso",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.16421827673912048,
+          "root_samples_min": 0.0661788284778595,
+          "root_samples_max": 0.27280324697494507,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "BoltRobot",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "SuitTorso",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.1529705822467804,
+          "root_samples_min": 0.0660153329372406,
+          "root_samples_max": 0.25197798013687134,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "SuitTorso",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.1529705822467804,
+          "root_samples_min": 0.0660153329372406,
+          "root_samples_max": 0.25197798013687134,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "LunaRabbit",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "SuitTorso",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.16421829164028168,
+          "root_samples_min": 0.0661788359284401,
+          "root_samples_max": 0.2728032171726227,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "SuitTorso",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.16421827673912048,
+          "root_samples_min": 0.0661788284778595,
+          "root_samples_max": 0.27280324697494507,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "TwinkleStar",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "SuitTorso",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.16421829164028168,
+          "root_samples_min": 0.0661788359284401,
+          "root_samples_max": 0.2728032171726227,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "SuitTorso",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.16421827673912048,
+          "root_samples_min": 0.0661788284778595,
+          "root_samples_max": 0.27280324697494507,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "PingoPenguin",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "SuitTorso",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.16421829164028168,
+          "root_samples_min": 0.0661788359284401,
+          "root_samples_max": 0.2728032171726227,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "SuitTorso",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.16421827673912048,
+          "root_samples_min": 0.0661788284778595,
+          "root_samples_max": 0.27280324697494507,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "OctoOctopus",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "OctopusBody",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.14145183563232422,
+          "root_samples_min": 0.04489915445446968,
+          "root_samples_max": 0.24949751794338226,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "OctopusBody",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.1414516270160675,
+          "root_samples_min": 0.04489903897047043,
+          "root_samples_max": 0.24949735403060913,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "TutuTurtle",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "TurtleBody",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.17833882570266724,
+          "root_samples_min": 0.08428699523210526,
+          "root_samples_max": 0.2751079499721527,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "TurtleBody",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.17833882570266724,
+          "root_samples_min": 0.08428696542978287,
+          "root_samples_max": 0.2751079499721527,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "BobaPuffer",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "PufferRoundBody",
+          "body_bone": "DEF_Head",
+          "joint_signed_distance": -0.01080616470426321,
+          "root_samples_min": -0.02736806869506836,
+          "root_samples_max": 0.02330031618475914,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "PufferRoundBody",
+          "body_bone": "DEF_Head",
+          "joint_signed_distance": -0.010806331411004066,
+          "root_samples_min": -0.02736823633313179,
+          "root_samples_max": 0.023300152271986008,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "KikiHermit",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "HermitBody",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.20950372517108917,
+          "root_samples_min": 0.07789323478937149,
+          "root_samples_max": 0.2309260368347168,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "HermitBody",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.2095038890838623,
+          "root_samples_min": 0.07789346575737,
+          "root_samples_max": 0.23092618584632874,
+          "root_fully_inside": false
+        }
+      ]
+    },
+    {
+      "key": "HaniSeahorse",
+      "shoulders": [
+        {
+          "side": "L",
+          "body": "SeahorseChest",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.21932725608348846,
+          "root_samples_min": 0.16678009927272797,
+          "root_samples_max": 0.2729058265686035,
+          "root_fully_inside": false
+        },
+        {
+          "side": "R",
+          "body": "SeahorseChest",
+          "body_bone": "DEF_Body",
+          "joint_signed_distance": 0.21932709217071533,
+          "root_samples_min": 0.16677996516227722,
+          "root_samples_max": 0.272905558347702,
+          "root_fully_inside": false
+        }
+      ]
+    }
+  ]
+}

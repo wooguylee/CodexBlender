@@ -71,7 +71,7 @@ class Builder:
             normal=(normal-tangent*normal.dot(tangent)).normalized();cross=tangent.cross(normal);previous_tangent=tangent.copy()
             verts.extend(p+r*(normal*math.cos(j*math.tau/sides)+cross*math.sin(j*math.tau/sides)) for j in range(sides))
         for i in range(len(samples)-1):
-            for j in range(sides):faces.append((i*sides+j,(i+1)*sides+j,(i+1)*sides+(j+1)%sides,i*sides+(j+1)%sides))
+            for j in range(sides):faces.append((i*sides+j,i*sides+(j+1)%sides,(i+1)*sides+(j+1)%sides,(i+1)*sides+j))
         verts.extend([samples[0],samples[-1]])
         for j in range(sides):
             faces.append((len(verts)-2,(j+1)%sides,j));start=(len(samples)-1)*sides;faces.append((len(verts)-1,start+j,start+(j+1)%sides))
