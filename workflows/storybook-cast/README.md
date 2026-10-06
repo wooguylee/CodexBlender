@@ -28,7 +28,7 @@
 ## 실제 산출물
 
 - `exports/storybook-cast/v001/`: 4주제 ×5종, 독립 `.blend` 20개, FBX 20개, Prefab/Animator 20개씩, 4개 Showcase Scene. 3개 얼굴 ShapeKey와 손발 2관절 IK, 귀/꼬리/촉수 등 추가 뼈.
-- `StorybookCast-Unity6-URP-v001.unitypackage`(약 11.7 MB): 전체 20종. 주제별 Unity 패키지 4개(1.9~3.6 MB), 주제별 `*-Models-v001.zip` 4개(7.3~13.7 MB).
+- `StorybookCast-Unity6-URP-v001.unitypackage`(약 11.7 MB): 전체 20종. 주제별 Unity 패키지 4개(1.9~3.6 MB), 주제별 `*-Models-v001.zip` 4개(8.2~14.6 MB).
 - `previews/all-20-characters.png`, 개별 PNG 20개, Unity 기본 자세 4장, 동작 비교표, MP4 4개. 영상마다 1280×720 / 24fps / 368프레임 / 15.333초 / 무음.
 - 사용법은 전달 폴더 `README.md`. Native IK/driver는 Blender에서 편집하고 Unity는 뼈/표정이 베이크된 Generic 리그를 재생한다. 복어·해마의 Walk/Run은 느린/빠른 헤엄이며, 모든 이동은 제자리 동작이다.
 
@@ -42,7 +42,7 @@
 - `unity-runtime-verification.json`: 실제 Play Mode에서 20개 Actor ×8개 상태 호출, SkinnedMesh BakeMesh 변화, SitDown→SitIdle, 수동 얼굴 40/45/25 결과 확인. 기존 RainbowIsland Scene으로 복귀하고 dirty=false / Play 종료 / 열린 Scene 1개를 확인했다.
 - `movie-verification.json`: MP4 4개 전체 디코딩, 프레임수/포맷 확인. 원본 PNG 전체 프레임의 고정 배경 ROI 변화 0. native 20종과 Unity Idle/Walk/Run/SitIdle, 완성 영상 추출 프레임을 직접 시각 검사했다.
 - `unitypackage-verification.json`: 전체 패키지 실제 자산 293개와 주제별 72/77/82/77개의 파일 및 `.meta` 바이트가 전달 자산과 동일. 각 패키지 FBX 개수 20 또는 5개 확인. 포함 경로를 전용 폴더로 제한했다.
-- `zip-verification.json`, `delivery-verification.json`: ZIP 4개의 CRC와 모든 내부 바이트 일치. 전달 파일 674개 해시 목록 `SHA256SUMS.json`, 가장 큰 파일 13,700,970 bytes.
+- `zip-verification.json`, `delivery-verification.json`: ZIP 4개의 CRC와 모든 내부 바이트 일치. 전달 파일 674개 해시 목록 `SHA256SUMS.json`, 가장 큰 파일 14,573,045 bytes.
 
 전달 폴더는 `.gitattributes`의 `exports/storybook-cast/** -text`로 줄바꿈 자동 변환을 막아 패키지·원본 파일 해시를 다른 체크아웃에서도 보존한다. Unity가 생성한 `.meta`/`.mat`/`.prefab`/`.controller`/`.unity`의 빈 값 뒤 공백은 원본 바이트대로 보존하고, 작성한 코드/문서의 공백 오류는 별도 검사한다.
 
@@ -68,3 +68,5 @@ Bridge 최종 작업 `20261006T091131-edbf060846`, `ok=true`, 미리보기 직�
 5. `RenderFrames(theme, "Timeline", directory, first, 46)`로 0~367을 분할 출력. `04_package.py --unity-project <프로젝트> --prepare`로 이미지/영상을 생성. Unity API `ExportTheme/ExportAll` 후 `04_package.py --unity-project <프로젝트>`로 무결성 검사와 ZIP 작성.
 
 공통 브리지 코드 수정이 없으므로 브리지 unittest/E2E 재실행은 범위 밖이다. Python 구문 검사, 실제 Blender·Unity·출력 파일 검증을 수행했다. Windows/RTX3090 외 장비, 다른 Unity 버전·파이프라인, 모바일 빌드/LOD/Humanoid/실시간 Unity IK는 검증 범위 밖이다.
+
+주제 ZIP을 단독으로 풀었을 때도 사용법의 전체 목록 이미지가 표시되도록 `previews/all-20-characters.png`를 각 ZIP에 포함했다. 네 ZIP 모두 내부 20개 파일 CRC/바이트 검사를 다시 통과했다.

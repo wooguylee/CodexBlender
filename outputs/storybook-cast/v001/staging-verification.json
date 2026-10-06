@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "staged_paths": 717,
+  "staged_paths": 10,
   "export_git_blobs_byte_identical": 675,
   "sha256_files_verified": 674,
   "actual_file_counts": {
@@ -10,6 +10,6 @@
     ".controller": 20,
     ".unity": 4
   },
-  "preserved_unity_serializer_whitespace_files": 581,
+  "preserved_unity_serializer_whitespace_files": 0,
   "authored_whitespace_errors": 0
 }

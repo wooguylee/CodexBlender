@@ -162,7 +162,7 @@ def package_checks():
 def zips(records):
     results=[]
     for theme in THEMES:
-        files=[DEST/'README.md',DEST/(theme+'-Unity6-URP-v001.unitypackage'),DEST/'previews'/(theme+'-motions.mp4'),DEST/'previews'/(theme+'-Unity.png')]
+        files=[DEST/'README.md',DEST/(theme+'-Unity6-URP-v001.unitypackage'),DEST/'previews'/'all-20-characters.png',DEST/'previews'/(theme+'-motions.mp4'),DEST/'previews'/(theme+'-Unity.png')]
         for c in records:
             if c['theme']==theme:files.extend([ROOT/c['native'],ROOT/c['fbx'],DEST/'previews'/(c['key']+'.png')])
         target=DEST/(theme+'-Models-v001.zip')

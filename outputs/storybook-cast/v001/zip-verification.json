@@ -3,30 +3,30 @@
   "packages": [
     {
       "path": "Forest-Models-v001.zip",
-      "bytes": 13210936,
-      "sha256": "fd4e4010e212f39c9a5960f8eea1a879dd36eeb77345010466ddd51ca402cbb4",
-      "files": 19,
+      "bytes": 14083011,
+      "sha256": "e940de7dbe48508c7f4b0f69b9fd71f0eb115abf619a2ab473d27e545423a8b6",
+      "files": 20,
       "crc_ok": true
     },
     {
       "path": "Dessert-Models-v001.zip",
-      "bytes": 7282492,
-      "sha256": "800009eada07655ca300b6cbf853fc0481b34954b103fa72e895ee4ff4f60f87",
-      "files": 19,
+      "bytes": 8154567,
+      "sha256": "7d617228e99e5d5f503b5a2a7f3c776cf5da5d6b5a1d8463e49be4335423b1b4",
+      "files": 20,
       "crc_ok": true
     },
     {
       "path": "Space-Models-v001.zip",
-      "bytes": 13700970,
-      "sha256": "813769d7f020d1da67c26db6202dacbe703de0776e5a87c86956cef1ef6018e9",
-      "files": 19,
+      "bytes": 14573045,
+      "sha256": "719d49f167b6af2ec950994e13ea8410931c65e940e86b4e214acf118da21d87",
+      "files": 20,
       "crc_ok": true
     },
     {
       "path": "Sea-Models-v001.zip",
-      "bytes": 12139958,
-      "sha256": "8fb602d82641ec234627e9a5060b8ed01cf535724966e9f0794775845c800c35",
-      "files": 19,
+      "bytes": 13012033,
+      "sha256": "bbc7d6f00aafa278fb3b3c65d95b72f584d19871632d3b26abdcdd6bc33a8b92",
+      "files": 20,
       "crc_ok": true
     }
   ]
