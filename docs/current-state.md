@@ -1,3 +1,21 @@
+<!-- WEATHER_UNITY_V001_BEGIN -->
+# 현재 제작: 오늘의 날씨 요정들 — 개별 리깅 모델과 Unity 패키지
+
+2026-10-06 (한국 시간). 사용자 요청: 리깅된 다섯 캐릭터를 개별 모델로 저장하고 Unity에서 활용.
+
+- 전달 폴더 `exports/weather-fairies/v001/`. 몽실·해롱·또르·송송·솔솔 각각 편집용 `.blend`와 Unity용 FBX를 저장했다. native 파일에는 원래 IK/driver/표정 컨트롤을 유지한다.
+- `WeatherFairies-Unity6-URP-v001.unitypackage`: FBX 5개, Prefab 5개, Animator 5개, URP 재질 32개, 6종×5캐릭터 애니메이션, 수동 표정 C# 컴포넌트, Showcase Scene. `WeatherFairies-Models-v001.zip`은 개별 원본/FBX/패키지/설명/미리보기 통합 묶음이다.
+- Blender 독립 재개방으로 캐릭터당 하나의 Armature, 외부 파일 없음, 124개 유효 driver 확인. native 미리보기 5장을 직접 검사했다. 이전 중립/시연 원본 두 파일 SHA-256은 유지했다.
+- 실제 Unity 6000.3.25f1 / URP 17.3.0에서 Generic Avatar와 142개 뼈 / 149개 SkinnedMeshRenderer / 53개 BlendShape / 30개 클립 검증. 스키닝과 얼굴 값 0→100 변화, Play Mode Animator/표정 확인. 최종 콘솔 오류/경고 0개.
+- 최저 발 높이를 0으로 정리했으며 오차는 0.000002 미만이다. 캐릭터 정면은 Unity −Z. 크기와 상세 사용법은 전달 폴더 README 참고.
+- `previews/unity-neutral-final.png`, `unity-surprise-final.png`, `unity-special-final.png`를 직접 검사했다. 패키지 내부 52개 실제 자산이 전달 파일과 일치하고 ZIP CRC 검사를 통과했다.
+- 제작/문제 해결/재현: `workflows/weather-unity/README.md`. 증거: `outputs/weather-unity/v001/`의 export/native/unity/play/triangulation/delivery 검증 JSON. Unity 원본 기록은 `W:/WorkUnity/doc/verification/weather-fairies-v001/`.
+- 마지막 브리찌 작업 `20261006T064244-e551531056`, `ok=true`와 미리보기 확인. 현재 Blender는 기존 `Weather_Rigs_v001` 중립 Scene, Unity는 새 `WeatherFairiesShowcase` Scene의 기본 자세이며 Play 종료 상태다.
+- Unity에서 Blender IK/driver를 직접 실행하지 않는다. 뼈와 표정 애니메이션을 베이크했으며 Generic 리그로 사용한다. Unity 실시간 IK, Humanoid 리타게팅, LOD/모바일 최적화와 다른 렌더 파이프라인·기기 빌드는 이번 검증 범위 밖이다.
+- Windows / Blender 5.2.1 LTS / RTX 3090에서 검증. 이번 전용 파일과 상태 기록 추가분만 커밋/푸시하며 기존 무관한 미커밋 변경은 유지한다.
+
+<!-- WEATHER_UNITY_V001_END -->
+
 <!-- WEATHER_RIGS_V001_BEGIN -->
 # 현재 제작: 오늘의 날씨 요정들 — 다섯 캐릭터 맞춤 리깅
 

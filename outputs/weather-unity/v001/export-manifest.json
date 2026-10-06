@@ -1,0 +1,1156 @@
+{
+  "ok": true,
+  "characters": [
+    {
+      "name": "Mongsil",
+      "ko": "몽실",
+      "blender": "exports/weather-fairies/v001/blender/Mongsil.blend",
+      "fbx": "exports/weather-fairies/v001/unity/Assets/WeatherFairies/Models/Mongsil.fbx",
+      "objects": 24,
+      "bones": 24,
+      "meshes": 23,
+      "shape_keys": 9,
+      "pivot_shift_z": -0.6100000143051147,
+      "sample_poses": [
+        {
+          "frame": 1,
+          "bounds": {
+            "min": [
+              -1.3931121826171875,
+              -0.9600005149841309,
+              6.830692313997133e-07
+            ],
+            "max": [
+              1.3774781227111816,
+              0.5978832244873047,
+              2.695530891418457
+            ]
+          }
+        },
+        {
+          "frame": 76,
+          "bounds": {
+            "min": [
+              -1.3931121826171875,
+              -0.8984400629997253,
+              0.00046236300840973854
+            ],
+            "max": [
+              1.3774781227111816,
+              0.5978832244873047,
+              2.695530891418457
+            ]
+          }
+        },
+        {
+          "frame": 136,
+          "bounds": {
+            "min": [
+              -1.3931121826171875,
+              -0.9600005149841309,
+              6.830692313997133e-07
+            ],
+            "max": [
+              1.3774781227111816,
+              0.5978832244873047,
+              2.695530891418457
+            ]
+          }
+        },
+        {
+          "frame": 180,
+          "bounds": {
+            "min": [
+              -1.3931121826171875,
+              -0.9600005149841309,
+              6.830692313997133e-07
+            ],
+            "max": [
+              1.3774781227111816,
+              0.5978832244873047,
+              2.695530891418457
+            ]
+          }
+        },
+        {
+          "frame": 244,
+          "bounds": {
+            "min": [
+              -1.3265527486801147,
+              -0.8973711729049683,
+              -0.030145227909088135
+            ],
+            "max": [
+              1.311665654182434,
+              0.5693178176879883,
+              2.8442282676696777
+            ]
+          }
+        },
+        {
+          "frame": 320,
+          "bounds": {
+            "min": [
+              -1.3931121826171875,
+              -0.8983381390571594,
+              6.830692313997133e-07
+            ],
+            "max": [
+              1.3912712335586548,
+              0.5978832244873047,
+              2.695530891418457
+            ]
+          }
+        }
+      ],
+      "fbx_bytes": 3946332,
+      "fbx_sha256": "419d3fac15bf3f7e3f636303e4c6d3d3ed620636bc15f735df2dc1fbd2010c58",
+      "blender_sha256": "b8246785f7f54e70f4028fad4e01592b235cca5757af8b746ffc601b3049745e",
+      "fbx_frames": 384,
+      "fps": 24,
+      "unity_skinning": "linear",
+      "native_skinning": "preserve volume",
+      "mesh_names": [
+        "Mongsil_00_AwakeEye_SleepingEye.001",
+        "Mongsil_01_AwakeEye_SleepingEye.001",
+        "Mongsil_02_Blush.001",
+        "Mongsil_03_Blush.001",
+        "Mongsil_04_CloudBody.001",
+        "Mongsil_05_DanglingLeg.001",
+        "Mongsil_06_DanglingLeg.001",
+        "Mongsil_07_HuggedStar.001",
+        "Mongsil_08_LeftHug.001",
+        "Mongsil_09_LeftMitten.001",
+        "Mongsil_10_LilacSlipper.001",
+        "Mongsil_11_LilacSlipper.001",
+        "Mongsil_12_Pompom.001",
+        "Mongsil_13_RightHug.001",
+        "Mongsil_14_RightMitten.001",
+        "Mongsil_15_SleepTuftBase.001",
+        "Mongsil_16_SleepTuftTip.001",
+        "Mongsil_17_SleepingEye.001",
+        "Mongsil_18_SleepingEye.001",
+        "Mongsil_19_SlipperSeam.001",
+        "Mongsil_20_SlipperSeam.001",
+        "Mongsil_21_SurprisedMouth.001",
+        "Mongsil_22_TinyMouth.001"
+      ],
+      "expected_materials": [
+        "WFM_Mongsil_00",
+        "WFM_Mongsil_01",
+        "WFM_Mongsil_02",
+        "WFM_Mongsil_03",
+        "WFM_Mongsil_04",
+        "WFM_Mongsil_05",
+        "WFM_Mongsil_06"
+      ]
+    },
+    {
+      "name": "Haerong",
+      "ko": "해롱",
+      "blender": "exports/weather-fairies/v001/blender/Haerong.blend",
+      "fbx": "exports/weather-fairies/v001/unity/Assets/WeatherFairies/Models/Haerong.fbx",
+      "objects": 35,
+      "bones": 35,
+      "meshes": 34,
+      "shape_keys": 11,
+      "pivot_shift_z": -0.3199999928474426,
+      "sample_poses": [
+        {
+          "frame": 1,
+          "bounds": {
+            "min": [
+              -1.4232518672943115,
+              -0.561024010181427,
+              -1.3795845461572753e-06
+            ],
+            "max": [
+              1.6800001859664917,
+              0.49999964237213135,
+              3.223252296447754
+            ]
+          }
+        },
+        {
+          "frame": 76,
+          "bounds": {
+            "min": [
+              -1.4232518672943115,
+              -0.561024010181427,
+              0.0010612556943669915
+            ],
+            "max": [
+              1.6437337398529053,
+              0.49999964237213135,
+              3.223252296447754
+            ]
+          }
+        },
+        {
+          "frame": 136,
+          "bounds": {
+            "min": [
+              -1.4232518672943115,
+              -0.561024010181427,
+              -1.3795845461572753e-06
+            ],
+            "max": [
+              1.6800001859664917,
+              0.49999964237213135,
+              3.223252296447754
+            ]
+          }
+        },
+        {
+          "frame": 180,
+          "bounds": {
+            "min": [
+              -1.4232518672943115,
+              -0.5849999785423279,
+              -1.3795845461572753e-06
+            ],
+            "max": [
+              1.6800001859664917,
+              0.49999964237213135,
+              3.223252296447754
+            ]
+          }
+        },
+        {
+          "frame": 244,
+          "bounds": {
+            "min": [
+              -1.370829701423645,
+              -0.5348304510116577,
+              -0.033790357410907745
+            ],
+            "max": [
+              1.6133718490600586,
+              0.4766552746295929,
+              3.4235949516296387
+            ]
+          }
+        },
+        {
+          "frame": 320,
+          "bounds": {
+            "min": [
+              -1.3629521131515503,
+              -0.561024010181427,
+              -1.3795845461572753e-06
+            ],
+            "max": [
+              1.6800001859664917,
+              0.49999964237213135,
+              3.20627498626709
+            ]
+          }
+        }
+      ],
+      "fbx_bytes": 4354412,
+      "fbx_sha256": "195cf0097afde3c21cf56b70acbd2f74ef7445c280d99497ea4a24698dfc14ca",
+      "blender_sha256": "a749a3d62b2c83b9b33d1105c34b836b8d563689c16fcf3de3c822c9da5f2b48",
+      "fbx_frames": 384,
+      "fps": 24,
+      "unity_skinning": "linear",
+      "native_skinning": "preserve volume",
+      "mesh_names": [
+        "Haerong_00_Blush.001",
+        "Haerong_01_Blush.001",
+        "Haerong_02_BrightEye.001",
+        "Haerong_03_BrightEye.001",
+        "Haerong_04_Brow.001",
+        "Haerong_05_Brow.001",
+        "Haerong_06_EyeGlint.001",
+        "Haerong_07_EyeGlint.001",
+        "Haerong_08_Leg.001",
+        "Haerong_09_Leg.001",
+        "Haerong_10_LittleShoe.001",
+        "Haerong_11_LittleShoe.001",
+        "Haerong_12_OpenSmile.001",
+        "Haerong_13_PalmCrease.001",
+        "Haerong_14_Ray_00.001",
+        "Haerong_15_Ray_01.001",
+        "Haerong_16_Ray_02.001",
+        "Haerong_17_Ray_03.001",
+        "Haerong_18_Ray_04.001",
+        "Haerong_19_Ray_05.001",
+        "Haerong_20_Ray_06.001",
+        "Haerong_21_Ray_07.001",
+        "Haerong_22_Ray_08.001",
+        "Haerong_23_Ray_09.001",
+        "Haerong_24_Ray_10.001",
+        "Haerong_25_Ray_11.001",
+        "Haerong_26_RestingArm.001",
+        "Haerong_27_RestingHand.001",
+        "Haerong_28_SunBody.001",
+        "Haerong_29_SurprisedMouth.001",
+        "Haerong_30_Tongue.001",
+        "Haerong_31_WavingArm.001",
+        "Haerong_32_WavingPalm.001",
+        "Haerong_33_WavingThumb.001"
+      ],
+      "expected_materials": [
+        "WFM_Haerong_00",
+        "WFM_Haerong_01",
+        "WFM_Haerong_02",
+        "WFM_Haerong_03",
+        "WFM_Haerong_04",
+        "WFM_Haerong_05"
+      ]
+    },
+    {
+      "name": "Ttorr",
+      "ko": "또르",
+      "blender": "exports/weather-fairies/v001/blender/Ttorr.blend",
+      "fbx": "exports/weather-fairies/v001/unity/Assets/WeatherFairies/Models/Ttorr.fbx",
+      "objects": 24,
+      "bones": 23,
+      "meshes": 23,
+      "shape_keys": 12,
+      "pivot_shift_z": -0.26999998092651367,
+      "sample_poses": [
+        {
+          "frame": 1,
+          "bounds": {
+            "min": [
+              -0.7847647666931152,
+              -0.8379999995231628,
+              -7.414818128381739e-07
+            ],
+            "max": [
+              0.7820760011672974,
+              0.6178399920463562,
+              2.560000419616699
+            ]
+          }
+        },
+        {
+          "frame": 76,
+          "bounds": {
+            "min": [
+              -0.8660696148872375,
+              -0.7639644742012024,
+              0.0005667777732014656
+            ],
+            "max": [
+              0.8171440958976746,
+              0.6178399920463562,
+              2.560000419616699
+            ]
+          }
+        },
+        {
+          "frame": 136,
+          "bounds": {
+            "min": [
+              -0.7847647666931152,
+              -0.8379999995231628,
+              -7.414818128381739e-07
+            ],
+            "max": [
+              0.7820760011672974,
+              0.6178399920463562,
+              2.560000419616699
+            ]
+          }
+        },
+        {
+          "frame": 180,
+          "bounds": {
+            "min": [
+              -0.7847647666931152,
+              -0.8379999995231628,
+              -7.414818128381739e-07
+            ],
+            "max": [
+              0.7820760011672974,
+              0.6178399920463562,
+              2.560000419616699
+            ]
+          }
+        },
+        {
+          "frame": 244,
+          "bounds": {
+            "min": [
+              -0.7470280528068542,
+              -0.79295414686203,
+              -0.03479931503534317
+            ],
+            "max": [
+              0.7455618381500244,
+              0.5889937877655029,
+              2.691458225250244
+            ]
+          }
+        },
+        {
+          "frame": 320,
+          "bounds": {
+            "min": [
+              -0.7847647666931152,
+              -0.8379999995231628,
+              -7.414818128381739e-07
+            ],
+            "max": [
+              0.7820760011672974,
+              0.6178399920463562,
+              2.560000419616699
+            ]
+          }
+        }
+      ],
+      "fbx_bytes": 2849772,
+      "fbx_sha256": "a4391026740340e0d48ebc8de935b7265d8c027fd71c3e3170781a59b1b7028f",
+      "blender_sha256": "2405bb58d48362455dcb07f7195e58b3b4a21ea46c1810b1599119e56ea651f6",
+      "fbx_frames": 384,
+      "fps": 24,
+      "unity_skinning": "linear",
+      "native_skinning": "preserve volume",
+      "mesh_names": [
+        "Ttorr_00_Blush.001",
+        "Ttorr_01_Blush.001",
+        "Ttorr_02_BootCuff.001",
+        "Ttorr_03_BootCuff.001",
+        "Ttorr_04_DropBody.001",
+        "Ttorr_05_EyeGlint.001",
+        "Ttorr_06_EyeGlint.001",
+        "Ttorr_07_LeftArm.001",
+        "Ttorr_08_LeftClaspedHand.001",
+        "Ttorr_09_Leg.001",
+        "Ttorr_10_Leg.001",
+        "Ttorr_11_RainBoot.001",
+        "Ttorr_12_RainBoot.001",
+        "Ttorr_13_RightArm.001",
+        "Ttorr_14_RightClaspedHand.001",
+        "Ttorr_15_SecondHighlight.001",
+        "Ttorr_16_ShyEye.001",
+        "Ttorr_17_ShyEye.001",
+        "Ttorr_18_SmallSmile.001",
+        "Ttorr_19_SoftPaintHighlight.001",
+        "Ttorr_20_SurprisedMouth.001",
+        "Ttorr_21_WorriedBrow.001",
+        "Ttorr_22_WorriedBrow.001"
+      ],
+      "expected_materials": [
+        "WFM_Ttorr_00",
+        "WFM_Ttorr_01",
+        "WFM_Ttorr_02",
+        "WFM_Ttorr_03",
+        "WFM_Ttorr_04",
+        "WFM_Ttorr_05"
+      ]
+    },
+    {
+      "name": "Songsong",
+      "ko": "송송",
+      "blender": "exports/weather-fairies/v001/blender/Songsong.blend",
+      "fbx": "exports/weather-fairies/v001/unity/Assets/WeatherFairies/Models/Songsong.fbx",
+      "objects": 47,
+      "bones": 29,
+      "meshes": 46,
+      "shape_keys": 10,
+      "pivot_shift_z": -0.28999999165534973,
+      "sample_poses": [
+        {
+          "frame": 1,
+          "bounds": {
+            "min": [
+              -1.2394936084747314,
+              -0.47999924421310425,
+              1.0545685427132412e-06
+            ],
+            "max": [
+              1.2700003385543823,
+              0.2800000309944153,
+              3.255000114440918
+            ]
+          }
+        },
+        {
+          "frame": 76,
+          "bounds": {
+            "min": [
+              -1.2394936084747314,
+              -0.4699326753616333,
+              0.001942234579473734
+            ],
+            "max": [
+              1.2737457752227783,
+              0.2800000309944153,
+              3.255000114440918
+            ]
+          }
+        },
+        {
+          "frame": 136,
+          "bounds": {
+            "min": [
+              -1.2394936084747314,
+              -0.47999924421310425,
+              1.0545685427132412e-06
+            ],
+            "max": [
+              1.2700003385543823,
+              0.2800000309944153,
+              3.255000114440918
+            ]
+          }
+        },
+        {
+          "frame": 180,
+          "bounds": {
+            "min": [
+              -1.2394936084747314,
+              -0.47999924421310425,
+              1.0545685427132412e-06
+            ],
+            "max": [
+              1.2700003385543823,
+              0.2800000309944153,
+              3.255000114440918
+            ]
+          }
+        },
+        {
+          "frame": 244,
+          "bounds": {
+            "min": [
+              -1.1683728694915771,
+              -0.4054752290248871,
+              -0.03785465285181999
+            ],
+            "max": [
+              1.2428940534591675,
+              0.26692715287208557,
+              3.0820412635803223
+            ]
+          }
+        },
+        {
+          "frame": 320,
+          "bounds": {
+            "min": [
+              -1.2100005149841309,
+              -0.47999924421310425,
+              1.0545685427132412e-06
+            ],
+            "max": [
+              1.2700003385543823,
+              0.2800000309944153,
+              2.709381580352783
+            ]
+          }
+        }
+      ],
+      "fbx_bytes": 4975084,
+      "fbx_sha256": "9f75a7e3078ee90e23dd2e338bfb4f8c86aa01bab97193b5bf8b66dd95c4a329",
+      "blender_sha256": "eab64cf5330c75b90edc2222bd095a936b9e1536204acb97d75d53664b3d7bd6",
+      "fbx_frames": 384,
+      "fps": 24,
+      "unity_skinning": "linear",
+      "native_skinning": "preserve volume",
+      "mesh_names": [
+        "Songsong_00_AwakeEye_WinkingEye.001",
+        "Songsong_01_Blush.001",
+        "Songsong_02_Blush.001",
+        "Songsong_03_BootFur.001",
+        "Songsong_04_BootFur.001",
+        "Songsong_05_CrystalFork_00_-1.001",
+        "Songsong_06_CrystalFork_00_1.001",
+        "Songsong_07_CrystalFork_01_-1.001",
+        "Songsong_08_CrystalFork_01_1.001",
+        "Songsong_09_CrystalFork_02_-1.001",
+        "Songsong_10_CrystalFork_02_1.001",
+        "Songsong_11_CrystalFork_03_-1.001",
+        "Songsong_12_CrystalFork_03_1.001",
+        "Songsong_13_CrystalFork_04_-1.001",
+        "Songsong_14_CrystalFork_04_1.001",
+        "Songsong_15_CrystalFork_05_-1.001",
+        "Songsong_16_CrystalFork_05_1.001",
+        "Songsong_17_CrystalSpoke_00.001",
+        "Songsong_18_CrystalSpoke_01.001",
+        "Songsong_19_CrystalSpoke_02.001",
+        "Songsong_20_CrystalSpoke_03.001",
+        "Songsong_21_CrystalSpoke_04.001",
+        "Songsong_22_CrystalSpoke_05.001",
+        "Songsong_23_CrystalTip_00.001",
+        "Songsong_24_CrystalTip_01.001",
+        "Songsong_25_CrystalTip_02.001",
+        "Songsong_26_CrystalTip_03.001",
+        "Songsong_27_CrystalTip_04.001",
+        "Songsong_28_CrystalTip_05.001",
+        "Songsong_29_EyeGlint.001",
+        "Songsong_30_LeftArm.001",
+        "Songsong_31_LeftMitten.001",
+        "Songsong_32_LeftThumb.001",
+        "Songsong_33_Leg.001",
+        "Songsong_34_Leg.001",
+        "Songsong_35_LilacBoot.001",
+        "Songsong_36_LilacBoot.001",
+        "Songsong_37_OpenEye.001",
+        "Songsong_38_PlayfulSmile.001",
+        "Songsong_39_RightArm.001",
+        "Songsong_40_RightMitten.001",
+        "Songsong_41_RightThumb.001",
+        "Songsong_42_SoftHexagon.001",
+        "Songsong_43_SurprisedMouth.001",
+        "Songsong_44_Tongue.001",
+        "Songsong_45_WinkingEye.001"
+      ],
+      "expected_materials": [
+        "WFM_Songsong_00",
+        "WFM_Songsong_01",
+        "WFM_Songsong_02",
+        "WFM_Songsong_03",
+        "WFM_Songsong_04",
+        "WFM_Songsong_05",
+        "WFM_Songsong_06"
+      ]
+    },
+    {
+      "name": "Solsol",
+      "ko": "솔솔",
+      "blender": "exports/weather-fairies/v001/blender/Solsol.blend",
+      "fbx": "exports/weather-fairies/v001/unity/Assets/WeatherFairies/Models/Solsol.fbx",
+      "objects": 24,
+      "bones": 31,
+      "meshes": 23,
+      "shape_keys": 11,
+      "pivot_shift_z": -0.3199999928474426,
+      "sample_poses": [
+        {
+          "frame": 1,
+          "bounds": {
+            "min": [
+              -1.2600008249282837,
+              -0.4919999837875366,
+              -9.610404276827467e-07
+            ],
+            "max": [
+              1.548758864402771,
+              0.5036035776138306,
+              3.380279064178467
+            ]
+          }
+        },
+        {
+          "frame": 76,
+          "bounds": {
+            "min": [
+              -1.2239048480987549,
+              -0.4919999837875366,
+              0.0011672554537653923
+            ],
+            "max": [
+              1.548758864402771,
+              0.5036035776138306,
+              3.380279064178467
+            ]
+          }
+        },
+        {
+          "frame": 136,
+          "bounds": {
+            "min": [
+              -1.2600008249282837,
+              -0.4919999837875366,
+              -9.610404276827467e-07
+            ],
+            "max": [
+              1.548758864402771,
+              0.5036035776138306,
+              3.380279064178467
+            ]
+          }
+        },
+        {
+          "frame": 180,
+          "bounds": {
+            "min": [
+              -1.2600008249282837,
+              -0.5080000162124634,
+              -9.610404276827467e-07
+            ],
+            "max": [
+              1.548758864402771,
+              0.5036035776138306,
+              3.380279064178467
+            ]
+          }
+        },
+        {
+          "frame": 244,
+          "bounds": {
+            "min": [
+              -1.2155356407165527,
+              -0.46902909874916077,
+              -0.022007275372743607
+            ],
+            "max": [
+              1.5732566118240356,
+              0.4800909459590912,
+              3.592384099960327
+            ]
+          }
+        },
+        {
+          "frame": 320,
+          "bounds": {
+            "min": [
+              -1.2791366577148438,
+              -0.4919999837875366,
+              -9.610404276827467e-07
+            ],
+            "max": [
+              1.589921236038208,
+              0.5036035776138306,
+              3.3698980808258057
+            ]
+          }
+        }
+      ],
+      "fbx_bytes": 7719772,
+      "fbx_sha256": "be1d4e3df5eac007390490c9e0eb4eb722d123a8822865934c425a87b52cb6ee",
+      "blender_sha256": "b4624c3e638f464e748a74cc761775ab5980c267e359e678d49139ab430de6d2",
+      "fbx_frames": 384,
+      "fps": 24,
+      "unity_skinning": "linear",
+      "native_skinning": "preserve volume",
+      "mesh_names": [
+        "Solsol_00_AwakeEye_HappyEye.001",
+        "Solsol_01_AwakeEye_HappyEye.001",
+        "Solsol_02_Blush.001",
+        "Solsol_03_Blush.001",
+        "Solsol_04_BreezeBody.001",
+        "Solsol_05_HappyEye.001",
+        "Solsol_06_HappyEye.001",
+        "Solsol_07_LeftArm.001",
+        "Solsol_08_LeftHand.001",
+        "Solsol_09_LeftLeg.001",
+        "Solsol_10_LeftShoe.001",
+        "Solsol_11_LiftedLeg.001",
+        "Solsol_12_LiftedShoe.001",
+        "Solsol_13_LowerScarfTail.001",
+        "Solsol_14_PursedMouth.001",
+        "Solsol_15_RightArm.001",
+        "Solsol_16_RightHand.001",
+        "Solsol_17_ScarfKnot.001",
+        "Solsol_18_ScarfStitch.001",
+        "Solsol_19_ScarfWrap.001",
+        "Solsol_20_SoftLip.001",
+        "Solsol_21_SurprisedMouth.001",
+        "Solsol_22_UpperScarfTail.001"
+      ],
+      "expected_materials": [
+        "WFM_Solsol_00",
+        "WFM_Solsol_01",
+        "WFM_Solsol_02",
+        "WFM_Solsol_03",
+        "WFM_Solsol_04",
+        "WFM_Solsol_05"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "WFM_Mongsil_00",
+      "character": "Mongsil",
+      "linear_rgba": [
+        0.8962693810462952,
+        0.3613067865371704,
+        0.3915724754333496,
+        1.0
+      ],
+      "roughness": 0.5699999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Mongsil_01",
+      "character": "Mongsil",
+      "linear_rgba": [
+        1.0,
+        0.9130986332893372,
+        0.838798999786377,
+        1.0
+      ],
+      "roughness": 0.47999998927116394,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Mongsil_02",
+      "character": "Mongsil",
+      "linear_rgba": [
+        0.0666259378194809,
+        0.045186202973127365,
+        0.0802198201417923,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Mongsil_03",
+      "character": "Mongsil",
+      "linear_rgba": [
+        0.41788506507873535,
+        0.34670406579971313,
+        0.7011018991470337,
+        1.0
+      ],
+      "roughness": 0.5299999713897705,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Mongsil_04",
+      "character": "Mongsil",
+      "linear_rgba": [
+        0.30054378509521484,
+        0.2541520893573761,
+        0.520995557308197,
+        1.0
+      ],
+      "roughness": 0.5199999809265137,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Mongsil_05",
+      "character": "Mongsil",
+      "linear_rgba": [
+        0.9386857151985168,
+        0.68668532371521,
+        0.2917706370353699,
+        1.0
+      ],
+      "roughness": 0.550000011920929,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Mongsil_06",
+      "character": "Mongsil",
+      "linear_rgba": [
+        1.0,
+        0.9646862745285034,
+        0.8879231214523315,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Haerong_00",
+      "character": "Haerong",
+      "linear_rgba": [
+        0.0666259378194809,
+        0.045186202973127365,
+        0.0802198201417923,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Haerong_01",
+      "character": "Haerong",
+      "linear_rgba": [
+        0.8148465752601624,
+        0.30054378509521484,
+        0.28314873576164246,
+        1.0
+      ],
+      "roughness": 0.4000000059604645,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Haerong_02",
+      "character": "Haerong",
+      "linear_rgba": [
+        1.0,
+        0.5906188488006592,
+        0.07818742096424103,
+        1.0
+      ],
+      "roughness": 0.3700000047683716,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Haerong_03",
+      "character": "Haerong",
+      "linear_rgba": [
+        0.9386857151985168,
+        0.3277781009674072,
+        0.19120168685913086,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Haerong_04",
+      "character": "Haerong",
+      "linear_rgba": [
+        0.9386857151985168,
+        0.366252601146698,
+        0.04970656707882881,
+        1.0
+      ],
+      "roughness": 0.4300000071525574,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Haerong_05",
+      "character": "Haerong",
+      "linear_rgba": [
+        1.0,
+        0.9646862745285034,
+        0.8879231214523315,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Ttorr_00",
+      "character": "Ttorr",
+      "linear_rgba": [
+        0.8962693810462952,
+        0.3613067865371704,
+        0.3915724754333496,
+        1.0
+      ],
+      "roughness": 0.5699999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Ttorr_01",
+      "character": "Ttorr",
+      "linear_rgba": [
+        0.0666259378194809,
+        0.045186202973127365,
+        0.0802198201417923,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Ttorr_02",
+      "character": "Ttorr",
+      "linear_rgba": [
+        0.08228270709514618,
+        0.3967552185058594,
+        0.6104955673217773,
+        1.0
+      ],
+      "roughness": 0.3799999952316284,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Ttorr_03",
+      "character": "Ttorr",
+      "linear_rgba": [
+        0.7011018991470337,
+        0.9046611785888672,
+        0.9130986332893372,
+        1.0
+      ],
+      "roughness": 0.3400000035762787,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Ttorr_04",
+      "character": "Ttorr",
+      "linear_rgba": [
+        0.0802198201417923,
+        0.5088813304901123,
+        0.7681511640548706,
+        1.0
+      ],
+      "roughness": 0.27000001072883606,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Ttorr_05",
+      "character": "Ttorr",
+      "linear_rgba": [
+        1.0,
+        0.9646862745285034,
+        0.8879231214523315,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Songsong_00",
+      "character": "Songsong",
+      "linear_rgba": [
+        0.8962693810462952,
+        0.3613067865371704,
+        0.3915724754333496,
+        1.0
+      ],
+      "roughness": 0.5699999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Songsong_01",
+      "character": "Songsong",
+      "linear_rgba": [
+        0.0666259378194809,
+        0.045186202973127365,
+        0.0802198201417923,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Songsong_02",
+      "character": "Songsong",
+      "linear_rgba": [
+        0.42869049310684204,
+        0.6239603757858276,
+        0.8227857351303101,
+        1.0
+      ],
+      "roughness": 0.3499999940395355,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Songsong_03",
+      "character": "Songsong",
+      "linear_rgba": [
+        0.8713670969009399,
+        0.9386857151985168,
+        1.0,
+        1.0
+      ],
+      "roughness": 0.3799999952316284,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Songsong_04",
+      "character": "Songsong",
+      "linear_rgba": [
+        0.4564110338687897,
+        0.37123769521713257,
+        0.715693473815918,
+        1.0
+      ],
+      "roughness": 0.4399999976158142,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Songsong_05",
+      "character": "Songsong",
+      "linear_rgba": [
+        0.5583403706550598,
+        0.715693473815918,
+        0.8962693810462952,
+        1.0
+      ],
+      "roughness": 0.3400000035762787,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Songsong_06",
+      "character": "Songsong",
+      "linear_rgba": [
+        1.0,
+        0.9646862745285034,
+        0.8879231214523315,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Solsol_00",
+      "character": "Solsol",
+      "linear_rgba": [
+        0.8962693810462952,
+        0.3613067865371704,
+        0.3915724754333496,
+        1.0
+      ],
+      "roughness": 0.5699999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Solsol_01",
+      "character": "Solsol",
+      "linear_rgba": [
+        0.0666259378194809,
+        0.045186202973127365,
+        0.0802198201417923,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Solsol_02",
+      "character": "Solsol",
+      "linear_rgba": [
+        0.8468732237815857,
+        0.40724021196365356,
+        0.30054378509521484,
+        1.0
+      ],
+      "roughness": 0.5699999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Solsol_03",
+      "character": "Solsol",
+      "linear_rgba": [
+        0.30054378509521484,
+        0.715693473815918,
+        0.5711248517036438,
+        1.0
+      ],
+      "roughness": 0.36000001430511475,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Solsol_04",
+      "character": "Solsol",
+      "linear_rgba": [
+        0.9473065137863159,
+        0.7083757519721985,
+        0.48514994978904724,
+        1.0
+      ],
+      "roughness": 0.6000000238418579,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Solsol_05",
+      "character": "Solsol",
+      "linear_rgba": [
+        0.09758734703063965,
+        0.4969329833984375,
+        0.3762621283531189,
+        1.0
+      ],
+      "roughness": 0.4300000071525574,
+      "metallic": 0.0
+    }
+  ],
+  "preserved_sources": {
+    "scenes/weather-rigs-v001.blend": "eeee8906e8dc17fe4a5e2faa509035b203e2255205b6fde98f01f22f5f594cbe",
+    "scenes/weather-rig-demo-v001.blend": "d680f1df1e97e628b06aa6000b0469642751fcdfc8393d749b4dd7e06097daaa"
+  },
+  "seconds": 20.556890100007877,
+  "export_settings": {
+    "axis_forward": "-Z",
+    "axis_up": "Y",
+    "unit_meters": 1,
+    "leaf_bones": false,
+    "apply_mesh_modifiers": false,
+    "baked_frames": 384
+  },
+  "refresh_note": "Explicit armature data/object/time tagging and matching Scene/view-layer override. Exporter triangulation disabled to retain live driver-driven shape values. Export meshes have n-gons triangulated in place with identical vertices, shape coordinates and drivers; Unity triangulates remaining quads."
+}

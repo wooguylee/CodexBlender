@@ -1,0 +1,388 @@
+{
+  "materials": [
+    {
+      "name": "WFM_Mongsil_00",
+      "character": "Mongsil",
+      "linear_rgba": [
+        0.8962693810462952,
+        0.3613067865371704,
+        0.3915724754333496,
+        1.0
+      ],
+      "roughness": 0.5699999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Mongsil_01",
+      "character": "Mongsil",
+      "linear_rgba": [
+        1.0,
+        0.9130986332893372,
+        0.838798999786377,
+        1.0
+      ],
+      "roughness": 0.47999998927116394,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Mongsil_02",
+      "character": "Mongsil",
+      "linear_rgba": [
+        0.0666259378194809,
+        0.045186202973127365,
+        0.0802198201417923,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Mongsil_03",
+      "character": "Mongsil",
+      "linear_rgba": [
+        0.41788506507873535,
+        0.34670406579971313,
+        0.7011018991470337,
+        1.0
+      ],
+      "roughness": 0.5299999713897705,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Mongsil_04",
+      "character": "Mongsil",
+      "linear_rgba": [
+        0.30054378509521484,
+        0.2541520893573761,
+        0.520995557308197,
+        1.0
+      ],
+      "roughness": 0.5199999809265137,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Mongsil_05",
+      "character": "Mongsil",
+      "linear_rgba": [
+        0.9386857151985168,
+        0.68668532371521,
+        0.2917706370353699,
+        1.0
+      ],
+      "roughness": 0.550000011920929,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Mongsil_06",
+      "character": "Mongsil",
+      "linear_rgba": [
+        1.0,
+        0.9646862745285034,
+        0.8879231214523315,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Haerong_00",
+      "character": "Haerong",
+      "linear_rgba": [
+        0.0666259378194809,
+        0.045186202973127365,
+        0.0802198201417923,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Haerong_01",
+      "character": "Haerong",
+      "linear_rgba": [
+        0.8148465752601624,
+        0.30054378509521484,
+        0.28314873576164246,
+        1.0
+      ],
+      "roughness": 0.4000000059604645,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Haerong_02",
+      "character": "Haerong",
+      "linear_rgba": [
+        1.0,
+        0.5906188488006592,
+        0.07818742096424103,
+        1.0
+      ],
+      "roughness": 0.3700000047683716,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Haerong_03",
+      "character": "Haerong",
+      "linear_rgba": [
+        0.9386857151985168,
+        0.3277781009674072,
+        0.19120168685913086,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Haerong_04",
+      "character": "Haerong",
+      "linear_rgba": [
+        0.9386857151985168,
+        0.366252601146698,
+        0.04970656707882881,
+        1.0
+      ],
+      "roughness": 0.4300000071525574,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Haerong_05",
+      "character": "Haerong",
+      "linear_rgba": [
+        1.0,
+        0.9646862745285034,
+        0.8879231214523315,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Ttorr_00",
+      "character": "Ttorr",
+      "linear_rgba": [
+        0.8962693810462952,
+        0.3613067865371704,
+        0.3915724754333496,
+        1.0
+      ],
+      "roughness": 0.5699999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Ttorr_01",
+      "character": "Ttorr",
+      "linear_rgba": [
+        0.0666259378194809,
+        0.045186202973127365,
+        0.0802198201417923,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Ttorr_02",
+      "character": "Ttorr",
+      "linear_rgba": [
+        0.08228270709514618,
+        0.3967552185058594,
+        0.6104955673217773,
+        1.0
+      ],
+      "roughness": 0.3799999952316284,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Ttorr_03",
+      "character": "Ttorr",
+      "linear_rgba": [
+        0.7011018991470337,
+        0.9046611785888672,
+        0.9130986332893372,
+        1.0
+      ],
+      "roughness": 0.3400000035762787,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Ttorr_04",
+      "character": "Ttorr",
+      "linear_rgba": [
+        0.0802198201417923,
+        0.5088813304901123,
+        0.7681511640548706,
+        1.0
+      ],
+      "roughness": 0.27000001072883606,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Ttorr_05",
+      "character": "Ttorr",
+      "linear_rgba": [
+        1.0,
+        0.9646862745285034,
+        0.8879231214523315,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Songsong_00",
+      "character": "Songsong",
+      "linear_rgba": [
+        0.8962693810462952,
+        0.3613067865371704,
+        0.3915724754333496,
+        1.0
+      ],
+      "roughness": 0.5699999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Songsong_01",
+      "character": "Songsong",
+      "linear_rgba": [
+        0.0666259378194809,
+        0.045186202973127365,
+        0.0802198201417923,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Songsong_02",
+      "character": "Songsong",
+      "linear_rgba": [
+        0.42869049310684204,
+        0.6239603757858276,
+        0.8227857351303101,
+        1.0
+      ],
+      "roughness": 0.3499999940395355,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Songsong_03",
+      "character": "Songsong",
+      "linear_rgba": [
+        0.8713670969009399,
+        0.9386857151985168,
+        1.0,
+        1.0
+      ],
+      "roughness": 0.3799999952316284,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Songsong_04",
+      "character": "Songsong",
+      "linear_rgba": [
+        0.4564110338687897,
+        0.37123769521713257,
+        0.715693473815918,
+        1.0
+      ],
+      "roughness": 0.4399999976158142,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Songsong_05",
+      "character": "Songsong",
+      "linear_rgba": [
+        0.5583403706550598,
+        0.715693473815918,
+        0.8962693810462952,
+        1.0
+      ],
+      "roughness": 0.3400000035762787,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Songsong_06",
+      "character": "Songsong",
+      "linear_rgba": [
+        1.0,
+        0.9646862745285034,
+        0.8879231214523315,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Solsol_00",
+      "character": "Solsol",
+      "linear_rgba": [
+        0.8962693810462952,
+        0.3613067865371704,
+        0.3915724754333496,
+        1.0
+      ],
+      "roughness": 0.5699999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Solsol_01",
+      "character": "Solsol",
+      "linear_rgba": [
+        0.0666259378194809,
+        0.045186202973127365,
+        0.0802198201417923,
+        1.0
+      ],
+      "roughness": 0.3199999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Solsol_02",
+      "character": "Solsol",
+      "linear_rgba": [
+        0.8468732237815857,
+        0.40724021196365356,
+        0.30054378509521484,
+        1.0
+      ],
+      "roughness": 0.5699999928474426,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Solsol_03",
+      "character": "Solsol",
+      "linear_rgba": [
+        0.30054378509521484,
+        0.715693473815918,
+        0.5711248517036438,
+        1.0
+      ],
+      "roughness": 0.36000001430511475,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Solsol_04",
+      "character": "Solsol",
+      "linear_rgba": [
+        0.9473065137863159,
+        0.7083757519721985,
+        0.48514994978904724,
+        1.0
+      ],
+      "roughness": 0.6000000238418579,
+      "metallic": 0.0
+    },
+    {
+      "name": "WFM_Solsol_05",
+      "character": "Solsol",
+      "linear_rgba": [
+        0.09758734703063965,
+        0.4969329833984375,
+        0.3762621283531189,
+        1.0
+      ],
+      "roughness": 0.4300000071525574,
+      "metallic": 0.0
+    }
+  ]
+}

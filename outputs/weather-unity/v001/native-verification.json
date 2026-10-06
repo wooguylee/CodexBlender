@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "characters": [
+    {
+      "name": "Mongsil",
+      "ok": true,
+      "scene_objects": 24,
+      "armatures": 1,
+      "meshes": 23,
+      "bones": 24,
+      "valid_simple_drivers": 18,
+      "external_dependencies": []
+    },
+    {
+      "name": "Haerong",
+      "ok": true,
+      "scene_objects": 35,
+      "armatures": 1,
+      "meshes": 34,
+      "bones": 35,
+      "valid_simple_drivers": 38,
+      "external_dependencies": []
+    },
+    {
+      "name": "Ttorr",
+      "ok": true,
+      "scene_objects": 24,
+      "armatures": 1,
+      "meshes": 23,
+      "bones": 23,
+      "valid_simple_drivers": 15,
+      "external_dependencies": []
+    },
+    {
+      "name": "Songsong",
+      "ok": true,
+      "scene_objects": 47,
+      "armatures": 1,
+      "meshes": 46,
+      "bones": 29,
+      "valid_simple_drivers": 31,
+      "external_dependencies": []
+    },
+    {
+      "name": "Solsol",
+      "ok": true,
+      "scene_objects": 24,
+      "armatures": 1,
+      "meshes": 23,
+      "bones": 31,
+      "valid_simple_drivers": 22,
+      "external_dependencies": []
+    }
+  ]
+}

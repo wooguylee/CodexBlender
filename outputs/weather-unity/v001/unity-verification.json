@@ -1,0 +1,161 @@
+{
+    "ok": true,
+    "unityVersion": "6000.3.25f1",
+    "characters": [
+        {
+            "name": "Mongsil",
+            "skinnedMeshes": 23,
+            "bones": 24,
+            "blendShapes": 9,
+            "vertices": 64308,
+            "validAvatar": true,
+            "clips": [
+                "RigDemo",
+                "Expressions",
+                "HandsIK",
+                "Idle",
+                "Special",
+                "Weather"
+            ],
+            "size": [
+                2.770590305328369,
+                2.6955299377441408,
+                1.5578831434249879
+            ],
+            "min": [
+                -1.3931121826171876,
+                2.384185791015625e-7,
+                -0.9600000381469727
+            ],
+            "sampleMovement": 0.23519456386566163,
+            "animatedTransformCurves": 250,
+            "animatedShapeCurves": 9,
+            "materialsValid": true,
+            "maxFaceWeightChange": 100.0
+        },
+        {
+            "name": "Haerong",
+            "skinnedMeshes": 34,
+            "bones": 35,
+            "blendShapes": 11,
+            "vertices": 46565,
+            "validAvatar": true,
+            "clips": [
+                "RigDemo",
+                "Expressions",
+                "HandsIK",
+                "Idle",
+                "Special",
+                "Weather"
+            ],
+            "size": [
+                3.1032521724700929,
+                3.2232515811920168,
+                1.061023473739624
+            ],
+            "min": [
+                -1.4232518672943116,
+                0.0,
+                -0.5610238313674927
+            ],
+            "sampleMovement": 0.4012323021888733,
+            "animatedTransformCurves": 360,
+            "animatedShapeCurves": 11,
+            "materialsValid": true,
+            "maxFaceWeightChange": 100.0
+        },
+        {
+            "name": "Ttorr",
+            "skinnedMeshes": 23,
+            "bones": 23,
+            "blendShapes": 12,
+            "vertices": 37477,
+            "validAvatar": true,
+            "clips": [
+                "RigDemo",
+                "Expressions",
+                "HandsIK",
+                "Idle",
+                "Special",
+                "Weather"
+            ],
+            "size": [
+                1.5668408870697022,
+                2.56000018119812,
+                1.455838680267334
+            ],
+            "min": [
+                -0.7847648859024048,
+                -2.384185791015625e-7,
+                -0.8379993438720703
+            ],
+            "sampleMovement": 0.28958410024642947,
+            "animatedTransformCurves": 240,
+            "animatedShapeCurves": 12,
+            "materialsValid": true,
+            "maxFaceWeightChange": 100.0
+        },
+        {
+            "name": "Songsong",
+            "skinnedMeshes": 46,
+            "bones": 29,
+            "blendShapes": 10,
+            "vertices": 64838,
+            "validAvatar": true,
+            "clips": [
+                "RigDemo",
+                "Expressions",
+                "HandsIK",
+                "Idle",
+                "Special",
+                "Weather"
+            ],
+            "size": [
+                2.5094940662384035,
+                3.255000352859497,
+                0.7599989175796509
+            ],
+            "min": [
+                -1.2394938468933106,
+                -0.0000011920928955078126,
+                -0.47999894618988039
+            ],
+            "sampleMovement": 0.4699912965297699,
+            "animatedTransformCurves": 300,
+            "animatedShapeCurves": 10,
+            "materialsValid": true,
+            "maxFaceWeightChange": 100.0
+        },
+        {
+            "name": "Solsol",
+            "skinnedMeshes": 23,
+            "bones": 31,
+            "blendShapes": 11,
+            "vertices": 131964,
+            "validAvatar": true,
+            "clips": [
+                "RigDemo",
+                "Expressions",
+                "HandsIK",
+                "Idle",
+                "Special",
+                "Weather"
+            ],
+            "size": [
+                2.8087592124938967,
+                3.380277156829834,
+                0.9956034421920776
+            ],
+            "min": [
+                -1.260000467300415,
+                -1.1920928955078126e-7,
+                -0.49199986457824709
+            ],
+            "sampleMovement": 0.4025270342826843,
+            "animatedTransformCurves": 320,
+            "animatedShapeCurves": 11,
+            "materialsValid": true,
+            "maxFaceWeightChange": 100.0
+        }
+    ]
+}

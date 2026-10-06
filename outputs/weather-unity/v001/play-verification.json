@@ -1,0 +1,37 @@
+{
+  "playing": true,
+  "frame": 2001,
+  "sampledRuntimeAnimatorSeconds": 7.4,
+  "actors": [
+    {
+      "name": "Mongsil",
+      "initialized": true,
+      "surpriseWeight": 100.0,
+      "normalizedTime": 0.4637076
+    },
+    {
+      "name": "Haerong",
+      "initialized": true,
+      "surpriseWeight": 100.0,
+      "normalizedTime": 0.4637076
+    },
+    {
+      "name": "Ttorr",
+      "initialized": true,
+      "surpriseWeight": 100.0,
+      "normalizedTime": 0.4637076
+    },
+    {
+      "name": "Songsong",
+      "initialized": true,
+      "surpriseWeight": 100.0,
+      "normalizedTime": 0.4637076
+    },
+    {
+      "name": "Solsol",
+      "initialized": true,
+      "surpriseWeight": 100.0,
+      "normalizedTime": 0.4637076
+    }
+  ]
+}

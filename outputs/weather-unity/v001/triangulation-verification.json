@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "shape_coordinates_and_drivers_preserved": true,
+  "meshes": [
+    {
+      "scene": "WFUnity_Haerong",
+      "mesh": "Haerong_12_OpenSmile.001",
+      "ngons": 2
+    },
+    {
+      "scene": "WFUnity_Songsong",
+      "mesh": "Songsong_42_SoftHexagon.001",
+      "ngons": 2
+    },
+    {
+      "scene": "WFUnity_Songsong",
+      "mesh": "Songsong_38_PlayfulSmile.001",
+      "ngons": 2
+    }
+  ]
+}
